@@ -1,0 +1,56 @@
+{
+  "schema": "avelune.package-registry.entry.v1",
+  "id": "frlg",
+  "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
+  "version": "1.9.4",
+  "scope": "map-graphics",
+  "qualification": "import-verified-targeted-studio-review-passed",
+  "archive": {
+    "file": "FRLG-Cartes-Decors-1.9.4.aveluneassets",
+    "bytes": 109658274,
+    "sha256": "0d07d85b83ac7df480e60162908be37185f0ab56ab49e56f6f0f0296f92fd36c",
+    "formatVersion": 2,
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.9.4/FRLG-Cartes-Decors-1.9.4.aveluneassets"
+  },
+  "catalogue": {
+    "csv": "catalogue.csv",
+    "inventory": "inventaire.json",
+    "gallery": "bibliotheque.html",
+    "resources": "ressources.json"
+  },
+  "requires": {
+    "partitionedCatalog": true,
+    "smartTileSchema": 9,
+    "predefinedFamilyImportFix": true
+  },
+  "counts": {
+    "standardDecorModels": 793,
+    "standardTerrains": 106,
+    "standardPaths": 150,
+    "standardForestSurfaces": 5,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "componentElements": 8309,
+    "componentBrushes": 64,
+    "imageSupports": 493,
+    "smartTilePatterns": 9791,
+    "publishedAnimations": 944,
+    "primaryResources": 10010,
+    "rpgDoorColumnsAnimated": 31,
+    "autonomousPropsCleaned": 3,
+    "mergedOpenStateAliases": 6,
+    "mergedFamilyPaths": 8,
+    "elevatorDirectionsAnimated": 2,
+    "standardEnvironments": 74,
+    "galleryResources": 1011,
+    "galleryCards": 792
+  },
+  "limitations": [
+    "Studio doit inclure le correctif canonique d’import des familles prédéfinies, en plus du catalogue partitionné et de SmartTile 9.",
+    "Comparaison graphique des cellules des 421 définitions natives hors prototypes, distincte de la certification de tous les objets entiers.",
+    "La revue Studio cible Chen, l’ascenseur, le fauteuil et le classement ; chaque assemblage du pack n’est pas certifié visuellement.",
+    "Passages, collisions de circulation, événements de porte et transport entre étages se configurent dans le projet.",
+    "Aucune certification du Player ou des appareils physiques iOS et Android."
+  ],
+  "published": false
+}

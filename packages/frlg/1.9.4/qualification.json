@@ -1,0 +1,91 @@
+{
+  "schema": "avelune.package-qualification.v1",
+  "version": "1.9.4",
+  "scope": "Graphismes des cartes et décors FRLG",
+  "archiveSha256": "0d07d85b83ac7df480e60162908be37185f0ab56ab49e56f6f0f0296f92fd36c",
+  "archiveBytes": 109658274,
+  "nativeImport": {
+    "status": "passed",
+    "primaryResources": 10010,
+    "patternSupports": 9791,
+    "selectableEntries": 19801,
+    "elementsChecked": 9102,
+    "mediaFilesCheckedBySizeAndSha256": 515,
+    "strictReopenIdentical": true,
+    "classificationsPreserved": true,
+    "projectStructureAndReferencesValid": true,
+    "importSeconds": 307.911
+  },
+  "sourceReview": {
+    "status": "passed-targeted-corrections-and-dependency-regression",
+    "chenDoorRestoredOpaquePixels": 756,
+    "chenDoorNativeFrameReferencesExact": 9,
+    "elevatorDirections": 2,
+    "elevatorCoherentPhases": 3,
+    "elevatorFrameDurationMs": 100,
+    "elevatorRoomVoidMaskPx": [
+      0,
+      0,
+      160,
+      16
+    ],
+    "chairCleanArtworkAndCollisionVariantsPreserved": true,
+    "mergedOpenStateAliases": 6,
+    "mergedDuplicateFamilyPaths": 8,
+    "nativeGraphicalDependenciesUnchanged": true
+  },
+  "studioReview": {
+    "status": "passed-targeted-native-desktop-review",
+    "build": "macOS development build including the predefined-family import fix",
+    "fullPackImported": true,
+    "studioSaveAndReopen": true,
+    "reviewed": [
+      "Chen laboratory facade with restored green closed door",
+      "Chen open and intermediate door states",
+      "whole elevator wall in both direction definitions and three frozen phases",
+      "captain chair without surrounding floor or wall",
+      "native decor palette and classified resources"
+    ],
+    "requestedMediaIncidentsVisible": 0,
+    "limitations": [
+      "Editor previews and frozen animation phases were inspected; Player animation playback and physical mobile devices were not certified.",
+      "Marionette log retrieval returned a server error; flutter-run output and the visible resource incident bar were inspected instead."
+    ]
+  },
+  "tests": {
+    "remediationTests": 18,
+    "independentCandidateTests": 13,
+    "sharedGalleryTests": 6,
+    "galleryPreparationTests": 11
+  },
+  "gallery": {
+    "standardDecorModels": 793,
+    "appearanceCards": 792,
+    "illustratedResources": 1011,
+    "elevatorDirectionPicker": true,
+    "formerDoorNamesSearchable": true,
+    "completeInventory": "catalogue.csv"
+  },
+  "requirements": [
+    "Studio doit inclure le correctif canonique d’import des familles prédéfinies, en plus du catalogue partitionné et de SmartTile 9."
+  ],
+  "limitations": [
+    "Comparaison graphique des cellules des 421 définitions natives hors prototypes, distincte de la certification de tous les objets entiers.",
+    "La revue Studio cible Chen, l’ascenseur, le fauteuil et le classement ; chaque assemblage du pack n’est pas certifié visuellement.",
+    "Passages, collisions de circulation, événements de porte et transport entre étages se configurent dans le projet.",
+    "Aucune certification du Player ou des appareils physiques iOS et Android."
+  ],
+  "enginePrerequisite": {
+    "pullRequest": "https://github.com/yoahnl/pokemap/pull/12",
+    "branch": "fix/resource-pack-predefined-families",
+    "commitShort": "5a1a94c78",
+    "commit": "5a1a94c78b7572e39cb21c460caf224a313bafe5",
+    "base": "7bda92fe15132047c4ccbfaa037df4b4ca695db8",
+    "status": "draft-source-fix-pushed-for-review",
+    "scope": "Deux fichiers ciblés ; les quatorze commits non poussés du checkout partagé sont exclus.",
+    "cleanCheckoutTests": 22,
+    "cleanCheckoutParityTests": 21,
+    "targetedAnalysis": "No issues found!",
+    "globalTransportCertification": "PMCP-085 catalog complete; global transport certification partial, exit 1. No new action or schema."
+  }
+}
