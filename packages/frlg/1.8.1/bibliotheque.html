@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rouge Feu & Vert Feuille — La bibliothèque Avelune</title>
+  <meta name="description" content="Parcourez les décors de Kanto : arbres, bâtiments, mobilier et éléments de cartes pour Avelune Studio.">
+  <meta name="theme-color" content="#081522"><link rel="icon" href="../../../site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../site/styles.css"><link rel="stylesheet" href="../../../site/dark.css"><script type="module" src="../../../site/frlg.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="header wrap"><a class="brand" href="../../../" aria-label="Avelune Packages, accueil"><img class="brand-logo" src="../../../site/brand/avelune-studio.svg" alt="Avelune Studio" width="192" height="52"><span class="brand-label">PACKAGES</span></a><nav aria-label="Navigation principale"><a href="../../../#bibliotheques">Les bibliothèques</a><a href="../../../#installer">Bien démarrer</a><a class="github-link" href="https://github.com/yoahnl/avelune-packages">GitHub ↗</a></nav></header>
+  <main class="wrap" id="contenu">
+    <nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="../../../">Bibliothèques</a><span>/</span><span>Rouge Feu & Vert Feuille</span></nav>
+    <section class="catalogue-hero"><div><p class="eyebrow">PIXEL ART 2D · VERSION 1.8.1</p><h1>Rouge Feu & Vert Feuille.<br><em>Le charme de Kanto.</em></h1><p>Des arbres aux petits objets d’intérieur. Parcourez les décors standards du pack, puis retrouvez tous les composants et pinceaux dans l’inventaire complet.</p><div class="actions"><a class="button dark" href="https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.8.1/FRLG-Cartes-Decors-1.8.1.aveluneassets">Télécharger le pack ↓</a><a class="text-link" href="catalogue.csv" download>Inventaire complet CSV ↓</a></div></div><aside class="package-card"><p class="small-title">LE PACKAGE COMPLET</p><strong>9 862</strong><small>ressources natives</small><div class="mini-stats"><div><b>930</b><span>décors en galerie</span></div><div><b>150</b><span>chemins</span></div><div><b>108,2 Mo</b><span>à télécharger</span></div><div><b>1.8.1</b><span>import vérifié</span></div></div></aside></section>
+    <details class="compatibility"><summary>Contenu et vérifications</summary><p>La galerie présente les 930 décors standards. Le pack contient aussi les composants, terrains, chemins, bordures et environnements : consultez le CSV pour l’inventaire complet. Chaque image montre la première frame déclarée. L’import complet a été vérifié ; la revue graphique exhaustive et la certification sur appareils physiques restent ouvertes.</p><p>Studio doit prendre en charge le catalogue partitionné et SmartTile 9. <a href="package.json">Consulter le manifeste ↗</a></p></details>
+    <section class="browser-section" aria-labelledby="catalogue-title">
+      <div class="browser-heading"><div><h2 id="catalogue-title">Trouvez la bonne pièce.</h2><p id="result-count" role="status" aria-live="polite">Chargement des décors…</p></div></div>
+      <div class="browser-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><span class="visually-hidden">Rechercher un décor</span><input id="search" type="search" placeholder="Un arbre, une maison, un meuble…"></label><button class="toolbar-button" id="filter-open" aria-haspopup="dialog">☷ Filtres</button></div>
+      <div class="active-filters" id="active-filters"></div><div id="resource-grid" class="resource-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><h3>Aucune pièce par ici.</h3><p>Élargissez vos filtres ou essayez un autre nom.</p><button class="button dark" id="reset-empty">Réinitialiser la recherche</button></div>
+      <nav class="pagination" id="pagination" aria-label="Pages du catalogue" hidden><button id="previous">← Précédent</button><span id="page-label"></span><button id="next">Suivant →</button></nav>
+      <noscript><p class="alert">Activez JavaScript pour la galerie ou consultez <a href="catalogue.csv">l’inventaire CSV complet</a>.</p></noscript>
+    </section>
+  </main>
+  <dialog id="filter-dialog" class="filter-dialog" aria-labelledby="filter-title"><div class="dialog-header"><h2 id="filter-title">Affiner la sélection</h2><button class="close-button" data-close="filter-dialog" aria-label="Fermer les filtres">×</button></div><div class="filter-fields"><label>Famille<select id="family"><option value="">Toutes les familles</option></select></label><label>Contexte<select id="context"><option value="">Intérieur & extérieur</option><option value="interior">Intérieur</option><option value="exterior">Extérieur</option><option value="both">Ressources mixtes</option></select></label></div><div class="dialog-actions"><button class="button light" id="reset-filters">Réinitialiser</button><button class="button dark" data-close="filter-dialog">Voir les résultats</button></div></dialog>
+  <dialog id="resource-dialog" class="resource-dialog" aria-labelledby="detail-title"><div class="dialog-header"><h2>Dans votre bibliothèque</h2><button class="close-button" data-close="resource-dialog" aria-label="Fermer la fiche">×</button></div><div id="resource-detail"></div></dialog>
+  <footer class="footer wrap"><a class="brand" href="../../../"><img class="brand-logo" src="../../../site/brand/avelune-studio.svg" alt="Avelune Studio" width="192" height="52"><span class="brand-label">PACKAGES</span></a><p>Projet communautaire indépendant.<br>Graphismes Pokémon : Nintendo / GAME FREAK.</p><a href="../../../#bibliotheques">Les autres bibliothèques ↗</a></footer>
+</body>
+</html>

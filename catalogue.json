@@ -7,7 +7,31 @@
       "version": "1.8.1",
       "qualification": "import-verified-graphical-audit-pending",
       "manifest": "packages/frlg/1.8.1/package.json",
-      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1"
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1",
+      "published": true,
+      "presentation": {
+        "title": "Rouge Feu & Vert Feuille",
+        "region": "KANTO",
+        "format": "Pixel art 2D",
+        "description": "Le charme de Kanto en pixels. Décors, composants, terrains et chemins pour composer vos cartes.",
+        "images": ["apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png", "apercus/frlg-complete-building-gym-ochre-efdaa6a1c286.png", "apercus/frlg-interior-general-lit-blanc-double.png"]
+      }
+    },
+    {
+      "id": "nb2",
+      "name": "Pokémon Noir et Blanc 2 — Bibliothèque modulaire",
+      "version": "0.9.0",
+      "qualification": "import-verified-graphical-audit-pending",
+      "manifest": "packages/nb2/0.9.0/package.json",
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0",
+      "published": false,
+      "presentation": {
+        "title": "Noir & Blanc 2",
+        "region": "UNYS",
+        "format": "3D & sprites 2D",
+        "description": "Unys, pièce par pièce. Des modèles 3D, du mobilier et des pinceaux pour composer vos extérieurs comme vos intérieurs.",
+        "images": ["apercus/c05a8f7a36815305906885a1.png", "apercus/81d243d2534bee0471fb71b4.png", "apercus/c29bc4c56e672a881bc123d7.png"]
+      }
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "schema": "avelune.nb2.delivery.v1",
+  "archive": {
+    "file": "NB2-Bibliotheque-modulaire-0.9.0.aveluneassets",
+    "bytes": 202738463,
+    "sha256": "7987e5b5613cce58c424237f993e97d4e060f312fae5b112b514a9f2db118d8f",
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/nb2-v0.9.0/NB2-Bibliotheque-modulaire-0.9.0.aveluneassets",
+    "formatVersion": 2
+  },
+  "counts": {
+    "primaryResources": 8818,
+    "models3d": 5506,
+    "characters": 911,
+    "tilesets": 1225,
+    "elements": 130,
+    "smartTilePresets": 421,
+    "borderBlueprints": 229,
+    "environmentPresets": 396,
+    "smartTilePatterns": 3981,
+    "mediaFiles": 6731,
+    "galleryCards": 6467
+  },
+  "deduplication": {
+    "previousVersion": "0.8.0",
+    "previousResources": 9974,
+    "mergedResources": 1156,
+    "mergedPatterns": 32,
+    "aliases": "regroupements.json",
+    "sourceSha256": "9935b447fa30ad649c5021dfed30f89126fb65887f27e4984a9917fc7a16a21b"
+  },
+  "byKind": {
+    "tileset": {
+      "before": 1233,
+      "after": 1225,
+      "removed": 8
+    },
+    "model3d": {
+      "before": 6391,
+      "after": 5506,
+      "removed": 885
+    },
+    "smartTileAtlas": {
+      "before": 155,
+      "after": 154,
+      "removed": 1
+    },
+    "smartTileMaterial": {
+      "before": 421,
+      "after": 421,
+      "removed": 0
+    },
+    "smartTileAnimation": {
+      "before": 0,
+      "after": 0,
+      "removed": 0
+    },
+    "element": {
+      "before": 136,
+      "after": 130,
+      "removed": 6
+    },
+    "character": {
+      "before": 912,
+      "after": 911,
+      "removed": 1
+    },
+    "environmentPreset": {
+      "before": 601,
+      "after": 396,
+      "removed": 205
+    },
+    "smartTilePreset": {
+      "before": 421,
+      "after": 421,
+      "removed": 0
+    },
+    "smartTilePattern": {
+      "before": 4013,
+      "after": 3981,
+      "removed": 32
+    },
+    "borderBlueprint": {
+      "before": 280,
+      "after": 229,
+      "removed": 51
+    }
+  },
+  "qualification": "import-verified-graphical-audit-pending",
+  "verification": {
+    "canonicalInspection": true,
+    "canonicalImport": true,
+    "strictReopen": true,
+    "counts": {
+      "models3d": 5506,
+      "tilesets": 1225,
+      "characters": 911,
+      "elements": 130,
+      "environmentPresets": 396,
+      "smartTilePresets": 421,
+      "smartTilePatterns": 3981,
+      "borderBlueprints": 229
+    },
+    "sourceSha256": "7987e5b5613cce58c424237f993e97d4e060f312fae5b112b514a9f2db118d8f",
+    "physicalDeviceTest": false,
+    "allAssetGpuReview": false
+  }
+}

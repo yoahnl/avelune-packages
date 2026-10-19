@@ -9,6 +9,7 @@ Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conser
 | Univers | Version | Périmètre | État | Téléchargement |
 | --- | --- | --- | --- | --- |
 | Pokémon Rouge Feu et Vert Feuille | 1.8.1 | Cartes et décors | Import complet vérifié ; audit graphique exhaustif en cours | [Release FRLG 1.8.1](https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1) |
+| Pokémon Noir et Blanc 2 | 0.9.0 | Bibliothèque modulaire de cartes 2D/3D | Doublons équivalents regroupés ; exhaustivité graphique non certifiée | Release à publier |
 
 Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leurs empreintes. Le [dossier FRLG 1.8.1](packages/frlg/1.8.1/) contient les fiches CSV, l’inventaire et les aperçus.
 
@@ -45,3 +46,28 @@ L’export, l’import complet dans un projet vide, les références de médias 
 Créer un dossier `packages/<univers>/<version>/` avec son `package.json`, son inventaire, son catalogue et ses empreintes, puis ajouter cette version à `catalogue.json`. Publier les archives dans une release dédiée, par exemple `<univers>-v<version>`, et vérifier leur empreinte après téléversement.
 
 Les sources de préparation, les projets d’audit et les preuves détaillées restent dans l’espace de travail d’audit séparé. Ce dépôt rassemble les livraisons des packages.
+
+## Site et galerie NB2
+
+La page d’accueil `index.html` présente les deux univers. La [galerie NB2](packages/nb2/0.9.0/galerie.html) permet de rechercher les 8 818 ressources, de filtrer par famille, type, contexte et dimension, puis de consulter leur fiche. Les 3 981 motifs de dessin sont comptés séparément des ressources principales. Les 6 467 fiches regroupent les ressources qui partagent un aperçu, avec accès explicite aux variantes et outils. Ce regroupement visuel ne fusionne pas les variantes dans le package.
+
+Le pack 0.9.0 fusionne 1 156 définitions principales et 32 motifs équivalents. La comparaison conserve les surfaces orientées, les champs UV et les couleurs exacts, les textures et leur échantillonnage, les animations, les collisions, les pivots, les échelles et les profils de rampe. Les rôles de matériaux SmartTile restent distincts. Les anciennes appellations restent recherchables et `regroupements.json` documente leurs correspondances. Le pack 0.8.0 reste une référence locale et n’est pas inclus dans le nouveau build du site.
+
+Le téléchargement NB2 reste explicitement désactivé tant que sa release n’est pas publiée. Publier l’archive sous le nom `NB2-Bibliotheque-modulaire-0.9.0.aveluneassets`, avec son fichier `.sha256`, dans la release `nb2-v0.9.0`. Après vérification du téléchargement et de son empreinte, passer `published` à `true` dans le manifeste NB2 et le registre. Ne pas ajouter l’archive binaire dans Git.
+
+Pour afficher le site localement :
+
+```bash
+npm run dev
+```
+
+Ouvrir `http://127.0.0.1:56841`. Le catalogue utilise des fichiers JSON locaux ; ouvrir directement la galerie avec une URL `file://` ne suffit pas.
+
+```bash
+npm run check
+npm run build
+```
+
+Ces commandes utilisent uniquement Node.js et ne nécessitent aucune installation de dépendances. Le build prépare `dist/` avec les pages, les inventaires et les aperçus ; il exclut les archives, les caches et les fichiers de travail. Le workflow `.github/workflows/pages.yml` publie ce dossier lors des changements du site sur `main`, ou sur déclenchement manuel. Dans les réglages GitHub Pages du dépôt, choisir **GitHub Actions** comme source.
+
+La dépendance de développement Three.js sert uniquement à préparer les aperçus 3D. Elle n’est ni chargée par le site public, ni nécessaire au build du site. Les sources et les fichiers intermédiaires de préparation restent dans `local-records/`, ignoré par Git.

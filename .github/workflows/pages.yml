@@ -1,0 +1,46 @@
+name: Publier le catalogue Avelune
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - site/**
+      - scripts/build-site.mjs
+      - scripts/check-site.mjs
+      - packages/**
+      - catalogue.json
+      - package.json
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - run: npm run check
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Déployer sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

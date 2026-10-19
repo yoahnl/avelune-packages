@@ -1,0 +1,12 @@
+{
+  "name": "avelune-packages-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/catalogue-groups.test.mjs",
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/check-site.mjs",
+    "dev": "node scripts/serve-site.mjs"
+  },
+  "devDependencies": { "three": "0.186.1" }
+}

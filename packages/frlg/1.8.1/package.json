@@ -16,7 +16,7 @@
   "catalogue": {
     "csv": "catalogue.csv",
     "inventory": "inventaire.json",
-    "gallery": "galerie.html",
+    "gallery": "bibliotheque.html",
     "offlineBundle": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.8.1/FRLG-Catalogue-1.8.1.zip"
   },
   "requires": {
