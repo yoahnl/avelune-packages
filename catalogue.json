@@ -1,0 +1,13 @@
+{
+  "schema": "avelune.package-registry.v1",
+  "packages": [
+    {
+      "id": "frlg",
+      "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
+      "version": "1.8.1",
+      "qualification": "import-verified-graphical-audit-pending",
+      "manifest": "packages/frlg/1.8.1/package.json",
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+*.aveluneassets
+*.zip
+local-records/
+.DS_Store

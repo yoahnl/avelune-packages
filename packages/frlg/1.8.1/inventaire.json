@@ -1,0 +1,54 @@
+{
+  "schema": "avelune.frlg.delivery.v1",
+  "archive": {
+    "name": "FRLG-Cartes-Decors-1.8.1.aveluneassets",
+    "sha256": "ff22c7814405701bcf2eb9fed8e502d62f148c8cbc938ffd13f9cf5d49622f03",
+    "bytes": 108229587,
+    "formatVersion": 2
+  },
+  "status": "IMPORT_VERIFIED_EXHAUSTIVE_GRAPHICAL_AUDIT_PENDING",
+  "resourceCount": 9862,
+  "supportCount": 13448,
+  "definitions": {
+    "elements": 9018,
+    "standardElements": 930,
+    "componentElements": 8088,
+    "smartTilePresets": 325,
+    "standardSmartTilePresets": 261,
+    "standardTerrains": 106,
+    "componentSmartTilePresets": 64,
+    "smartTilePatterns": 9791,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "tilesets": 429,
+    "smartTileAnimations": 944
+  },
+  "metadata": {
+    "entries": 9862,
+    "missingDescriptions": 0,
+    "contexts": {
+      "Intérieur et extérieur": 356,
+      "Intérieur": 7573,
+      "Extérieur": 1933
+    },
+    "roles": {
+      "standard": 1281,
+      "component": 8581
+    }
+  },
+  "historicalTargetRegistry": {
+    "targets": 748,
+    "families": 44,
+    "linked": 748,
+    "missingLinks": 0,
+    "meaning": "Liens techniques du registre existant ; aucune certification exhaustive des variantes et du rendu par ce compteur."
+  },
+  "scope": "Graphismes des cartes et décors FRLG uniquement.",
+  "limitations": [
+    "Exhaustive visual qualification of every FRLG variant, assembly and animation in Studio and Player remains open.",
+    "Formal L7 performance measurements and physical iOS/Android device certification are deferred.",
+    "Studio verification used an isolated current-source debug build; a published Studio binary without these changes is not qualified by this receipt."
+  ],
+  "metadataPackTitle": "Pokémon Rouge Feu & Vert Feuille — Cartes et décors",
+  "metadataVersion": "1.8.1"
+}

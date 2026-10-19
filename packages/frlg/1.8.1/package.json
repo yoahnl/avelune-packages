@@ -1,0 +1,45 @@
+{
+  "schema": "avelune.package-registry.entry.v1",
+  "id": "frlg",
+  "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
+  "version": "1.8.1",
+  "scope": "map-graphics",
+  "qualification": "import-verified-graphical-audit-pending",
+  "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1",
+  "archive": {
+    "file": "FRLG-Cartes-Decors-1.8.1.aveluneassets",
+    "bytes": 108229587,
+    "sha256": "ff22c7814405701bcf2eb9fed8e502d62f148c8cbc938ffd13f9cf5d49622f03",
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.8.1/FRLG-Cartes-Decors-1.8.1.aveluneassets",
+    "formatVersion": 2
+  },
+  "catalogue": {
+    "csv": "catalogue.csv",
+    "inventory": "inventaire.json",
+    "gallery": "galerie.html",
+    "offlineBundle": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.8.1/FRLG-Catalogue-1.8.1.zip"
+  },
+  "requires": {
+    "partitionedCatalog": true,
+    "smartTileSchema": 9,
+    "studioFixes": "FRLG fixes verified on 2026-10-19 current-source build"
+  },
+  "counts": {
+    "standardDecorModels": 930,
+    "standardTerrains": 106,
+    "standardPaths": 150,
+    "standardForestSurfaces": 5,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "componentElements": 8088,
+    "componentBrushes": 64,
+    "imageSupports": 429,
+    "smartTilePatterns": 9791,
+    "publishedAnimations": 944,
+    "primaryResources": 9862
+  },
+  "limitations": [
+    "Exhaustive graphical audit of all FRLG maps, assemblies, variants and animations remains open.",
+    "Formal L7 performance and physical iOS/Android device certification remain open."
+  ]
+}
