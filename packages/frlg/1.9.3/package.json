@@ -1,0 +1,50 @@
+{
+  "schema": "avelune.package-registry.entry.v1",
+  "id": "frlg",
+  "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
+  "version": "1.9.3",
+  "scope": "map-graphics",
+  "qualification": "import-verified-targeted-studio-review-passed",
+  "archive": {
+    "file": "FRLG-Cartes-Decors-1.9.3.aveluneassets",
+    "bytes": 109607908,
+    "sha256": "0ee82db83846d4b256e812639961f9af0f8031e793c80868f62468e90f912b38",
+    "formatVersion": 2,
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.9.3/FRLG-Cartes-Decors-1.9.3.aveluneassets"
+  },
+  "catalogue": {
+    "csv": "catalogue.csv",
+    "inventory": "inventaire.json",
+    "gallery": "bibliotheque.html",
+    "resources": "ressources.json"
+  },
+  "requires": {
+    "partitionedCatalog": true,
+    "smartTileSchema": 9
+  },
+  "counts": {
+    "standardDecorModels": 793,
+    "standardTerrains": 106,
+    "standardPaths": 150,
+    "standardForestSurfaces": 5,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "componentElements": 8313,
+    "componentBrushes": 64,
+    "imageSupports": 492,
+    "smartTilePatterns": 9791,
+    "publishedAnimations": 944,
+    "primaryResources": 10013,
+    "rpgDoorColumnsAnimated": 31,
+    "autonomousPropsCleaned": 3,
+    "galleryResources": 1017,
+    "galleryCards": 793
+  },
+  "limitations": [
+    "Import complet et réouverture stricte vérifiés ; revue Studio ciblée des quatre bâtiments signalés, voir qualification.json.",
+    "L’exhaustivité graphique FRLG et chaque assemblage ne sont pas certifiés.",
+    "Façades et portes sont indépendantes ; passages, collisions et animations sont à relier dans le projet.",
+    "La couverture graphique ne certifie pas les événements, le Player ou les appareils iOS/Android."
+  ],
+  "published": false
+}

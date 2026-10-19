@@ -1,0 +1,30 @@
+{
+  "schema": "avelune.frlg.delivery.v2",
+  "archive": {
+    "name": "FRLG-Cartes-Decors-1.9.3.aveluneassets",
+    "sha256": "0ee82db83846d4b256e812639961f9af0f8031e793c80868f62468e90f912b38",
+    "bytes": 109607908,
+    "formatVersion": 2
+  },
+  "status": "NATIVE_IMPORT_VERIFIED_TARGETED_STUDIO_REVIEW_PASSED",
+  "scope": "Graphismes des cartes et décors FRLG uniquement.",
+  "resourceCount": 10013,
+  "standardDecorModels": 793,
+  "counts": {
+    "element": 9106,
+    "tileset": 492,
+    "environmentPreset": 83,
+    "smartTilePreset": 325,
+    "borderBlueprint": 7
+  },
+  "changes": {
+    "mergedAliases": 0,
+    "patchedDefinitions": 7
+  },
+  "limitations": [
+    "Qualification native et revue Studio ciblée : voir qualification.json.",
+    "L’exhaustivité de toutes les cartes FRLG et la validation de chaque assemblage restent à établir.",
+    "Les portes sont des ressources séparées à relier aux événements du projet.",
+    "La couverture graphique ne certifie pas les mécaniques, événements, Player ou appareils mobiles."
+  ]
+}

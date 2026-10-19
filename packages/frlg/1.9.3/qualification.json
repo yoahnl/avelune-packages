@@ -1,0 +1,46 @@
+{
+  "schema": "avelune.package-qualification.v1",
+  "version": "1.9.3",
+  "scope": "Graphismes des cartes et décors FRLG",
+  "archiveSha256": "0ee82db83846d4b256e812639961f9af0f8031e793c80868f62468e90f912b38",
+  "archiveBytes": 109607908,
+  "nativeImport": {
+    "status": "passed",
+    "primaryResources": 10013,
+    "patternSupports": 9791,
+    "selectableEntries": 19804,
+    "elementsChecked": 9106,
+    "mediaFilesCheckedBySizeAndSha256": 514,
+    "classificationsPreserved": 10013,
+    "strictReopenIdentical": true,
+    "projectStructureAndReferencesValid": true,
+    "importSeconds": 230.705
+  },
+  "sourceReview": {
+    "buildingSourcesCompared": 65,
+    "unexplainedFacadePixelLoss": 0,
+    "dojoPavingPixelsRemoved": 2224,
+    "casinoAndPrizeExchangeSeparated": true,
+    "villaSourceAndDoorAnchorPreserved": true,
+    "closedDoorReconstruction": "RGBA identical to the corresponding native source"
+  },
+  "studioReview": {
+    "status": "passed-targeted-review",
+    "platform": "macOS",
+    "buildingsReviewed": 4,
+    "separateClosedDoorsReviewed": 3,
+    "independentGroundLayer": true,
+    "palettePlacementAndSaveVerified": true,
+    "saveAndReopenVerified": true,
+    "visibleResourceIncidents": 0
+  },
+  "tests": {"independentAssetTests": 21, "buildingPreparationTests": 6, "galleryPreparationTests": 11, "sharedGalleryTests": 6},
+  "gallery": {"standardDecorCards": 793, "illustratedResources": 1017, "completeInventory": "catalogue.csv"},
+  "limitations": [
+    "L’exhaustivité de toutes les cartes, variantes et animations FRLG n’est pas certifiée.",
+    "La revue Studio vise les bâtiments signalés ; elle ne certifie pas chaque assemblage du package.",
+    "Façades et portes restent des ressources indépendantes ; passages, collisions et déclenchements sont à configurer dans le projet.",
+    "Aucune certification du Player, des événements ou des appareils iOS et Android n’est incluse.",
+    "La provenance graphique ne constitue pas une autorisation de redistribution commerciale."
+  ]
+}
