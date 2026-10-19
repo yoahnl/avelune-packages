@@ -24,7 +24,7 @@
       "qualification": "import-verified-graphical-audit-pending",
       "manifest": "packages/nb2/0.9.0/package.json",
       "release": "https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0",
-      "published": false,
+      "published": true,
       "presentation": {
         "title": "Noir & Blanc 2",
         "region": "UNYS",

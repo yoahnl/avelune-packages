@@ -6,7 +6,7 @@
   "scope": "map-graphics",
   "qualification": "import-verified-graphical-audit-pending",
   "release": "https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0",
-  "published": false,
+  "published": true,
   "archive": {
     "file": "NB2-Bibliotheque-modulaire-0.9.0.aveluneassets",
     "bytes": 202738463,

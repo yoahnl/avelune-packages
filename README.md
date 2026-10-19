@@ -2,6 +2,8 @@
 
 Catalogue des bibliothèques de ressources importables dans Avelune Studio.
 
+**[Parcourir le site Avelune Packages](https://yoahnl.github.io/avelune-packages/)** — un seul catalogue en dark mode pour les bibliothèques 2D et 3D.
+
 Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conserve les fiches, les inventaires, les empreintes et les aperçus. Cloner le dépôt ne télécharge pas les archives des packages.
 
 ## Packages disponibles
@@ -9,7 +11,7 @@ Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conser
 | Univers | Version | Périmètre | État | Téléchargement |
 | --- | --- | --- | --- | --- |
 | Pokémon Rouge Feu et Vert Feuille | 1.8.1 | Cartes et décors | Import complet vérifié ; audit graphique exhaustif en cours | [Release FRLG 1.8.1](https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1) |
-| Pokémon Noir et Blanc 2 | 0.9.0 | Bibliothèque modulaire de cartes 2D/3D | Doublons équivalents regroupés ; exhaustivité graphique non certifiée | Release à publier |
+| Pokémon Noir et Blanc 2 | 0.9.0 | Bibliothèque modulaire de cartes 2D/3D | Doublons équivalents regroupés ; exhaustivité graphique non certifiée | [Release NB2 0.9.0](https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0) |
 
 Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leurs empreintes. Le [dossier FRLG 1.8.1](packages/frlg/1.8.1/) contient les fiches CSV, l’inventaire et les aperçus.
 
@@ -43,7 +45,7 @@ L’export, l’import complet dans un projet vide, les références de médias 
 
 ## Ajouter un package ou une version
 
-Créer un dossier `packages/<univers>/<version>/` avec son `package.json`, son inventaire, son catalogue et ses empreintes, puis ajouter cette version à `catalogue.json`. Publier les archives dans une release dédiée, par exemple `<univers>-v<version>`, et vérifier leur empreinte après téléversement.
+Créer un dossier `packages/<univers>/<version>/` avec son `package.json`, son inventaire, son catalogue et ses empreintes, puis ajouter cette version à `catalogue.json`. Renseigner sa présentation : titre, région, format, description et trois aperçus relatifs au manifeste. L’accueil lit ce registre pour générer ses cartes et ses compteurs ; le build conserve seulement les versions actives. Publier les archives dans une release dédiée, par exemple `<univers>-v<version>`, vérifier leur empreinte après téléversement, puis activer `published` dans le registre et le manifeste.
 
 Les sources de préparation, les projets d’audit et les preuves détaillées restent dans l’espace de travail d’audit séparé. Ce dépôt rassemble les livraisons des packages.
 
@@ -53,7 +55,9 @@ La page d’accueil `index.html` présente les deux univers. La [galerie NB2](pa
 
 Le pack 0.9.0 fusionne 1 156 définitions principales et 32 motifs équivalents. La comparaison conserve les surfaces orientées, les champs UV et les couleurs exacts, les textures et leur échantillonnage, les animations, les collisions, les pivots, les échelles et les profils de rampe. Les rôles de matériaux SmartTile restent distincts. Les anciennes appellations restent recherchables et `regroupements.json` documente leurs correspondances. Le pack 0.8.0 reste une référence locale et n’est pas inclus dans le nouveau build du site.
 
-Le téléchargement NB2 reste explicitement désactivé tant que sa release n’est pas publiée. Publier l’archive sous le nom `NB2-Bibliotheque-modulaire-0.9.0.aveluneassets`, avec son fichier `.sha256`, dans la release `nb2-v0.9.0`. Après vérification du téléchargement et de son empreinte, passer `published` à `true` dans le manifeste NB2 et le registre. Ne pas ajouter l’archive binaire dans Git.
+La release [NB2 0.9.0](https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0) fournit `NB2-Bibliotheque-modulaire-0.9.0.aveluneassets` et son fichier `.sha256`. Le téléchargement public complet a été vérifié : 202 738 463 octets, SHA-256 `7987e5b5613cce58c424237f993e97d4e060f312fae5b112b514a9f2db118d8f`. Les boutons du site sont activés après cette vérification. L’archive binaire reste hors Git.
+
+L’accueil et les deux galeries partagent le même thème sombre. Le logo `site/brand/avelune-studio.svg` et le favicon sont les SVG officiels fournis pour Avelune Studio, conservés sans recoloration. La galerie FRLG du site est `bibliotheque.html` ; l’ancienne galerie autonome reste incluse dans sa livraison hors ligne historique.
 
 Pour afficher le site localement :
 
@@ -65,6 +69,7 @@ Ouvrir `http://127.0.0.1:56841`. Le catalogue utilise des fichiers JSON locaux ;
 
 ```bash
 npm run check
+npm test
 npm run build
 ```
 
