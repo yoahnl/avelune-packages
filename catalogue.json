@@ -4,10 +4,10 @@
     {
       "id": "frlg",
       "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
-      "version": "1.9.3",
+      "version": "1.9.4",
       "qualification": "import-verified-targeted-studio-review-passed",
-      "manifest": "packages/frlg/1.9.3/package.json",
-      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.9.3",
+      "manifest": "packages/frlg/1.9.4/package.json",
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.9.4",
       "published": true,
       "presentation": {
         "title": "Rouge Feu & Vert Feuille",
