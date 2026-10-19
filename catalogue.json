@@ -4,17 +4,17 @@
     {
       "id": "frlg",
       "name": "Pokémon Rouge Feu et Vert Feuille — Cartes et décors",
-      "version": "1.8.1",
-      "qualification": "import-verified-graphical-audit-pending",
-      "manifest": "packages/frlg/1.8.1/package.json",
-      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1",
+      "version": "1.9.3",
+      "qualification": "import-verified-targeted-studio-review-passed",
+      "manifest": "packages/frlg/1.9.3/package.json",
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.9.3",
       "published": true,
       "presentation": {
         "title": "Rouge Feu & Vert Feuille",
         "region": "KANTO",
         "format": "Pixel art 2D",
         "description": "Le charme de Kanto en pixels. Décors, composants, terrains et chemins pour composer vos cartes.",
-        "images": ["apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png", "apercus/frlg-complete-building-gym-ochre-efdaa6a1c286.png", "apercus/frlg-interior-general-lit-blanc-double.png"]
+        "images": ["apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png", "apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png", "apercus/frlg-interior-general-lit-blanc-double.png"]
       }
     },
     {

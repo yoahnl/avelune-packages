@@ -42,6 +42,7 @@ function card(group) {
   picture.append(image, node('span', 'dimension', resource.dimension));
   const copy = node('span', 'resource-copy');
   copy.append(node('span', 'resource-family', resource.family), node('h3', '', resource.name), node('span', 'resource-meta', `${labels[resource.kind]} · ${contexts[resource.context]}`));
+  if (resource.rawPreview) copy.append(node('span', 'resource-meta', 'Aperçu assemblé : façade + porte'));
   if (group.resources.length > 1) copy.append(node('span', 'resource-meta', `${format(group.resources.length)} variantes et outils à consulter`));
   button.append(picture, copy);
   button.addEventListener('click', () => openResource(resource, group));
@@ -49,6 +50,7 @@ function card(group) {
 }
 
 function openResource(resource, group = groupResources(resources).find(item => item.resources.some(value => value.id === resource.id))) {
+  if (resource.relatedResourceIds && !group?.explicitRelations) group = { resources: resource.relatedResourceIds.map(id => resources.find(item => item.id === id)).filter(Boolean), associationLabel: resource.relatedResourceLabel, explicitRelations: true };
   const container = $('resource-detail');
   const layout = node('div', 'detail-layout');
   const picture = node('div', 'detail-picture');
@@ -61,7 +63,7 @@ function openResource(resource, group = groupResources(resources).find(item => i
   title.id = 'detail-title';
   copy.append(node('span', 'tag', `${resource.dimension} · ${labels[resource.kind]}`), title, node('p', 'family-trail', resource.familyPath.join(' / ')));
   if (group && group.resources.length > 1) {
-    const label = node('label', 'variant-picker', 'Variantes et outils associés');
+    const label = node('label', 'variant-picker', group.associationLabel || 'Variantes et outils associés');
     const select = document.createElement('select');
     for (const variant of group.resources) {
       const option = node('option', '', `${labels[variant.kind]} · ${variant.name}`);
@@ -77,6 +79,16 @@ function openResource(resource, group = groupResources(resources).find(item => i
     copy.append(label);
   }
   if (resource.description) copy.append(node('p', '', resource.description));
+  if (resource.previewCaption) copy.append(node('p', 'detail-note', resource.previewCaption));
+  if (resource.rawPreview) {
+    const details = document.createElement('details');
+    details.append(node('summary', '', 'Voir la façade seule, sans porte'));
+    const raw = document.createElement('img');
+    raw.src = resource.rawPreview;
+    raw.alt = resource.name + ' — façade seule';
+    details.append(raw);
+    copy.append(details);
+  }
   copy.append(node('p', 'detail-note', resource.previewScope === 'module' ? 'Aperçu fixe d’un module représentatif. Dessinez avec ce pinceau dans Studio pour obtenir les raccords et les variations.' : 'Aperçu fixe de la ressource. Les animations et le comportement se consultent dans Studio.'));
   const definitions = node('dl');
   const fields = [['Contexte', contexts[resource.context]], ['Version du pack', packManifest.version]];
@@ -140,7 +152,7 @@ try {
   resources = await resourceResponse.json();
   const manifest = await manifestResponse.json();
   packManifest = manifest;
-  if (resources.length !== manifest.counts.primaryResources) throw new Error('Inventaire incomplet');
+  if (resources.length !== (manifest.counts.galleryResources ?? manifest.counts.primaryResources)) throw new Error('Inventaire incomplet');
   for (const resource of resources) resource.search = normalize([resource.name, resource.description, ...resource.familyPath, ...(resource.sourceNames || [])].join(' '));
   const paths = new Set();
   for (const resource of resources) for (let i = 1; i <= resource.familyPath.length; i++) paths.add(resource.familyPath.slice(0, i).join(' / '));

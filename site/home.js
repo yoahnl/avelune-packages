@@ -40,7 +40,7 @@ try {
     picture.append(images, element('span', 'picture-word', presentation.region));
     const body = element('div', 'library-body');
     const tags = element('div', 'tag-row');
-    tags.append(element('span', 'tag', presentation.format), element('span', 'status', pack.published ? '● Disponible' : '● Import vérifié'));
+    tags.append(element('span', 'tag', presentation.format), element('span', 'status', pack.published ? '● Disponible' : '● En préparation'));
     const metrics = element('div', 'library-metrics');
     metrics.append(element('span', '', `${number(manifest.counts.primaryResources)} ressources`));
     metrics.append(element('span', '', pack.id === 'nb2' ? `${number(manifest.counts.smartTilePatterns)} motifs` : `${number(manifest.counts.standardDecorModels)} décors en galerie`));

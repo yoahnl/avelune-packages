@@ -10,36 +10,38 @@ Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conser
 
 | Univers | Version | Périmètre | État | Téléchargement |
 | --- | --- | --- | --- | --- |
-| Pokémon Rouge Feu et Vert Feuille | 1.8.1 | Cartes et décors | Import complet vérifié ; audit graphique exhaustif en cours | [Release FRLG 1.8.1](https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.8.1) |
+| Pokémon Rouge Feu et Vert Feuille | 1.9.3 | Cartes et décors | Import complet vérifié ; bâtiments et portes séparés ; exhaustivité non certifiée | [Release FRLG 1.9.3](https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.9.3) |
 | Pokémon Noir et Blanc 2 | 0.9.0 | Bibliothèque modulaire de cartes 2D/3D | Doublons équivalents regroupés ; exhaustivité graphique non certifiée | [Release NB2 0.9.0](https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0) |
 
-Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leurs empreintes. Le [dossier FRLG 1.8.1](packages/frlg/1.8.1/) contient les fiches CSV, l’inventaire et les aperçus.
+Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leurs empreintes. Le [dossier FRLG 1.9.3](packages/frlg/1.9.3/) contient les fiches CSV, l’inventaire, les aperçus et la qualification.
 
 ## Importer un package
 
 1. Télécharger le fichier `.aveluneassets` depuis sa release.
-2. Vérifier son empreinte avec le fichier `.sha256` fourni : `shasum -a 256 -c FRLG-Cartes-Decors-1.8.1.aveluneassets.sha256`.
+2. Vérifier son empreinte avec le fichier `.sha256` fourni : `shasum -a 256 -c FRLG-Cartes-Decors-1.9.3.aveluneassets.sha256`.
 3. Ouvrir un projet dans Avelune Studio, sélectionner le package et examiner le plan d’import.
 4. Importer, enregistrer et rouvrir le projet.
 
-FRLG 1.8.1 nécessite une version de Studio intégrant le catalogue partitionné, le schéma SmartTile 9 et les correctifs FRLG du 19 octobre 2026. Un ancien binaire Studio n’est pas qualifié par les vérifications de cette version.
+FRLG 1.9.3 nécessite une version de Studio intégrant le catalogue partitionné, le schéma SmartTile 9 et les correctifs FRLG du 19 octobre 2026. Un ancien binaire Studio n’est pas qualifié par les vérifications de cette version.
 
-Pour parcourir la galerie hors ligne, télécharger `FRLG-Catalogue-1.8.1.zip`, extraire le dossier et ouvrir `galerie.html`.
+La [galerie FRLG](https://yoahnl.github.io/avelune-packages/packages/frlg/1.9.3/bibliotheque.html) présente 793 fiches de décors standards et 1 017 ressources illustrées, avec les états de portes associés. L’inventaire CSV complet couvre aussi les terrains, chemins, bordures, environnements et composants.
 
-## Contenu FRLG 1.8.1
+## Contenu FRLG 1.9.3
 
 | Ressources standards | Quantité |
 | --- | ---: |
-| Décors | 930 |
+| Décors | 793 |
 | Terrains | 106 |
 | Chemins, dont les hautes herbes | 150 |
 | Surfaces de forêt | 5 |
 | Modèles de bordures | 7 |
 | Environnements et dispersions | 83 |
 
-Le package inclut aussi 8 088 composants de décors, 64 pinceaux composants et 429 images support. Les raccords et assemblages utilisent 9 791 motifs et 944 animations publiées. Les 9 862 ressources principales possèdent une description et un contexte d’usage.
+Le package inclut aussi 8 313 composants de décors, 64 pinceaux composants et 492 images support. Les raccords et assemblages utilisent 9 791 motifs et 944 animations SmartTile publiées. Les 10 013 ressources principales possèdent une description et un contexte d’usage.
 
-L’export, l’import complet dans un projet vide, les références de médias et la réouverture ont été vérifiés. Cinq paires de doublons statiques strictement équivalents ont été fusionnées en conservant les variantes utiles.
+L’import complet dans un projet vide et la réouverture stricte ont été vérifiés : 10 013 ressources principales, 9 791 motifs et 514 fichiers médias contrôlés par taille et SHA-256. La version 1.9.3 retire le sol du dojo et sépare le casino du guichet des lots en conservant leurs portes associées. Les 65 bâtiments sources ont été comparés aux façades et aux assemblages fermés ; les suppressions de pixels restent limitées aux zones déclarées de porte et de sol.
+
+Les façades et les portes sont des ressources séparées. La galerie montre leur assemblage fermé et permet de consulter la façade seule et les états associés. Le passage, les collisions et le déclenchement de l’animation de porte se configurent dans le projet : le package ne les lie pas automatiquement.
 
 **L’exhaustivité graphique de toutes les cartes et variantes FRLG reste à auditer.** Les contrôles réalisés ne constituent pas une certification de chaque assemblage et animation dans Studio et le Player. La qualification L7 et les appareils physiques iOS/Android restent à vérifier.
 

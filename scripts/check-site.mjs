@@ -71,3 +71,22 @@ for (const resource of frlgResources) {
   assert.equal(createHash('sha256').update(await readFile(join(root, dirname(frlgEntry.manifest), resource.preview))).digest('hex'), resource.previewSha256);
 }
 console.log(JSON.stringify({ status: 'valid', resources: resources.length, previews: previews.size, localLinks: links, types }));
+
+if (frlg.catalogue.resources) {
+  const illustrated = await read(join(dirname(frlgEntry.manifest), frlg.catalogue.resources));
+  assert.equal(illustrated.length, frlg.counts.galleryResources);
+  assert.equal(new Set(illustrated.map(item => item.id)).size, illustrated.length);
+  assert.equal(groupResources(illustrated).length, frlg.counts.galleryCards);
+  const known = new Set(illustrated.map(item => item.id));
+  for (const resource of illustrated) {
+    assert.ok(resource.familyPath.length && resource.dimension === '2D');
+    assert.ok(['both', 'exterior', 'interior', 'unspecified'].includes(resource.context));
+    for (const id of resource.relatedResourceIds || []) assert.ok(known.has(id));
+    for (const key of ['preview', 'rawPreview']) if (resource[key]) {
+      assert.ok(!resource[key].includes('..') && !resource[key].startsWith('/'));
+      const hash = createHash('sha256').update(await readFile(join(root, dirname(frlgEntry.manifest), resource[key]))).digest('hex');
+      assert.equal(hash, resource[key + 'Sha256']);
+    }
+  }
+  console.log(JSON.stringify({ status: 'valid-frlg-gallery', illustratedResources: illustrated.length, cards: frlg.counts.galleryCards }));
+}
