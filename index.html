@@ -1,52 +1,112 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Avelune Packages — Des ressources pour vos prochains mondes</title>
-  <meta name="description" content="Explorez les bibliothèques de ressources Avelune : décors 2D, modèles 3D, terrains et pinceaux modulaires pour créer vos cartes.">
-  <meta name="theme-color" content="#081522"><link rel="icon" href="site/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="site/styles.css"><link rel="stylesheet" href="site/dark.css"><script type="module" src="site/home.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avelune — Créez votre propre aventure Pokémon</title>
+  <meta name="description" content="Découvrez Avelune, le créateur de RPG spécialisé Pokémon : éditeur visuel, captures réelles, bibliothèques de ressources et versions de Studio.">
+  <meta name="theme-color" content="#081522">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Avelune — Votre région. Votre histoire. Votre aventure Pokémon.">
+  <meta property="og:description" content="Un éditeur visuel pour donner vie à votre RPG. Découvrez Avelune Studio en images.">
+  <meta property="og:url" content="https://yoahnl.github.io/avelune-packages/">
+  <meta property="og:image" content="https://yoahnl.github.io/avelune-packages/site/media/studio-bourg-geon.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://yoahnl.github.io/avelune-packages/">
+  <link rel="icon" href="site/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site/dark.css">
+  <link rel="stylesheet" href="site/landing.css">
+  <link rel="preload" href="site/media/bourg-geon-en-jeu.jpg" as="image">
+  <script type="module" src="site/landing.js"></script>
 </head>
-<body>
-  <a class="skip-link" href="#contenu">Aller au contenu</a>
-  <header class="header wrap">
-    <a class="brand" href="./" aria-label="Avelune Packages, accueil"><img class="brand-logo" src="site/brand/avelune-studio.svg" alt="Avelune Studio" width="192" height="52"><span class="brand-label">PACKAGES</span></a>
-    <nav aria-label="Navigation principale"><a href="#bibliotheques">Les bibliothèques</a><a href="#installer">Bien démarrer</a><a class="github-link" href="https://github.com/yoahnl/avelune-packages" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></nav>
+<body class="landing-page">
+  <a class="skip-link" href="#contenu" data-i18n="skip">Aller au contenu</a>
+  <header class="av-header av-wrap">
+    <a href="./" aria-label="Avelune, accueil"><img class="av-logo" src="site/brand/avelune-studio.svg" alt="Avelune Studio" width="174" height="48"></a>
+    <nav id="navigation" class="av-nav" aria-label="Navigation principale">
+      <a href="#decouvrir" data-i18n="nav.discover">Découvrir</a>
+      <a href="ressources.html" data-i18n="nav.resources">Ressources</a>
+      <a href="#actualites" data-i18n="nav.news">Actualités</a>
+    </nav>
+    <div class="av-languages" aria-label="Langue / Language">
+      <button class="av-language" type="button" data-language="fr" lang="fr" aria-label="Français" aria-pressed="true">FR</button>
+      <span aria-hidden="true">/</span>
+      <button class="av-language" type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
+    <button class="av-menu" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir ou fermer la navigation" data-i18n="menu">Menu</button>
   </header>
   <main id="contenu">
-    <section class="hero wrap">
-      <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> LA BOÎTE À MONDES D’AVELUNE</p>
-        <h1>De petites pièces.<br>De grandes<br><em>aventures.</em></h1>
-        <p class="hero-description">Des arbres, des maisons, des chemins et mille détails. Explorez nos bibliothèques de ressources et donnez forme à vos prochaines cartes dans Avelune Studio.</p>
-        <div class="actions"><a class="button primary" href="#bibliotheques">Explorer les bibliothèques <span aria-hidden="true">↗</span></a><a class="text-link" href="#installer">Comment ça marche <span aria-hidden="true">↓</span></a></div>
-        <p class="quiet hero-footnote">Ressources natives · Familles organisées · Intérieurs & extérieurs</p>
+    <section class="av-hero" aria-labelledby="hero-title">
+      <img class="av-hero-image" src="site/media/bourg-geon-en-jeu.jpg" alt="Bourg Geon en 3D dans le mode test d’Avelune Studio, avec ses maisons, ses éoliennes et ses chemins." width="2048" height="1176" fetchpriority="high">
+      <div class="av-hero-content av-wrap">
+        <h1 id="hero-title"><span data-i18n="hero.line1">Votre région.</span><span data-i18n="hero.line2">Votre histoire.</span><span class="av-highlight" data-i18n="hero.line3">Votre aventure Pokémon.</span></h1>
+        <p class="av-hero-description" data-i18n="hero.description">Donnez vie à votre RPG avec Avelune, un éditeur visuel pour construire votre monde et raconter vos histoires.</p>
+        <div class="av-actions">
+          <a class="av-button" href="#installer" data-i18n="hero.primary">Essayer Avelune Studio</a>
+          <a class="av-button av-button-secondary" href="#captures" data-i18n="hero.secondary">Voir Avelune en images</a>
+        </div>
       </div>
-      <div class="hero-art" aria-label="Sélection de ressources de la bibliothèque Noir et Blanc 2">
-        <span class="art-label"><span class="dot"></span> NOIR & BLANC 2 · 3D</span>
-        <div class="art-orbit" aria-hidden="true"></div>
-        <figure class="asset-float asset-building"><img src="packages/nb2/0.9.0/apercus/46e5a6d49b5ffcd2e0a22af5.png" alt="Centre Pokémon de pierre à toit pyramidal"><figcaption>Bâtiments <span>↗</span></figcaption></figure>
-        <figure class="asset-float asset-tree"><img src="packages/nb2/0.9.0/apercus/c05a8f7a36815305906885a1.png" alt="Arbre feuillu NB2"><figcaption>Un peu de nature.</figcaption></figure>
-        <figure class="asset-float asset-chair"><img src="packages/nb2/0.9.0/apercus/8e3c4911bdffda98295478d0.png" alt="Chaise bleue modulaire"><figcaption>Et les petits détails.</figcaption></figure>
-        <div class="art-stamp"><b>À vous<br>de jouer.</b><span aria-hidden="true">✳</span></div>
-        <p class="art-caption">Vos cartes commencent par une pièce.</p>
+      <p class="av-hero-note" data-i18n="hero.caption">Bourg Geon · Capture du mode test de Studio</p>
+    </section>
+    <section class="av-section av-wrap" id="decouvrir" aria-labelledby="studio-title">
+      <div class="av-section-heading"><h2 id="studio-title"><span data-i18n="studio.title1">Tout commence par </span><em data-i18n="studio.title2">une idée.</em></h2></div>
+      <div class="av-studio-layout">
+        <figure class="av-screenshot" id="studio-capture">
+          <button class="av-image-button" type="button" data-capture="studio-capture" aria-label="Agrandir la capture d’Avelune Studio"><img src="site/media/studio-bourg-geon.png" alt="La carte de Bourg Geon ouverte dans Studio, entourée des outils de création et de la bibliothèque de ressources." width="1800" height="921" loading="lazy"></button>
+          <figcaption data-i18n="studio.caption">Le projet de démonstration HGSS, ouvert dans Avelune Studio. Sélectionnez l’image pour l’agrandir.</figcaption>
+        </figure>
+        <div class="av-features">
+          <div class="av-feature"><span class="av-feature-number">01</span><h3 data-i18n="studio.feature1">Un monde à imaginer</h3><p data-i18n="studio.description1">Construisez vos villes, vos routes et vos intérieurs. Placez vos décors et composez votre région, un détail à la fois.</p></div>
+          <div class="av-feature"><span class="av-feature-number">02</span><h3 data-i18n="studio.feature2">Une aventure à raconter</h3><p data-i18n="studio.description2">Donnez une voix à vos personnages, écrivez leurs conversations et reliez les événements qui font avancer votre histoire.</p></div>
+        </div>
       </div>
     </section>
-    <section class="numbers wrap" aria-label="Le catalogue en chiffres"><div><strong data-universe-count>2</strong><span>univers à explorer</span></div><div><strong data-resource-count>18 828</strong><span>ressources répertoriées</span></div><div><strong>2D + 3D</strong><span>la même envie de créer</span></div><p>Du pixel au volume,<br>chaque détail a sa place.</p></section>
-    <section class="libraries wrap section" id="bibliotheques">
-      <div class="section-heading"><div><p class="eyebrow">CHOISISSEZ VOTRE TERRAIN DE JEU</p><h2>Deux univers.<br>Une infinité d’idées.</h2></div><p>Des bibliothèques à parcourir, puis à importer dans votre projet. Choisissez votre style, nous avons rangé les pièces.</p></div>
-      <div class="library-grid">
-        <article class="library-card nb2-card">
-          <div class="library-picture"><span class="version">VERSION 0.9.0</span><div class="library-images"><img src="packages/nb2/0.9.0/apercus/c05a8f7a36815305906885a1.png" alt="Arbre feuillu"><img src="packages/nb2/0.9.0/apercus/81d243d2534bee0471fb71b4.png" alt="Façade avec balcon de Pavonnay"><img src="packages/nb2/0.9.0/apercus/c29bc4c56e672a881bc123d7.png" alt="Lit simple"></div><span class="picture-word" aria-hidden="true">UNYS</span></div>
-          <div class="library-body"><div class="tag-row"><span class="tag">3D & sprites 2D</span><span class="status"><span class="dot"></span> Import vérifié</span></div><h3>Noir & Blanc 2</h3><p>Unys, pièce par pièce. Des modèles 3D, du mobilier et des pinceaux pour composer vos extérieurs comme vos intérieurs.</p><div class="library-metrics"><span><b>8 818</b> ressources</span><span><b>3 981</b> motifs</span></div><a class="button dark full" href="packages/nb2/0.9.0/galerie.html">Explorer la bibliothèque <span aria-hidden="true">↗</span></a></div>
-        </article>
-        <article class="library-card frlg-card">
-          <div class="library-picture"><span class="version">VERSION 1.9.4</span><div class="library-images"><img src="packages/frlg/1.9.4/apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png" alt="Arbre feuillu de Kanto"><img src="packages/frlg/1.9.4/apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png" alt="Casino de Céladopole — façade et porte fermée"><img src="packages/frlg/1.9.4/apercus/frlg-interior-general-lit-blanc-double.png" alt="Lit double"></div><span class="picture-word" aria-hidden="true">KANTO</span></div>
-          <div class="library-body"><div class="tag-row"><span class="tag">Pixel art 2D</span><span class="status"><span class="dot"></span> Disponible</span></div><h3>Rouge Feu & Vert Feuille</h3><p>Le charme de Kanto en pixels. Décors, composants, terrains et chemins, accompagnés d’une galerie des décors standards.</p><div class="library-metrics"><span><b>10 010</b> ressources</span><span><b>792</b> décors en galerie</span></div><a class="button light full" href="packages/frlg/1.9.4/bibliotheque.html">Ouvrir la galerie FRLG <span aria-hidden="true">↗</span></a></div>
-        </article>
+    <section class="av-section av-captures" id="captures" aria-labelledby="captures-title">
+      <div class="av-wrap">
+        <p class="av-eyebrow" data-i18n="captures.eyebrow">DANS LES COULISSES D’AVELUNE</p>
+        <div class="av-section-heading"><h2 id="captures-title"><span data-i18n="captures.title1">De votre première carte </span><br><em data-i18n="captures.title2">à votre première aventure.</em></h2><p data-i18n="captures.intro">Des vues réelles de l’éditeur et de son mode test. Explorez les étapes qui donnent forme à votre projet.</p></div>
+        <div class="av-tabs" role="tablist" aria-label="Découvrir Avelune">
+          <button class="av-tab" id="tab-world" type="button" role="tab" aria-selected="true" aria-controls="panel-world" data-i18n="tab.world">Créer un monde</button>
+          <button class="av-tab" id="tab-dialogue" type="button" role="tab" aria-selected="false" aria-controls="panel-dialogue" tabindex="-1" data-i18n="tab.dialogue">Raconter une histoire</button>
+          <button class="av-tab" id="tab-play" type="button" role="tab" aria-selected="false" aria-controls="panel-play" tabindex="-1" data-i18n="tab.play">Tester son aventure</button>
+        </div>
+        <div class="av-capture-panel" id="panel-world" role="tabpanel" aria-labelledby="tab-world">
+          <figure class="av-screenshot" id="world-capture"><button class="av-image-button" type="button" data-capture="world-capture" aria-label="Agrandir la capture de la carte"><img src="site/media/studio-bourg-geon.png" alt="Vue complète de l’éditeur de carte de Studio et du village de Bourg Geon." width="1800" height="921" loading="lazy"></button><figcaption data-i18n="world.caption">Bourg Geon, une scène de démonstration dans Avelune Studio.</figcaption></figure>
+          <div class="av-capture-copy"><h3 data-i18n="world.title">Un lieu qui vous ressemble.</h3><p data-i18n="world.description">Agencez vos décors dans un espace de création visuel. Travaillez la composition d’un village et retrouvez vos ressources dans la bibliothèque.</p><button class="av-close" type="button" data-capture="world-capture" data-i18n="capture.enlarge">Agrandir la capture</button></div>
+        </div>
+        <div class="av-capture-panel" id="panel-dialogue" role="tabpanel" aria-labelledby="tab-dialogue" hidden>
+          <figure class="av-screenshot" id="dialogue-capture"><button class="av-image-button" type="button" data-capture="dialogue-capture" aria-label="Agrandir la capture de l’éditeur de dialogue"><img src="site/media/studio-dialogues.jpg" alt="L’éditeur de dialogue de Studio avec une conversation de bienvenue à Clairbois." width="1920" height="953" loading="lazy"></button><figcaption data-i18n="dialogue.caption">L’éditeur de dialogue, avec une conversation du projet de démonstration Clairbois.</figcaption></figure>
+          <div class="av-capture-copy"><h3 data-i18n="dialogue.title">Chaque personnage a son histoire.</h3><p data-i18n="dialogue.description">Écrivez vos conversations dans l’éditeur de dialogue, reliez vos scènes et essayez l’échange au fil de votre création.</p><button class="av-close" type="button" data-capture="dialogue-capture" data-i18n="capture.enlarge">Agrandir la capture</button></div>
+        </div>
+        <div class="av-capture-panel" id="panel-play" role="tabpanel" aria-labelledby="tab-play" hidden>
+          <figure class="av-screenshot" id="play-capture"><button class="av-image-button" type="button" data-capture="play-capture" aria-label="Agrandir la capture du mode test"><img src="site/media/aventure-interieur.png" alt="Le personnage du joueur dans un intérieur 3D du projet HGSS, en mode test dans Studio." width="1920" height="1080" loading="lazy"></button><figcaption data-i18n="play.caption">Le projet de démonstration HGSS, lancé dans le mode test de Studio.</figcaption></figure>
+          <div class="av-capture-copy"><h3 data-i18n="play.title">Entrez dans votre aventure.</h3><p data-i18n="play.description">Lancez un test depuis Studio pour explorer vos scènes. Retrouvez les lieux que vous construisez du point de vue du joueur.</p><button class="av-close" type="button" data-capture="play-capture" data-i18n="capture.enlarge">Agrandir la capture</button></div>
+        </div>
       </div>
     </section>
-    <section class="how-section" id="installer"><div class="wrap how-layout"><div><p class="eyebrow">MOINS DE PRÉPARATION, PLUS DE CRÉATION</p><h2>Votre prochain monde,<br>en trois étapes.</h2><p>Un fichier <code>.aveluneassets</code>, une bibliothèque organisée, et votre imagination.</p><a class="text-link" href="https://github.com/yoahnl/avelune-packages#readme">Consulter le guide complet ↗</a></div><ol class="steps"><li><span>01</span><div><h3>Trouvez vos pièces</h3><p>Parcourez les familles et les aperçus. Intérieur, extérieur, modèles ou pinceaux : trouvez ce dont votre carte a besoin.</p></div></li><li><span>02</span><div><h3>Récupérez le package</h3><p>Téléchargez le fichier depuis sa release GitHub. Chaque version dispose de son inventaire et de son empreinte de vérification.</p></div></li><li><span>03</span><div><h3>Importez dans Studio</h3><p>Dans votre projet, sélectionnez le package, examinez le plan d’import puis retrouvez les ressources dans leurs familles.</p></div></li></ol></div></section>
-    <section class="wrap end-note"><span aria-hidden="true">✳</span><p>Les grandes aventures<br>se construisent <em>un détail à la fois.</em></p><a href="#bibliotheques" class="round-arrow" aria-label="Revenir aux bibliothèques">↑</a></section>
+    <section class="av-section av-wrap" id="bibliotheques" aria-labelledby="resources-title">
+      <p class="av-eyebrow" data-i18n="resources.eyebrow">DES PIÈCES POUR VOS PROCHAINS MONDES</p>
+      <div class="av-section-heading"><h2 id="resources-title"><span data-i18n="resources.title1">Vos idées. </span><br><em data-i18n="resources.title2">Toute une bibliothèque.</em></h2><p data-i18n="resources.intro">Parcourez les bibliothèques de ressources existantes et trouvez les décors de votre prochaine carte.</p></div>
+      <div class="av-resource-grid">
+        <article class="av-resource"><img src="packages/nb2/0.9.0/apercus/81d243d2534bee0471fb71b4.png" alt="Façade avec balcon issue de la bibliothèque Noir et Blanc 2." width="120" height="130" loading="lazy"><div><h3 data-i18n="resources.nb2">Noir & Blanc 2</h3><p data-i18n="resources.nb2.description">Modèles 3D, décors et pinceaux modulaires. Explorez les ressources d’Unys.</p><a class="av-text-link" href="packages/nb2/0.9.0/galerie.html" data-i18n="resources.explore">Explorer la bibliothèque</a></div></article>
+        <article class="av-resource"><img src="packages/frlg/1.9.4/apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png" alt="Façade du casino de Céladopole issue de la bibliothèque Rouge Feu et Vert Feuille." width="120" height="130" loading="lazy"><div><h3 data-i18n="resources.frlg">Rouge Feu & Vert Feuille</h3><p data-i18n="resources.frlg.description">Le charme de Kanto en pixels. Découvrez ses décors, ses terrains et ses chemins.</p><a class="av-text-link" href="packages/frlg/1.9.4/bibliotheque.html" data-i18n="resources.explore">Explorer la bibliothèque</a></div></article>
+      </div>
+      <div class="av-actions"><a class="av-button av-button-secondary" href="ressources.html" data-i18n="resources.all">Parcourir toutes les ressources</a></div>
+    </section>
+    <section class="av-section av-start" id="installer" aria-labelledby="start-title">
+      <div class="av-wrap av-start-layout">
+        <div class="av-start-copy"><p class="av-eyebrow" data-i18n="start.eyebrow">VOTRE PROCHAINE AVENTURE COMMENCE ICI</p><h2 id="start-title"><span data-i18n="start.title1">Donnez à vos idées </span><br><em data-i18n="start.title2">un terrain de jeu.</em></h2><p data-i18n="start.description">Téléchargez Avelune Studio, explorez l’éditeur et commencez à composer votre RPG. Avelune est en développement actif.</p><a class="av-button" href="https://github.com/yoahnl/pokemap/releases/latest" data-i18n="start.download">Télécharger Studio</a><p class="av-platforms" data-i18n="start.platforms">Versions publiées pour macOS, Windows et Linux. Les détails de téléchargement et les notes de version sont disponibles sur GitHub.</p></div>
+        <div class="av-faq-list">
+          <details class="av-faq"><summary data-i18n="faq.specialization">Avelune est-il pensé pour les RPG Pokémon ?</summary><p data-i18n="faq.specialization.answer">Oui. Avelune se spécialise actuellement dans la création de RPG Pokémon, avec des outils visuels pour les cartes, les histoires et les données dédiées aux Pokémon.</p></details>
+          <details class="av-faq"><summary data-i18n="faq.captures">Les images viennent-elles vraiment du logiciel ?</summary><p data-i18n="faq.captures.answer">Oui. Les images montrent Avelune Studio et son mode test, avec les projets de démonstration HGSS et Clairbois. Sélectionnez une image pour voir la capture d’origine.</p></details>
+          <details class="av-faq"><summary data-i18n="faq.resources">Où trouver des ressources pour commencer ?</summary><p data-i18n="faq.resources.answer">Le catalogue Avelune Packages rassemble les bibliothèques, leurs aperçus et les instructions d’import. Vous pouvez l’explorer avant de télécharger un package.</p><p><a class="av-text-link" href="ressources.html#installer" data-i18n="faq.resources.link">Ouvrir le catalogue</a></p></details>
+        </div>
+      </div>
+    </section>
+    <section class="av-news av-wrap" id="actualites" aria-labelledby="news-title"><div><h2 id="news-title" data-i18n="news.title">Une aventure en construction.</h2><p data-i18n="news.description">Suivez les versions publiées de Studio et découvrez ce qui évolue au fil du développement.</p></div><a class="av-text-link" href="https://github.com/yoahnl/pokemap/releases" data-i18n="news.link">Voir les dernières versions</a></section>
   </main>
-  <footer class="footer wrap"><a class="brand" href="./"><img class="brand-logo" src="site/brand/avelune-studio.svg" alt="Avelune Studio" width="192" height="52"><span class="brand-label">PACKAGES</span></a><p>Projet communautaire indépendant.<br>Graphismes Pokémon : Nintendo / GAME FREAK.</p><a href="https://github.com/yoahnl/avelune-packages" target="_blank" rel="noopener">Le dépôt GitHub ↗</a></footer>
-</body></html>
+  <footer class="av-footer av-wrap"><a href="./" aria-label="Avelune, accueil"><img class="av-logo" src="site/brand/avelune-studio.svg" alt="Avelune Studio" width="136" height="38" loading="lazy"></a><p data-i18n="footer.independent">Projet communautaire indépendant, sans affiliation avec Nintendo, GAME FREAK ou The Pokémon Company. Pokémon et les graphismes des jeux appartiennent à leurs ayants droit respectifs.</p><a href="https://github.com/yoahnl/avelune-packages" data-i18n="footer.source">Code du site</a></footer>
+  <dialog class="av-lightbox" aria-labelledby="capture-title"><div class="av-lightbox-bar"><p class="av-lightbox-title" id="capture-title"></p><button class="av-close" type="button" data-i18n="lightbox.close">Fermer</button></div><img alt=""></dialog>
+</body>
+</html>

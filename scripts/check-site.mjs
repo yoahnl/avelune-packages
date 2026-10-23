@@ -40,7 +40,7 @@ for (const preview of previews) {
   assert.ok(resources.filter(resource => resource.preview === preview).every(resource => resource.previewSha256 === createHash('sha256').update(data).digest('hex')));
 }
 let links = 0;
-for (const path of ['index.html', ...await Promise.all(registry.packages.map(async entry => join(dirname(entry.manifest), (await read(entry.manifest)).catalogue.gallery)))]) {
+for (const path of ['index.html', 'ressources.html', ...await Promise.all(registry.packages.map(async entry => join(dirname(entry.manifest), (await read(entry.manifest)).catalogue.gallery)))]) {
   const html = await readFile(join(root, path), 'utf8');
   assert.match(html, /lang="fr"/);
   assert.match(html, /site\/dark.css/);
@@ -52,6 +52,11 @@ for (const path of ['index.html', ...await Promise.all(registry.packages.map(asy
     await stat(target);
     links++;
   }
+}
+for (const capture of await read('site/media/captures.json')) {
+  const data = await readFile(join(root, 'site/media', capture.file));
+  assert.equal(createHash('sha256').update(data).digest('hex'), capture.sha256);
+  assert.ok(capture.source && capture.context);
 }
 for (const pack of registry.packages) {
   const manifest = await read(pack.manifest);

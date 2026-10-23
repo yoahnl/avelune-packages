@@ -1,0 +1,26 @@
+[
+  {
+    "file": "bourg-geon-en-jeu.jpg",
+    "source": "HGSS 3D Pack / reconstruction-bourg-geon-20261022 / doors-wind-20261022 / runtime-village-00-retina.jpg",
+    "context": "Capture authentique du mode test de Studio, projet de démonstration HGSS. Le site recadre uniquement l’affichage du fichier original.",
+    "sha256": "946ee01373ac18eb18e27f552ab9b4eb59f1565202421b1cf8e275cf5f90fa4e"
+  },
+  {
+    "file": "studio-bourg-geon.png",
+    "source": "HGSS 3D Pack / reconstruction-bourg-geon-20261022 / studio-optimized-bourg-geon.png",
+    "context": "Capture authentique de l’éditeur Avelune Studio, carte Bourg Geon du projet de démonstration HGSS.",
+    "sha256": "3f01a5c3f18480e6ae98efb0c06bdfb5f8af4d9a599d5db2856e78c5e8646180"
+  },
+  {
+    "file": "studio-dialogues.jpg",
+    "source": "pokemonProject / documentation / avelune_studio / screenshots / studio-dialogue-clairbois.jpg",
+    "context": "Capture authentique de l’éditeur de dialogue Avelune Studio, conversation du projet de démonstration Clairbois.",
+    "sha256": "e9e00954d66e519ef19a2f33ddd5474b2b2493fc34349f33ccf8ca607c279484"
+  },
+  {
+    "file": "aventure-interieur.png",
+    "source": "HGSS 3D Pack / reconstruction-bourg-geon-20261022 / startup-integration-20261023 / qa / ground-floor.png",
+    "context": "Capture authentique du mode test de Studio, intérieur du projet de démonstration HGSS.",
+    "sha256": "98ed1cd6b0ec8d914432c46d6e56021f370b1e7c2c233b315f48f740185bdcb8"
+  }
+]

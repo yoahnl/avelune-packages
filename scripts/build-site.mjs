@@ -12,7 +12,7 @@ const galleryPaths = new Set(await Promise.all(registry.packages.map(async pack 
   const manifest = JSON.parse(await readFile(join(root, pack.manifest), 'utf8'));
   return join('packages', pack.id, pack.version, manifest.catalogue.gallery);
 })));
-for (const entry of ['index.html', 'site', 'packages', 'catalogue.json']) {
+for (const entry of ['index.html', 'ressources.html', 'site', 'packages', 'catalogue.json']) {
   await cp(join(root, entry), join(output, entry), { recursive: true, filter: source => {
     const path = relative(root, source);
     const parts = path.split('/');
