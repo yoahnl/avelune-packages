@@ -1,15 +1,15 @@
 [
   {
-    "file": "bourg-geon-en-jeu.jpg",
-    "source": "HGSS 3D Pack / reconstruction-bourg-geon-20261022 / doors-wind-20261022 / runtime-village-00-retina.jpg",
-    "context": "Capture authentique du mode test de Studio, projet de démonstration HGSS. Le site recadre uniquement l’affichage du fichier original.",
-    "sha256": "946ee01373ac18eb18e27f552ab9b4eb59f1565202421b1cf8e275cf5f90fa4e"
+    "file": "bourg-geon-studio.png",
+    "source": "Capture fournie par Yoahn / Screenshot 2026-10-23 at 21.49.00.png",
+    "context": "Capture authentique de l’éditeur Avelune Studio, carte 3D de Bourg Geon. Fichier fourni par Yoahn conservé sans retouche ; le hero recadre uniquement son affichage.",
+    "sha256": "6e39ba4a001a9cd07a8dd674b7b390fc24e189b1983815bd3d8c18bbcebf3617"
   },
   {
-    "file": "studio-bourg-geon.png",
-    "source": "HGSS 3D Pack / reconstruction-bourg-geon-20261022 / studio-optimized-bourg-geon.png",
-    "context": "Capture authentique de l’éditeur Avelune Studio, carte Bourg Geon du projet de démonstration HGSS.",
-    "sha256": "3f01a5c3f18480e6ae98efb0c06bdfb5f8af4d9a599d5db2856e78c5e8646180"
+    "file": "kanto-bond-bridge-studio.png",
+    "source": "Capture fournie par Yoahn / codex-clipboard-3b299371-6462-4415-b4c3-658470844bac.png",
+    "context": "Capture authentique de l’éditeur Avelune Studio, carte Bond Bridge du projet Kanto en pixel art 2D. Fichier fourni par Yoahn conservé sans retouche.",
+    "sha256": "9dabba889f9f36ddd6ddb4568a5973fb5dd2ab6b541af87dbb9344ec00d00a5a"
   },
   {
     "file": "studio-dialogues.jpg",

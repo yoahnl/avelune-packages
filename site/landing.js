@@ -2,20 +2,21 @@ const translations = {
   en: {
     'skip': 'Skip to content', 'nav.discover': 'Discover', 'nav.resources': 'Resources', 'nav.news': 'News', 'menu': 'Menu',
     'hero.eyebrow': 'A WORLD OF IDEAS. AN ADVENTURE OF YOUR OWN.', 'hero.line1': 'Your region.', 'hero.line2': 'Your story.', 'hero.line3': 'Your Pokémon adventure.',
-    'hero.description': 'Bring your RPG to life with Avelune, a visual editor for building your world and telling your stories.', 'hero.primary': 'Try Avelune Studio', 'hero.secondary': 'See Avelune in action', 'hero.caption': 'Bourg Geon · Captured in Studio’s playtest mode',
+    'hero.description': 'Create your RPG in 2D or 3D with Avelune, a visual editor for building your world and telling your stories.', 'hero.primary': 'Try Avelune Studio', 'hero.secondary': 'See Avelune in action', 'hero.caption': 'Bourg Geon · 3D creation in Avelune Studio',
     'studio.eyebrow': 'MAKE ROOM FOR YOUR IMAGINATION', 'studio.title1': 'It all starts with ', 'studio.title2': 'an idea.', 'studio.caption': 'The HGSS demonstration project, open in Avelune Studio. Select the image to enlarge it.',
-    'studio.feature1': 'A world to imagine', 'studio.description1': 'Build your towns, routes and interiors. Place scenery and bring your region together, one detail at a time.',
+    'studio.feature1': 'Your world, in 2D or 3D', 'studio.description1': 'Build towns, routes and interiors in 2D pixel art or with 3D scenery. Bring your region together, one detail at a time.',
     'studio.feature2': 'An adventure to create', 'studio.description2': 'Give your characters a voice, write their conversations and connect the events that shape your story.',
-    'captures.eyebrow': 'A LOOK INSIDE AVELUNE', 'captures.title1': 'From your first map ', 'captures.title2': 'to your first adventure.', 'captures.intro': 'Real views of the editor and its playtest mode. Explore how your project takes shape.',
-    'tab.world': 'Create a world', 'tab.dialogue': 'Tell a story', 'tab.play': 'Test your adventure',
-    'world.title': 'Build a place that feels like yours.', 'world.description': 'Arrange your scenery in a visual workspace. Work on the layout of a village and find your resources in the library.', 'world.caption': 'Bourg Geon, a demonstration scene in Avelune Studio.',
+    'captures.eyebrow': 'A LOOK INSIDE AVELUNE', 'captures.title1': 'From your first map ', 'captures.title2': 'to your first adventure.', 'captures.intro': '2D and 3D projects created with Avelune. Discover their worlds and the tools that bring them to life.',
+    'tab.world': 'A 2D world', 'tab.studio': 'A 3D world', 'tab.dialogue': 'Tell a story', 'tab.play': 'Test your adventure',
+    'world.title': 'The charm of 2D.', 'world.description': 'Forests, rivers and paths take shape in pixel art. The Bond Bridge map shows 2D world creation in Avelune Studio.', 'world.caption': 'Bond Bridge · A 2D Kanto map in Avelune Studio.',
+    'world3d.title': 'Give your ideas another dimension.', 'world3d.description': 'Create 3D scenes too. Work with scenery, terrain and animations in the same visual workspace.', 'world3d.caption': 'Bourg Geon · The 3D HGSS demonstration project in Avelune Studio.',
     'dialogue.title': 'Every character has a story.', 'dialogue.description': 'Write conversations in the dialogue editor, connect your scenes and preview the exchange as you create.', 'dialogue.caption': 'The dialogue editor, with a conversation from the Clairbois demonstration project.',
     'play.title': 'Step into your adventure.', 'play.description': 'Launch a playtest from Studio to explore your scenes. See how the places you create feel from the player’s perspective.', 'play.caption': 'The HGSS demonstration project, running in Studio’s playtest mode.', 'capture.enlarge': 'Enlarge the capture',
     'resources.eyebrow': 'PIECES FOR YOUR NEXT WORLD', 'resources.title1': 'Your ideas. ', 'resources.title2': 'A whole library.', 'resources.intro': 'Browse the existing resource libraries and find scenery for your next map.',
     'resources.nb2': 'Black & White 2', 'resources.nb2.description': '3D models, scenery and modular brushes. Explore the Unova library.', 'resources.frlg': 'FireRed & LeafGreen', 'resources.frlg.description': 'The pixel-art charm of Kanto. Discover its scenery, terrain and paths.', 'resources.explore': 'Explore the library', 'resources.all': 'Browse all resources',
     'start.eyebrow': 'YOUR NEXT ADVENTURE STARTS HERE', 'start.title1': 'Give your ideas ', 'start.title2': 'somewhere to grow.', 'start.description': 'Download Avelune Studio, explore the editor and start shaping your RPG. Avelune is under active development.', 'start.download': 'Download Studio', 'start.platforms': 'Published builds for macOS, Windows and Linux. Download details and release notes are available on GitHub.',
     'faq.specialization': 'Is Avelune designed for Pokémon RPGs?', 'faq.specialization.answer': 'Yes. Avelune currently focuses on Pokémon RPG creation, with visual tools for maps, stories and dedicated Pokémon data.',
-    'faq.captures': 'Are these real software captures?', 'faq.captures.answer': 'Yes. The images show Avelune Studio and its playtest mode, using the HGSS and Clairbois demonstration projects. Select an image to see the original capture.',
+    'faq.captures': 'Are these real software captures?', 'faq.captures.answer': 'Yes. The captures show Bond Bridge in 2D, Bourg Geon in 3D, the dialogue editor and Avelune Studio’s playtest mode. Select an image to see the full capture.',
     'faq.resources': 'Where can I find resources?', 'faq.resources.answer': 'The Avelune Packages catalogue contains the libraries, previews and import instructions. You can explore it before downloading a package.', 'faq.resources.link': 'Open the catalogue',
     'news.title': 'An adventure in the making.', 'news.description': 'Follow Studio’s published versions and see what is changing with each release.', 'news.link': 'See the latest releases',
     'footer.independent': 'An independent community project, unaffiliated with Nintendo, GAME FREAK or The Pokémon Company. Pokémon and the game graphics belong to their respective owners.', 'footer.source': 'Website source', 'lightbox.close': 'Close'
@@ -33,8 +34,8 @@ function setLanguage(nextLanguage) {
   for (const button of languageButtons) button.setAttribute('aria-pressed', String(button.dataset.language === language));
   document.title = language === 'en' ? 'Avelune — Create your own Pokémon adventure' : 'Avelune — Créez votre propre aventure Pokémon';
   document.querySelector('meta[name="description"]').content = language === 'en'
-    ? 'Discover Avelune, a visual RPG creator specializing in Pokémon. Explore real software captures, resource libraries and published Studio builds.'
-    : 'Découvrez Avelune, le créateur de RPG spécialisé Pokémon : éditeur visuel, captures réelles, bibliothèques de ressources et versions de Studio.';
+    ? 'Create your RPG in 2D or 3D with Avelune, a visual editor specializing in Pokémon. Explore Studio, real software captures and resources.'
+    : 'Créez votre RPG en 2D ou en 3D avec Avelune, un éditeur visuel spécialisé Pokémon. Découvrez Studio, ses captures réelles et ses ressources.';
   document.querySelector('.av-menu').setAttribute('aria-label', language === 'en' ? 'Toggle navigation' : 'Ouvrir ou fermer la navigation');
   document.querySelector('.av-nav').setAttribute('aria-label', language === 'en' ? 'Main navigation' : 'Navigation principale');
   document.querySelector('[role="tablist"]').setAttribute('aria-label', language === 'en' ? 'Explore Avelune' : 'Découvrir Avelune');
