@@ -1,0 +1,30 @@
+{
+  "sourceFiles": 6141,
+  "selectedSourceFiles": 987,
+  "excludedSourceFiles": 5154,
+  "characters": 496,
+  "mediaFiles": 803,
+  "aliases": 48,
+  "families": {
+    "Population": 43,
+    "Personnages importants": 22,
+    "Pokémon": 378,
+    "Dresseurs": 42,
+    "Joueurs": 11
+  },
+  "poseOnlyCharacters": 42,
+  "standardAnimationClips": 3852,
+  "customAnimationClips": 1316,
+  "sourceTimingQualified": false,
+  "canonical64GeneratedContractApplied": false,
+  "nativePixelPaddingWithoutResampling": true,
+  "kantoBaseCompanionSpecies": 151,
+  "companionSourceSheets": 603,
+  "companionCharacterVariantsBeforeExactMerge": 302,
+  "anomalies": [
+    "trainer_FRLG_POKEMONBREEDER: variable opaque-separated columns,42px rows",
+    "trainer_FRLG_ROCKER:32px grid,lastcolumn31px",
+    "BLACKBELT/LASS: trailing transparent source column only"
+  ],
+  "unknownSpeciesLabels": []
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "avelune.frlg.delivery.v2",
+  "archive": {
+    "file": "FRLG-Cartes-Decors-1.9.5.aveluneassets",
+    "bytes": 119740209,
+    "sha256": "cee579cfdb62b360dcb13e36c87e10908ee569e912287b039433551f3f3d4ee3",
+    "formatVersion": 2,
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.9.5/FRLG-Cartes-Decors-1.9.5.aveluneassets"
+  },
+  "status": "QUALIFIED_LOCAL_RECLASSIFIED_CHARACTERS_ADDED",
+  "scope": "Graphismes des cartes, décors et personnages du corpus Kanto fourni.",
+  "resourceCount": 11309,
+  "standardDecorModels": 793,
+  "counts": {
+    "standardDecorModels": 793,
+    "standardTerrains": 106,
+    "standardPaths": 150,
+    "standardForestSurfaces": 5,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "componentElements": 8309,
+    "componentBrushes": 64,
+    "imageSupports": 1296,
+    "smartTilePatterns": 9791,
+    "publishedAnimations": 944,
+    "primaryResources": 11309,
+    "rpgDoorColumnsAnimated": 31,
+    "autonomousPropsCleaned": 3,
+    "mergedOpenStateAliases": 6,
+    "mergedFamilyPaths": 8,
+    "elevatorDirectionsAnimated": 2,
+    "standardEnvironments": 74,
+    "galleryResources": 1507,
+    "galleryCards": 1288,
+    "characters": 496,
+    "characterAnimationDefinitions": 5,
+    "topLevelFamilies": 9,
+    "familiesAndSubfamilies": 63
+  },
+  "changes": {
+    "mergedAliases": 6,
+    "patchedDefinitions": 5,
+    "mergedFamilyPaths": 8,
+    "manualToolsClarified": 33,
+    "nativeConstructionToolsClarified": 90,
+    "correctedChenDoorStyles": 1,
+    "elevatorDirections": 2,
+    "sourceContextCompositionsPreserved": 2
+  },
+  "limitations": [
+    "Candidate locale vérifiée par import complet, sauvegarde, réouverture et revue Studio. Release GitHub et site public non publiés pour cette version.",
+    "Pour obtenir ce classement propre, importer dans un nouveau projet. L’import est additif et ne supprime pas les anciennes ressources ou familles d’un projet 1.9.4.",
+    "Le contenu des personnages provient du corpus Kanto fourni ; il comprend des variantes et extensions identifiées, sans certification de tous les personnages du jeu officiel.",
+    "Six noms de sprites référencés par les cartes sources ne correspondent à aucun fichier fourni. Trois identités sont retrouvées dans les autres pages des mêmes événements, sans équivalence de pixels inventée. Voir couverture-personnages.json.",
+    "Les graphismes de décor existants sont conservés ; dialogues, rencontres, comportements de PNJ et événements ne sont pas fournis par la bibliothèque.",
+    "Deux modules de portes de ville conservent des pixels de terrain natif annoncés dans leur description. Ce sont des modules liés à leur support, pas des décors universellement détourés.",
+    "Les outils de construction manuelle conservent leurs banques de motifs sources. La présente qualification porte sur leur classement, leurs références et leur conservation ; elle ne certifie pas le dessin automatique de chaque outil.",
+    "Le graphisme de décor AGUAVBERRY référencé dans le corpus source ne dispose pas non plus de fichier fourni ; voir couverture-personnages.json."
+  ],
+  "classification": {
+    "Eau": {
+      "standard": 32,
+      "component": 164,
+      "kinds": {
+        "borderBlueprint": 2,
+        "element": 152,
+        "smartTilePreset": 14,
+        "tileset": 28
+      }
+    },
+    "Relief": {
+      "standard": 130,
+      "component": 606,
+      "kinds": {
+        "borderBlueprint": 1,
+        "element": 626,
+        "environmentPreset": 37,
+        "smartTilePreset": 30,
+        "tileset": 42
+      }
+    },
+    "Sols": {
+      "standard": 193,
+      "component": 3190,
+      "kinds": {
+        "borderBlueprint": 3,
+        "element": 3168,
+        "smartTilePreset": 142,
+        "tileset": 70
+      }
+    },
+    "Bâtiments": {
+      "standard": 214,
+      "component": 2978,
+      "kinds": {
+        "borderBlueprint": 1,
+        "element": 2998,
+        "environmentPreset": 5,
+        "smartTilePreset": 56,
+        "tileset": 132
+      }
+    },
+    "Objets": {
+      "standard": 456,
+      "component": 1358,
+      "kinds": {
+        "element": 1610,
+        "environmentPreset": 12,
+        "smartTilePreset": 59,
+        "tileset": 133
+      }
+    },
+    "Clôtures": {
+      "standard": 34,
+      "component": 181,
+      "kinds": {
+        "element": 194,
+        "smartTilePreset": 11,
+        "tileset": 10
+      }
+    },
+    "Végétation": {
+      "standard": 55,
+      "component": 278,
+      "kinds": {
+        "element": 251,
+        "environmentPreset": 21,
+        "smartTilePreset": 7,
+        "tileset": 54
+      }
+    },
+    "Arbres": {
+      "standard": 21,
+      "component": 120,
+      "kinds": {
+        "element": 103,
+        "environmentPreset": 8,
+        "smartTilePreset": 6,
+        "tileset": 24
+      }
+    },
+    "Personnages": {
+      "standard": 496,
+      "component": 803,
+      "kinds": {
+        "character": 496,
+        "tileset": 803
+      }
+    }
+  },
+  "characterSummary": {
+    "sourceFiles": 6141,
+    "selectedSourceFiles": 987,
+    "excludedSourceFiles": 5154,
+    "characters": 496,
+    "mediaFiles": 803,
+    "aliases": 48,
+    "families": {
+      "Population": 43,
+      "Personnages importants": 22,
+      "Pokémon": 378,
+      "Dresseurs": 42,
+      "Joueurs": 11
+    },
+    "poseOnlyCharacters": 42,
+    "standardAnimationClips": 3852,
+    "customAnimationClips": 1316,
+    "sourceTimingQualified": false,
+    "canonical64GeneratedContractApplied": false,
+    "nativePixelPaddingWithoutResampling": true,
+    "kantoBaseCompanionSpecies": 151,
+    "companionSourceSheets": 603,
+    "companionCharacterVariantsBeforeExactMerge": 302,
+    "anomalies": [
+      "trainer_FRLG_POKEMONBREEDER: variable opaque-separated columns,42px rows",
+      "trainer_FRLG_ROCKER:32px grid,lastcolumn31px",
+      "BLACKBELT/LASS: trailing transparent source column only"
+    ],
+    "unknownSpeciesLabels": []
+  }
+}

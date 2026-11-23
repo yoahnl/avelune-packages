@@ -1,0 +1,6 @@
+interface:
+  display_name: "Avelune Packages"
+  short_description: "Cohérence des packs, galeries et du site Avelune"
+  default_prompt: "Utilise $avelune-packages pour travailler sur ce pack ou sur le site en respectant les conventions communes."
+policy:
+  allow_implicit_invocation: true

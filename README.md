@@ -2,6 +2,8 @@
 
 Catalogue des bibliothèques de ressources importables dans Avelune Studio.
 
+Pour contribuer avec une IA : lire [AGENTS.md](AGENTS.md), puis le [skill Avelune Packages](skills/avelune-packages/SKILL.md). Ces consignes communes couvrent le site, le classement, les variantes, les vérifications et la publication des packs.
+
 **[Parcourir le site Avelune Packages](https://yoahnl.github.io/avelune-packages/)** — un seul catalogue en dark mode pour les bibliothèques 2D et 3D.
 
 Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conserve les fiches, les inventaires, les empreintes et les aperçus. Cloner le dépôt ne télécharge pas les archives des packages.

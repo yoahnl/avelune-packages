@@ -1,0 +1,677 @@
+[
+  {
+    "id": "trees",
+    "name": "Arbres",
+    "path": [
+      "Arbres"
+    ],
+    "standardResources": 21,
+    "componentResources": 120
+  },
+  {
+    "id": "vegetation",
+    "name": "Végétation",
+    "path": [
+      "Végétation"
+    ],
+    "standardResources": 55,
+    "componentResources": 278
+  },
+  {
+    "id": "buildings",
+    "name": "Bâtiments",
+    "path": [
+      "Bâtiments"
+    ],
+    "standardResources": 214,
+    "componentResources": 2978
+  },
+  {
+    "id": "props",
+    "name": "Objets",
+    "path": [
+      "Objets"
+    ],
+    "standardResources": 456,
+    "componentResources": 1358
+  },
+  {
+    "id": "fences",
+    "name": "Clôtures",
+    "path": [
+      "Clôtures"
+    ],
+    "standardResources": 34,
+    "componentResources": 181
+  },
+  {
+    "id": "ground",
+    "name": "Sols",
+    "path": [
+      "Sols"
+    ],
+    "standardResources": 193,
+    "componentResources": 3190
+  },
+  {
+    "id": "water",
+    "name": "Eau",
+    "path": [
+      "Eau"
+    ],
+    "standardResources": 32,
+    "componentResources": 164
+  },
+  {
+    "id": "relief",
+    "name": "Relief",
+    "path": [
+      "Relief"
+    ],
+    "standardResources": 130,
+    "componentResources": 606
+  },
+  {
+    "id": "characters",
+    "name": "Personnages",
+    "path": [
+      "Personnages"
+    ],
+    "standardResources": 496,
+    "componentResources": 803
+  },
+  {
+    "id": "frlg_family_be7bb4d4a27b68e360d0fae0",
+    "name": "Ascenseurs",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Ascenseurs"
+    ],
+    "standardResources": 3,
+    "componentResources": 4
+  },
+  {
+    "id": "frlg_family_0657afbc87c4bc6413d938d5",
+    "name": "Ensembles d’intérieur",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Ensembles d’intérieur"
+    ],
+    "standardResources": 6,
+    "componentResources": 0
+  },
+  {
+    "id": "frlg_family_ceea451ab0cb776252350267",
+    "name": "Entrées et passages",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Entrées et passages"
+    ],
+    "standardResources": 13,
+    "componentResources": 162
+  },
+  {
+    "id": "frlg_family_6de9b167b56e3f1722bf8f86",
+    "name": "Escaliers et échelles",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Escaliers et échelles"
+    ],
+    "standardResources": 61,
+    "componentResources": 177
+  },
+  {
+    "id": "frlg_family_f0cfa075481ba23fdc285917",
+    "name": "Façades et bâtiments entiers",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Façades et bâtiments entiers"
+    ],
+    "standardResources": 59,
+    "componentResources": 713
+  },
+  {
+    "id": "frlg_family_6974ce12e32f083113f39721",
+    "name": "Fenêtres",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Fenêtres"
+    ],
+    "standardResources": 2,
+    "componentResources": 6
+  },
+  {
+    "id": "frlg_family_4fd9cec0749e1c771e6c2249",
+    "name": "Murs et cloisons",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Murs et cloisons"
+    ],
+    "standardResources": 19,
+    "componentResources": 1464
+  },
+  {
+    "id": "frlg_family_da49c68be9f148fd9891c606",
+    "name": "Ponts et pontons",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Ponts et pontons"
+    ],
+    "standardResources": 6,
+    "componentResources": 19
+  },
+  {
+    "id": "frlg_family_06215eb436a9b6320cad8aaf",
+    "name": "Portes",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Portes"
+    ],
+    "standardResources": 42,
+    "componentResources": 273
+  },
+  {
+    "id": "frlg_family_80e7d0e8208531b997590044",
+    "name": "Toitures",
+    "parentId": "buildings",
+    "path": [
+      "Bâtiments",
+      "Toitures"
+    ],
+    "standardResources": 2,
+    "componentResources": 108
+  },
+  {
+    "id": "frlg_family_176f18bb6fe6276d442ab6bd",
+    "name": "Barrières électriques",
+    "parentId": "fences",
+    "path": [
+      "Clôtures",
+      "Barrières électriques"
+    ],
+    "standardResources": 8,
+    "componentResources": 34
+  },
+  {
+    "id": "frlg_family_e597c9787e78d1133fe98b6b",
+    "name": "Clôtures et grillages",
+    "parentId": "fences",
+    "path": [
+      "Clôtures",
+      "Clôtures et grillages"
+    ],
+    "standardResources": 16,
+    "componentResources": 38
+  },
+  {
+    "id": "frlg_family_9146a57e739fb264b51f6431",
+    "name": "Portails et portiques",
+    "parentId": "fences",
+    "path": [
+      "Clôtures",
+      "Portails et portiques"
+    ],
+    "standardResources": 8,
+    "componentResources": 29
+  },
+  {
+    "id": "frlg_family_f757ba4e6b462f8615aa2da4",
+    "name": "Rambardes et garde-corps",
+    "parentId": "fences",
+    "path": [
+      "Clôtures",
+      "Rambardes et garde-corps"
+    ],
+    "standardResources": 2,
+    "componentResources": 65
+  },
+  {
+    "id": "frlg_family_ba3cde0a92d48fcd441896bc",
+    "name": "Carrelages et dalles",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Carrelages et dalles"
+    ],
+    "standardResources": 46,
+    "componentResources": 387
+  },
+  {
+    "id": "frlg_family_824545f08de5b53d2fa1ccf6",
+    "name": "Chemins et terre",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Chemins et terre"
+    ],
+    "standardResources": 8,
+    "componentResources": 40
+  },
+  {
+    "id": "frlg_family_b57a5993bcc51d89e3ce05e8",
+    "name": "Hautes herbes",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Hautes herbes"
+    ],
+    "standardResources": 1,
+    "componentResources": 0
+  },
+  {
+    "id": "frlg_family_2f7cb764faee3686f407e7ae",
+    "name": "Herbe et mousse",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Herbe et mousse"
+    ],
+    "standardResources": 3,
+    "componentResources": 7
+  },
+  {
+    "id": "frlg_family_848c88b3b59720fb0665b45c",
+    "name": "Parquets et planchers",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Parquets et planchers"
+    ],
+    "standardResources": 16,
+    "componentResources": 195
+  },
+  {
+    "id": "frlg_family_732c7fe17c245498ae4d2823",
+    "name": "Sable",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Sable"
+    ],
+    "standardResources": 11,
+    "componentResources": 54
+  },
+  {
+    "id": "frlg_family_644b5ba13d71f79dd05935aa",
+    "name": "Sols et plateformes",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Sols et plateformes"
+    ],
+    "standardResources": 64,
+    "componentResources": 2308
+  },
+  {
+    "id": "frlg_family_336a55810f40f8cce37af75e",
+    "name": "Tapis et moquettes",
+    "parentId": "ground",
+    "path": [
+      "Sols",
+      "Tapis et moquettes"
+    ],
+    "standardResources": 44,
+    "componentResources": 187
+  },
+  {
+    "id": "frlg_family_029a1952b2bf52fa88e75f22",
+    "name": "Appareils et machines",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Appareils et machines"
+    ],
+    "standardResources": 100,
+    "componentResources": 173
+  },
+  {
+    "id": "frlg_family_310d03219cd16650d9456dfa",
+    "name": "Armoires et rayonnages",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Armoires et rayonnages"
+    ],
+    "standardResources": 61,
+    "componentResources": 173
+  },
+  {
+    "id": "frlg_family_f524ea9df857fbaa68f0b50c",
+    "name": "Assises",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Assises"
+    ],
+    "standardResources": 45,
+    "componentResources": 57
+  },
+  {
+    "id": "frlg_family_8cd1553b8e06b7c02edcdd08",
+    "name": "Cuisine et sanitaires",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Cuisine et sanitaires"
+    ],
+    "standardResources": 8,
+    "componentResources": 7
+  },
+  {
+    "id": "frlg_family_eaa26ba31354e90f6e7e021c",
+    "name": "Effets de carte",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Effets de carte"
+    ],
+    "standardResources": 25,
+    "componentResources": 244
+  },
+  {
+    "id": "frlg_family_a04cccfed8ffa9354b1394fa",
+    "name": "Lits",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Lits"
+    ],
+    "standardResources": 7,
+    "componentResources": 10
+  },
+  {
+    "id": "frlg_family_6623e844f4f476eaac8f948d",
+    "name": "Panneaux et décoration murale",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Panneaux et décoration murale"
+    ],
+    "standardResources": 49,
+    "componentResources": 66
+  },
+  {
+    "id": "frlg_family_ad93fb9fc0bcacb1ba93923c",
+    "name": "Petits objets",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Petits objets"
+    ],
+    "standardResources": 46,
+    "componentResources": 38
+  },
+  {
+    "id": "frlg_family_951a7d017efc64d14a4ffef1",
+    "name": "Poteaux et luminaires",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Poteaux et luminaires"
+    ],
+    "standardResources": 10,
+    "componentResources": 2
+  },
+  {
+    "id": "frlg_family_bfc4b4a519002cdae194ad23",
+    "name": "Statues et monuments",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Statues et monuments"
+    ],
+    "standardResources": 21,
+    "componentResources": 32
+  },
+  {
+    "id": "frlg_family_8b68a24db4023a910627d94b",
+    "name": "Tables et comptoirs",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Tables et comptoirs"
+    ],
+    "standardResources": 61,
+    "componentResources": 299
+  },
+  {
+    "id": "frlg_family_5804dfeab3a4ff69ec9e04e2",
+    "name": "Véhicules",
+    "parentId": "props",
+    "path": [
+      "Objets",
+      "Véhicules"
+    ],
+    "standardResources": 16,
+    "componentResources": 85
+  },
+  {
+    "id": "frlg_family_050df0a7e7748d4152234632",
+    "name": "Falaises et parois de grotte",
+    "parentId": "relief",
+    "path": [
+      "Relief",
+      "Falaises et parois de grotte"
+    ],
+    "standardResources": 23,
+    "componentResources": 396
+  },
+  {
+    "id": "frlg_family_11c68f76a75055b2bcbf22be",
+    "name": "Rebords et trous",
+    "parentId": "relief",
+    "path": [
+      "Relief",
+      "Rebords et trous"
+    ],
+    "standardResources": 10,
+    "componentResources": 3
+  },
+  {
+    "id": "frlg_family_12c972cf62f571249fcd8023",
+    "name": "Rochers",
+    "parentId": "relief",
+    "path": [
+      "Relief",
+      "Rochers"
+    ],
+    "standardResources": 96,
+    "componentResources": 206
+  },
+  {
+    "id": "frlg_family_7c0e76f8457242f1ac2808a9",
+    "name": "Arbres feuillus",
+    "parentId": "trees",
+    "path": [
+      "Arbres",
+      "Arbres feuillus"
+    ],
+    "standardResources": 12,
+    "componentResources": 92
+  },
+  {
+    "id": "frlg_family_4db5bbd85269c242bf30c671",
+    "name": "Arbres à couper",
+    "parentId": "trees",
+    "path": [
+      "Arbres",
+      "Arbres à couper"
+    ],
+    "standardResources": 2,
+    "componentResources": 9
+  },
+  {
+    "id": "frlg_family_bf64dd5adbb6826d02ac1f98",
+    "name": "Conifères",
+    "parentId": "trees",
+    "path": [
+      "Arbres",
+      "Conifères"
+    ],
+    "standardResources": 5,
+    "componentResources": 10
+  },
+  {
+    "id": "frlg_family_66934d9ee8b2494b24311882",
+    "name": "Fleurs",
+    "parentId": "vegetation",
+    "path": [
+      "Végétation",
+      "Fleurs"
+    ],
+    "standardResources": 12,
+    "componentResources": 6
+  },
+  {
+    "id": "frlg_family_e2d0029f53593ee6e34ae198",
+    "name": "Haies et buissons",
+    "parentId": "vegetation",
+    "path": [
+      "Végétation",
+      "Haies et buissons"
+    ],
+    "standardResources": 18,
+    "componentResources": 21
+  },
+  {
+    "id": "frlg_family_0e8b624b97e88c1b1025e62e",
+    "name": "Plantes en pot",
+    "parentId": "vegetation",
+    "path": [
+      "Végétation",
+      "Plantes en pot"
+    ],
+    "standardResources": 8,
+    "componentResources": 6
+  },
+  {
+    "id": "frlg_family_299a7522bcfabd6f4fd06987",
+    "name": "Plantes et champignons",
+    "parentId": "vegetation",
+    "path": [
+      "Végétation",
+      "Plantes et champignons"
+    ],
+    "standardResources": 15,
+    "componentResources": 244
+  },
+  {
+    "id": "frlg_family_1fb943d3480bde485115c188",
+    "name": "Cascades",
+    "parentId": "water",
+    "path": [
+      "Eau",
+      "Cascades"
+    ],
+    "standardResources": 3,
+    "componentResources": 3
+  },
+  {
+    "id": "frlg_family_e35f33a069514ecb2f5fc2a2",
+    "name": "Effets aquatiques",
+    "parentId": "water",
+    "path": [
+      "Eau",
+      "Effets aquatiques"
+    ],
+    "standardResources": 5,
+    "componentResources": 0
+  },
+  {
+    "id": "frlg_family_675bb975cc61dff2504eb55f",
+    "name": "Fontaines et bassins",
+    "parentId": "water",
+    "path": [
+      "Eau",
+      "Fontaines et bassins"
+    ],
+    "standardResources": 7,
+    "componentResources": 40
+  },
+  {
+    "id": "frlg_family_c56b17a0bf1d68c1573f730c",
+    "name": "Rivages et écume",
+    "parentId": "water",
+    "path": [
+      "Eau",
+      "Rivages et écume"
+    ],
+    "standardResources": 6,
+    "componentResources": 6
+  },
+  {
+    "id": "frlg_family_807b175eeffff8179942d3f7",
+    "name": "Étendues d’eau",
+    "parentId": "water",
+    "path": [
+      "Eau",
+      "Étendues d’eau"
+    ],
+    "standardResources": 11,
+    "componentResources": 115
+  },
+  {
+    "id": "rp_4311a3e1d4b44c85aaf8dc583b23da93dbac2de1a0d4fc16",
+    "name": "Joueurs",
+    "parentId": "characters",
+    "path": [
+      "Personnages",
+      "Joueurs"
+    ],
+    "standardResources": 11,
+    "componentResources": 47
+  },
+  {
+    "id": "rp_25cfaa170a06f1ed9c57a425fc372c881b4693a0564e74bb",
+    "name": "Population",
+    "parentId": "characters",
+    "path": [
+      "Personnages",
+      "Population"
+    ],
+    "standardResources": 43,
+    "componentResources": 43
+  },
+  {
+    "id": "rp_44b17e756f5d71efea7cf774d1d22e6f79a4d9e33e30bcb9",
+    "name": "Dresseurs",
+    "parentId": "characters",
+    "path": [
+      "Personnages",
+      "Dresseurs"
+    ],
+    "standardResources": 42,
+    "componentResources": 42
+  },
+  {
+    "id": "rp_05cd6466d66326e4a78f6f865af2e516e94598b409931ca1",
+    "name": "Personnages importants",
+    "parentId": "characters",
+    "path": [
+      "Personnages",
+      "Personnages importants"
+    ],
+    "standardResources": 22,
+    "componentResources": 22
+  },
+  {
+    "id": "rp_7c07936ddd08bedd2677d312a8dd66a7997568161a6efdd4",
+    "name": "Pokémon",
+    "parentId": "characters",
+    "path": [
+      "Personnages",
+      "Pokémon"
+    ],
+    "standardResources": 378,
+    "componentResources": 649
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "status": "AVAILABLE_SOURCE_CHARACTERS_COVERED_WITH_EXPLICIT_MISSING_SOURCE_REFERENCES",
+  "sourceReferenceAudit": "frlg-1.9.3-exhaustive-audit/rpg/character-graphics.json",
+  "sourceMapFiles": 383,
+  "sourceMapAndMapInfosFilesFreshHashVerified": 384,
+  "changedMapInputs": 0,
+  "distinctReferencedGraphicNames": 184,
+  "availableReferencedCharacterImagesPrepared": 147,
+  "referencedExistingDecorImagesOutsideCharacterScope": 30,
+  "missingSourceImageReferences": 7,
+  "missingCharacterSourceImages": [
+    {
+      "name": "NPC_FRLG_WOMAN_2_FORMAL",
+      "mapIds": [
+        11,
+        16,
+        22,
+        28,
+        33,
+        37,
+        47,
+        53,
+        59,
+        64,
+        82,
+        102,
+        227,
+        231,
+        235,
+        276,
+        286,
+        298,
+        312
+      ]
+    },
+    {
+      "name": "trainer_FRLG_WOMAN",
+      "mapIds": [
+        305,
+        315
+      ]
+    },
+    {
+      "name": "trainer_SCIENTIST",
+      "mapIds": [
+        61
+      ]
+    },
+    {
+      "name": "trchar013",
+      "mapIds": [
+        123,
+        124
+      ]
+    },
+    {
+      "name": "trchar035",
+      "mapIds": [
+        204
+      ]
+    },
+    {
+      "name": "trchar045",
+      "mapIds": [
+        26
+      ]
+    }
+  ],
+  "missingDecorSourceImages": [
+    {
+      "name": "berrytreeAGUAVBERRY",
+      "mapIds": [
+        195
+      ]
+    }
+  ],
+  "exactMissingFileNamesSearchedAcrossProvidedProjectParent": true,
+  "exactMissingFileNameMatchesFound": 0,
+  "substitutedUnprovenAlternativeCharacterIdentities": 0,
+  "sameEventLegacyReferenceRemediationEvidence": [
+    {
+      "missingName": "trchar045",
+      "availableSameEventCharacter": "trainer_FRLG_SWIMMER_M_2",
+      "mapIds": [
+        26
+      ],
+      "eventName": "Swimmer Luis Trainer(1)",
+      "pageGraphicsInOrder": [
+        "trainer_FRLG_SWIMMER_M_2",
+        "trainer_FRLG_SWIMMER_M_2",
+        "trchar045"
+      ],
+      "pixelEquivalenceProven": false
+    },
+    {
+      "missingName": "trchar013",
+      "availableSameEventCharacter": "trainer_FRLG_CUEBALL",
+      "mapIds": [
+        123,
+        124
+      ],
+      "eventName": "Cueball Koji Trainer(1)",
+      "pageGraphicsInOrder": [
+        "trainer_FRLG_CUEBALL",
+        "trchar013"
+      ],
+      "pixelEquivalenceProven": false
+    },
+    {
+      "missingName": "trchar035",
+      "availableSameEventCharacter": "trainer_FRLG_COOLTRAINER_M",
+      "mapIds": [
+        204
+      ],
+      "eventName": "Cooltrainer George Trainer(1)",
+      "pageGraphicsInOrder": [
+        "trainer_FRLG_COOLTRAINER_M",
+        "trchar035"
+      ],
+      "pixelEquivalenceProven": false
+    }
+  ],
+  "otherMissingCharacterContexts": [
+    {
+      "missingName": "NPC_FRLG_WOMAN_2_FORMAL",
+      "eventName": "2F guard",
+      "role": "Accueil et échange à l’étage des Centres Pokémon",
+      "availableAlternativeSameEvent": false
+    },
+    {
+      "missingName": "trainer_FRLG_WOMAN",
+      "eventNames": [
+        "Psychic Jaclyn Trainer(2)",
+        "Osychic Rodette Trainer(1)"
+      ],
+      "availableAlternativeSameEvent": false
+    },
+    {
+      "missingName": "trainer_SCIENTIST",
+      "mapId": 61,
+      "eventName": "Fuji portrait",
+      "referenceType": "Graphique défini dans huit commandes de route et commandes isolées ; graphique initial vide",
+      "availableAlternativeSameEvent": false
+    }
+  ],
+  "multiSheetExcludedNonCharacterColumn": {
+    "source": "PKMN 01.png",
+    "zeroBasedColumn": 3,
+    "content": "Poké Ball — objet"
+  },
+  "scope": "All available explicitly FRLG direct sheets, declared player action variants, referenced available character extensions, direct Pokémon overworld sheets, and all 151 Kanto base-species companion normal and shiny sets with available swimming and hovering actions. Other generations and alternate regional/Mega forms remain enumerated outside this FRLG pack. This is source-corpus coverage, not certification of original-game assets or timing."
+}

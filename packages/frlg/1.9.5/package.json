@@ -1,0 +1,66 @@
+{
+  "schema": "avelune.package-registry.entry.v1",
+  "id": "frlg",
+  "name": "Pokémon Rouge Feu & Vert Feuille — Cartes, décors et personnages",
+  "version": "1.9.5",
+  "scope": "map-graphics",
+  "qualification": "native-import-and-studio-verified-local",
+  "archive": {
+    "file": "FRLG-Cartes-Decors-1.9.5.aveluneassets",
+    "bytes": 119740209,
+    "sha256": "cee579cfdb62b360dcb13e36c87e10908ee569e912287b039433551f3f3d4ee3",
+    "formatVersion": 2,
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/frlg-v1.9.5/FRLG-Cartes-Decors-1.9.5.aveluneassets"
+  },
+  "catalogue": {
+    "csv": "catalogue.csv",
+    "inventory": "inventaire.json",
+    "gallery": "bibliotheque.html",
+    "resources": "ressources.json"
+  },
+  "requires": {
+    "partitionedCatalog": true,
+    "smartTileSchema": 9,
+    "predefinedFamilyImportFix": true
+  },
+  "counts": {
+    "standardDecorModels": 793,
+    "standardTerrains": 106,
+    "standardPaths": 150,
+    "standardForestSurfaces": 5,
+    "borderBlueprints": 7,
+    "environmentPresets": 83,
+    "componentElements": 8309,
+    "componentBrushes": 64,
+    "imageSupports": 1296,
+    "smartTilePatterns": 9791,
+    "publishedAnimations": 944,
+    "primaryResources": 11309,
+    "rpgDoorColumnsAnimated": 31,
+    "autonomousPropsCleaned": 3,
+    "mergedOpenStateAliases": 6,
+    "mergedFamilyPaths": 8,
+    "elevatorDirectionsAnimated": 2,
+    "standardEnvironments": 74,
+    "galleryResources": 1507,
+    "galleryCards": 1288,
+    "characters": 496,
+    "characterAnimationDefinitions": 5,
+    "topLevelFamilies": 9,
+    "familiesAndSubfamilies": 63
+  },
+  "limitations": [
+    "Candidate locale vérifiée par import complet, sauvegarde, réouverture et revue Studio. Release GitHub et site public non publiés pour cette version.",
+    "Pour obtenir ce classement propre, importer dans un nouveau projet. L’import est additif et ne supprime pas les anciennes ressources ou familles d’un projet 1.9.4.",
+    "Le contenu des personnages provient du corpus Kanto fourni ; il comprend des variantes et extensions identifiées, sans certification de tous les personnages du jeu officiel.",
+    "Six noms de sprites référencés par les cartes sources ne correspondent à aucun fichier fourni. Trois identités sont retrouvées dans les autres pages des mêmes événements, sans équivalence de pixels inventée. Voir couverture-personnages.json.",
+    "Les graphismes de décor existants sont conservés ; dialogues, rencontres, comportements de PNJ et événements ne sont pas fournis par la bibliothèque.",
+    "Deux modules de portes de ville conservent des pixels de terrain natif annoncés dans leur description. Ce sont des modules liés à leur support, pas des décors universellement détourés.",
+    "Les outils de construction manuelle conservent leurs banques de motifs sources. La présente qualification porte sur leur classement, leurs références et leur conservation ; elle ne certifie pas le dessin automatique de chaque outil.",
+    "Le graphisme de décor AGUAVBERRY référencé dans le corpus source ne dispose pas non plus de fichier fourni ; voir couverture-personnages.json."
+  ],
+  "published": false,
+  "countDefinitions": {
+    "standardPaths": "Presets dont l’usage technique est path, y compris certains outils de construction et comptoirs. Ce total ne représente pas 150 styles de chemins au sol distincts."
+  }
+}
