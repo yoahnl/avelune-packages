@@ -43,7 +43,7 @@ try {
     tags.append(element('span', 'tag', presentation.format), element('span', 'status', pack.published ? '● Disponible' : '● En préparation'));
     const metrics = element('div', 'library-metrics');
     metrics.append(element('span', '', `${number(manifest.counts.primaryResources)} ressources`));
-    metrics.append(element('span', '', pack.id === 'nb2' ? `${number(manifest.counts.smartTilePatterns)} motifs` : `${number(manifest.counts.standardDecorModels)} décors en galerie`));
+    metrics.append(element('span', '', manifest.counts.galleryResources !== undefined ? `${number(manifest.counts.galleryResources)} ressources en galerie` : `${number(manifest.counts.smartTilePatterns)} motifs`));
     const actions = element('div', 'library-actions');
     const explore = element('a', 'button dark full', 'Explorer la bibliothèque ↗');
     explore.href = new URL(manifest.catalogue.gallery, manifestUrl).href;

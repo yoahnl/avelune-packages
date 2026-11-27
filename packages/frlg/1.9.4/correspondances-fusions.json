@@ -1,0 +1,63 @@
+{
+  "schema": "avelune.frlg.aliases.v1",
+  "version": "1.9.4",
+  "archiveSha256": "0d07d85b83ac7df480e60162908be37185f0ab56ab49e56f6f0f0296f92fd36c",
+  "elements": [
+    {
+      "removedId": "rp_449242fed312b903eb721d171c82b68e63f8ef5920baeba6",
+      "canonicalId": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+      "oldName": "Portes FRLG 5 — variante 1 — ouvert",
+      "oldSourceId": "frlg-event-doors5-r4-c1",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    },
+    {
+      "removedId": "rp_73b7af222a369644a3657886baa013873c8ac845506db594",
+      "canonicalId": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+      "oldName": "Portes FRLG 4 — variante 1 — ouvert",
+      "oldSourceId": "frlg-event-doors4-r4-c1",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    },
+    {
+      "removedId": "rp_9d5c4d2cfe980dc93f8e65cc71e7bd80a65f98ae66837ed6",
+      "canonicalId": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+      "oldName": "Portes FRLG 2 — variante 3 — ouvert",
+      "oldSourceId": "frlg-event-doors2-r4-c3",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    },
+    {
+      "removedId": "rp_fe1ad0a22d6dbcc6c2b8e2d43643c0ee911e1238aff664a1",
+      "canonicalId": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+      "oldName": "Portes FRLG 3 — variante 1 — ouvert",
+      "oldSourceId": "frlg-event-doors3-r4-c1",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    },
+    {
+      "removedId": "rp_a784e0321fa90604652dd98b607a8fbd5c6c5589739ae20b",
+      "canonicalId": "rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7",
+      "oldName": "Portes FRLG 3 — variante 4 — ouvert",
+      "oldSourceId": "frlg-event-doors3-r4-c4",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    },
+    {
+      "removedId": "rp_ad745013fde0e26b3e4c5e9043b21279e690313945b55429",
+      "canonicalId": "rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7",
+      "oldName": "Portes FRLG 7 — variante 1 — ouvert",
+      "oldSourceId": "frlg-event-doors7-r4-c1",
+      "reason": "Exact complete RGBA sequence, frame cadence, collision and placement behavior"
+    }
+  ],
+  "families": {
+    "rp_90d261b5e5c60b29ecb451eba0f8e3f5887686cb2d607fa0": "trees",
+    "rp_fa014a41ec6f752f1831d84cfe8262214f5daa9f40006cee": "vegetation",
+    "rp_4535c437c243e5f42403fa3534de3034012a89d7c51388d2": "buildings",
+    "rp_45bca2a96543f355856bca6e1d710befb41cc2fda91c259a": "props",
+    "rp_4f6bcefc4ddd656b6ee0ffb61e1277958cd6a4fe794920d1": "fences",
+    "rp_9d9a6ce1fe91302f1e9148bb8331b63a88d5be146883c856": "ground",
+    "rp_2c583574117eb8269afa43e3c9327d0d1e3795029ada5708": "water",
+    "rp_8c2a2b368c7e848af925f7e8452567e96b6f0c56a4bad361": "rp_626691edd1a7bd5574779e70200e4e223285f714f7664e33"
+  },
+  "preservedContextComponents": [
+    "rp_832ecb4c3237a8e3a77183c239ca6b8571f5b8bd25044a5d",
+    "rp_2eee3d603431821d01d8e239e4c53b705361847232b4aa4d"
+  ]
+}

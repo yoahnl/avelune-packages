@@ -1,0 +1,34 @@
+{
+  "schema": "avelune.frlg.delivery.v2",
+  "archive": {
+    "name": "FRLG-Cartes-Decors-1.9.4.aveluneassets",
+    "sha256": "0d07d85b83ac7df480e60162908be37185f0ab56ab49e56f6f0f0296f92fd36c",
+    "bytes": 109658274,
+    "formatVersion": 2
+  },
+  "status": "REMEDIATED_IMPORT_AND_TARGETED_STUDIO_REVIEW_PASSED",
+  "scope": "Graphismes des cartes et décors FRLG uniquement.",
+  "resourceCount": 10010,
+  "standardDecorModels": 793,
+  "counts": {
+    "element": 9102,
+    "tileset": 493,
+    "environmentPreset": 83,
+    "smartTilePreset": 325,
+    "borderBlueprint": 7
+  },
+  "changes": {
+    "mergedAliases": 6,
+    "patchedDefinitions": 5,
+    "mergedFamilyPaths": 8,
+    "manualToolsClarified": 33,
+    "nativeConstructionToolsClarified": 90,
+    "correctedChenDoorStyles": 1,
+    "elevatorDirections": 2,
+    "sourceContextCompositionsPreserved": 2
+  },
+  "limitations": [
+    "La validation dans Avelune Studio est consignée séparément.",
+    "La couverture graphique des cartes ne certifie pas les mécaniques et événements du jeu."
+  ]
+}

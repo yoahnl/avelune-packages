@@ -62,11 +62,51 @@ for (const pack of registry.packages) {
   const manifest = await read(pack.manifest);
   assert.equal(pack.version, manifest.version);
   assert.equal(pack.id, manifest.id);
+  assert.equal(pack.published, manifest.published ?? true);
   assert.ok(pack.presentation.title && pack.presentation.format && pack.presentation.description);
   for (const image of pack.presentation.images) await stat(join(root, dirname(pack.manifest), image));
   assert.match(manifest.archive.url, /^https:\/\/github.com\/yoahnl\/avelune-packages\/releases\/download\//);
   const checksum = await readFile(join(root, dirname(pack.manifest), `${manifest.archive.file}.sha256`), 'utf8');
   assert.equal(checksum.split(/\s+/)[0], manifest.archive.sha256);
+}
+const hoennEntry = registry.packages.find(pack => pack.id === 'hoenn');
+if (hoennEntry) {
+  const directory = dirname(hoennEntry.manifest);
+  const manifest = await read(hoennEntry.manifest);
+  const inventory = await read(join(directory, manifest.catalogue.inventory));
+  const gallery = await read(join(directory, manifest.catalogue.resources));
+  const qualification = await read(join(directory, 'qualification.json'));
+  assert.equal(inventory.resources.length, manifest.counts.primaryResources);
+  assert.equal(new Set(inventory.resources.map(resource => resource.id)).size, inventory.resources.length);
+  assert.equal(gallery.length, manifest.counts.galleryResources);
+  assert.equal(groupResources(gallery).length, manifest.counts.galleryCards);
+  const definitions = new Map(inventory.resources.map(resource => [resource.id, resource]));
+  const kinds = {};
+  for (const resource of inventory.resources) {
+    assert.match(resource.id, /^rp_[a-f0-9]+$/);
+    assert.ok(resource.name && resource.familyPath.length);
+    kinds[resource.kind] = (kinds[resource.kind] || 0) + 1;
+  }
+  assert.deepEqual(kinds, { element: 14537, tileset: 281, character: 175, smartTilePreset: 68 });
+  for (const resource of gallery) {
+    const definition = definitions.get(resource.id);
+    assert.ok(definition);
+    assert.equal(resource.name, definition.name);
+    assert.deepEqual(resource.familyPath, definition.familyPath);
+    assert.equal(resource.dimension, '2D');
+    assert.ok(['both', 'exterior', 'interior', 'unspecified'].includes(resource.context));
+    assert.match(resource.preview, /^apercus\/[a-f0-9]{24}\.png$/);
+    const data = await readFile(join(root, directory, resource.preview));
+    assert.equal(data.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
+    assert.equal(createHash('sha256').update(data).digest('hex'), resource.previewSha256);
+  }
+  assert.equal(gallery.filter(resource => resource.familyPath.at(-1) === 'Sols · PMon').length, 13);
+  assert.equal(gallery.filter(resource => resource.familyPath.at(-1) === 'Chemins · PMon').length, 13);
+  assert.equal(qualification.canonicalImport, true);
+  assert.equal(qualification.strictReopen, true);
+  assert.equal(qualification.actorContactShadowsByDefault, false);
+  assert.equal(qualification.archiveSha256, manifest.archive.sha256);
+  console.log(JSON.stringify({ status: 'valid-hoenn-gallery', resources: inventory.resources.length, illustratedResources: gallery.length, cards: manifest.counts.galleryCards }));
 }
 const frlgEntry = registry.packages.find(pack => pack.id === 'frlg');
 const frlg = await read(frlgEntry.manifest);

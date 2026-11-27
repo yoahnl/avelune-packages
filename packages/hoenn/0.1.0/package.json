@@ -1,0 +1,59 @@
+{
+  "schema": "avelune.package-registry.entry.v1",
+  "id": "hoenn",
+  "name": "Hoenn — Cartes et personnages PMon",
+  "version": "0.1.0",
+  "scope": "map-graphics-and-npcs",
+  "qualification": "import-verified-source-library-coverage",
+  "published": true,
+  "release": "https://github.com/yoahnl/avelune-packages/releases/tag/hoenn-v0.1.0",
+  "archive": {
+    "file": "Hoenn-Cartes-Personnages-PMon-0.1.0.aveluneassets",
+    "bytes": 85974399,
+    "sha256": "ac8477db80310116327012d02ae141f6c18d455764cafa6be86447431039a6d3",
+    "url": "https://github.com/yoahnl/avelune-packages/releases/download/hoenn-v0.1.0/Hoenn-Cartes-Personnages-PMon-0.1.0.aveluneassets",
+    "formatVersion": 2
+  },
+  "catalogue": {
+    "csv": "catalogue.csv",
+    "inventory": "inventaire.json",
+    "gallery": "galerie.html",
+    "resources": "ressources.json"
+  },
+  "requires": {
+    "partitionedCatalog": true,
+    "smartTileSchema": 9,
+    "resourceLibraryCatalog": 2
+  },
+  "counts": {
+    "primaryResources": 15061,
+    "elements": 14537,
+    "standardDecorModels": 324,
+    "componentElements": 14213,
+    "tilesets": 281,
+    "characters": 175,
+    "smartTilePresets": 68,
+    "standardSmartTilePresets": 53,
+    "smartTilePatterns": 13,
+    "smartTileAnimations": 1604,
+    "mediaFiles": 297,
+    "galleryResources": 552,
+    "galleryCards": 550
+  },
+  "limitations": [
+    "Périmètre : bibliothèque du projet Hoenn fourni par The PMon World Project ; exhaustivité officielle de Pokémon Émeraude non certifiée.",
+    "Comprend des dépendances communes FRLG et des variantes communautaires présentes dans la source.",
+    "RSE_Water With Shore est absent du projet source fourni et n’est pas ajouté artificiellement.",
+    "Les raccords et modules techniques sont conservés dans le pack et l’inventaire ; la galerie illustre les 552 ressources standards.",
+    "Les portes sont séparées des façades. Les collisions, passages et événements restent à configurer dans votre projet.",
+    "Deux personnages portent la mention pose spéciale : leurs feuilles sources ne contiennent pas une marche complète.",
+    "Les aperçus sont fixes ; ils ne représentent pas toute l’animation. Les 34 animations sources sans référence ne font pas partie de la fermeture exportée.",
+    "Import canonique et réouverture contrôlés ; parcours dans l’interface Studio et appareils physiques non qualifiés."
+  ],
+  "provenance": {
+    "source": "The PMon World Project · PKW Region 003 - Hoenn",
+    "sourceUrl": "https://discord.gg/Uk4Ar7kDye",
+    "credits": "PROVENANCE-ET-CREDITS.txt",
+    "license": "Droits des auteurs et ayants droit conservés ; aucune licence libre ajoutée."
+  }
+}

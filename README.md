@@ -14,6 +14,7 @@ Les archives `.aveluneassets` sont disponibles dans les **Releases**. Git conser
 | --- | --- | --- | --- | --- |
 | Pokémon Rouge Feu et Vert Feuille | 1.9.4 | Cartes et décors | Import complet vérifié ; correctifs graphiques, classement et variantes contrôlés ; événements à configurer | [Release FRLG 1.9.4](https://github.com/yoahnl/avelune-packages/releases/tag/frlg-v1.9.4) |
 | Pokémon Noir et Blanc 2 | 0.9.0 | Bibliothèque modulaire de cartes 2D/3D | Doublons équivalents regroupés ; exhaustivité graphique non certifiée | [Release NB2 0.9.0](https://github.com/yoahnl/avelune-packages/releases/tag/nb2-v0.9.0) |
+| Hoenn · PMon World | 0.1.0 | Cartes et personnages 2D du projet Hoenn fourni | Import canonique et réouverture vérifiés ; limites de la source documentées | [Galerie Hoenn](packages/hoenn/0.1.0/galerie.html) |
 
 Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leurs empreintes. Le [dossier FRLG 1.9.4](packages/frlg/1.9.4/) contient les fiches CSV, l’inventaire, les aperçus et la qualification.
 
@@ -27,6 +28,14 @@ Le [registre JSON](catalogue.json) répertorie les versions, les fichiers et leu
 FRLG 1.9.4 nécessite une version de Studio intégrant le catalogue partitionné, le schéma SmartTile 9 et le correctif canonique d’import des familles prédéfinies, ainsi que les correctifs FRLG du 19 octobre 2026. Voir `qualification.json` dans la livraison. Un ancien binaire Studio n’est pas qualifié par les vérifications de cette version.
 
 La [galerie FRLG](https://yoahnl.github.io/avelune-packages/packages/frlg/1.9.4/bibliotheque.html) présente 792 fiches pour 793 décors standards et 1 011 ressources illustrées, avec les états de portes associés. L’inventaire CSV complet couvre aussi les terrains, chemins, bordures, environnements et composants.
+
+## Hoenn · PMon World 0.1.0
+
+La [galerie Hoenn](https://yoahnl.github.io/avelune-packages/packages/hoenn/0.1.0/galerie.html) illustre 552 ressources standards : 324 décors et portes, 175 personnages et 53 pinceaux. L’inventaire complet conserve 15 061 ressources principales, composants et feuilles support compris, ainsi que 13 motifs et 1 604 animations SmartTile utilisées. Les sols et les chemins sont deux familles séparées.
+
+La [release Hoenn 0.1.0](https://github.com/yoahnl/avelune-packages/releases/tag/hoenn-v0.1.0) fournit l’archive et son checksum. Le téléchargement public complet a été vérifié : 85 974 399 octets, SHA-256 `ac8477db80310116327012d02ae141f6c18d455764cafa6be86447431039a6d3`. L’inspection canonique, l’import dans un projet 2D vierge, la réouverture stricte et l’intégrité des 297 images sont vérifiés. Le rendu des 175 personnages est identique à la source sur les quatre images comparées, sans ombre de contact ajoutée.
+
+Le périmètre est le projet Hoenn fourni par The PMon World Project, avec ses dépendances FRLG et variantes communautaires. L’exhaustivité officielle de Pokémon Émeraude n’est pas certifiée. La source ne contient pas `RSE_Water With Shore`. Deux personnages à poses partielles sont signalés ; les passages et événements des portes restent à configurer. Le parcours dans l’interface Studio et les appareils physiques ne sont pas qualifiés. Voir [la qualification](packages/hoenn/0.1.0/qualification.json) et [les crédits](packages/hoenn/0.1.0/PROVENANCE-ET-CREDITS.txt).
 
 ## Contenu FRLG 1.9.4
 

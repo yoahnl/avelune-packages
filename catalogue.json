@@ -14,7 +14,11 @@
         "region": "KANTO",
         "format": "Pixel art 2D",
         "description": "Le charme de Kanto en pixels. Décors, composants, terrains et chemins pour composer vos cartes.",
-        "images": ["apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png", "apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png", "apercus/frlg-interior-general-lit-blanc-double.png"]
+        "images": [
+          "apercus/frlg-outside-r060-c3-arbre-rond-feuillu-isole.png",
+          "apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png",
+          "apercus/frlg-interior-general-lit-blanc-double.png"
+        ]
       }
     },
     {
@@ -30,7 +34,31 @@
         "region": "UNYS",
         "format": "3D & sprites 2D",
         "description": "Unys, pièce par pièce. Des modèles 3D, du mobilier et des pinceaux pour composer vos extérieurs comme vos intérieurs.",
-        "images": ["apercus/c05a8f7a36815305906885a1.png", "apercus/81d243d2534bee0471fb71b4.png", "apercus/c29bc4c56e672a881bc123d7.png"]
+        "images": [
+          "apercus/c05a8f7a36815305906885a1.png",
+          "apercus/81d243d2534bee0471fb71b4.png",
+          "apercus/c29bc4c56e672a881bc123d7.png"
+        ]
+      }
+    },
+    {
+      "id": "hoenn",
+      "name": "Hoenn — Cartes et personnages PMon",
+      "version": "0.1.0",
+      "qualification": "import-verified-source-library-coverage",
+      "manifest": "packages/hoenn/0.1.0/package.json",
+      "release": "https://github.com/yoahnl/avelune-packages/releases/tag/hoenn-v0.1.0",
+      "published": true,
+      "presentation": {
+        "title": "Hoenn · PMon World",
+        "region": "HOENN",
+        "format": "Pixel art 2D",
+        "description": "Terrains, chemins, végétation, bâtiments, portes, mobilier et personnages du projet Hoenn de PMon World.",
+        "images": [
+          "apercus/9f001061e6d9c895caf660ec.png",
+          "apercus/2fe9916d9e595cc6d1f95b1f.png",
+          "apercus/ae60c678d0f7b56a842c2065.png"
+        ]
       }
     }
   ]

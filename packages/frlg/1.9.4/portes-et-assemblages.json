@@ -1,0 +1,2756 @@
+{
+  "schema": "avelune.frlg.related-previews.v1",
+  "archiveSha256": "0d07d85b83ac7df480e60162908be37185f0ab56ab49e56f6f0f0296f92fd36c",
+  "doorGroups": [
+    {
+      "primaryId": "rp_ce0ebf6d42352964ad749e57db1a5ddf5269212728ecf384",
+      "primaryName": "Porte du Grand Magasin de Céladopole — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_253f89f95762c5574193ffe4312115cb4f831377bd2ed3ef",
+          "name": "Portes FRLG 6 — variante 2 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_253f89f95762c5574193ffe4312115cb4f831377bd2ed3ef.png"
+        },
+        {
+          "id": "rp_3a8594225596eb4873b1eadbad84ded6c1f9b7d39f85bf34",
+          "name": "Portes FRLG 6 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_3a8594225596eb4873b1eadbad84ded6c1f9b7d39f85bf34.png"
+        },
+        {
+          "id": "rp_771ef94d0299924414c580b730007d46fadba8ba430b4457",
+          "name": "Portes FRLG 6 — variante 2 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_771ef94d0299924414c580b730007d46fadba8ba430b4457.png"
+        },
+        {
+          "id": "rp_a3d6596d95bacc006154c7fe708ce33be385f13fbe250064",
+          "name": "Portes FRLG 6 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a3d6596d95bacc006154c7fe708ce33be385f13fbe250064.png"
+        },
+        {
+          "id": "rp_d841bbfa0e80eebd11153e963b9ac1cc271cae8d7b56de25",
+          "name": "Porte du Grand Magasin de Céladopole — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d841bbfa0e80eebd11153e963b9ac1cc271cae8d7b56de25.png"
+        },
+        {
+          "id": "rp_e023692e53c4451424b055ce5669af3e06ed645737784418",
+          "name": "Portes FRLG 6 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e023692e53c4451424b055ce5669af3e06ed645737784418.png"
+        },
+        {
+          "id": "rp_e6d7c64289590f619cebd5baece0592c323f03671c340f24",
+          "name": "Portes FRLG 6 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e6d7c64289590f619cebd5baece0592c323f03671c340f24.png"
+        },
+        {
+          "id": "rp_f5f880673bf981c47068e303e2d5413c4870b131ba5a6070",
+          "name": "Porte du Grand Magasin de Céladopole — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_f5f880673bf981c47068e303e2d5413c4870b131ba5a6070.png"
+        },
+        {
+          "id": "rp_f74aff17e3922a183175e5ff62e77ca32a072691547b8532",
+          "name": "Porte du Grand Magasin de Céladopole — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f74aff17e3922a183175e5ff62e77ca32a072691547b8532.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_4b34f401a15c49ef61ea7f417de444bb15fbf0eb018d1f81",
+      "primaryName": "Porte de maison d’Azuria — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_05bc3d0a758a6f8ee12ca669ccb2f3a4fbc355fd3e48850c",
+          "name": "Portes FRLG 4 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_05bc3d0a758a6f8ee12ca669ccb2f3a4fbc355fd3e48850c.png"
+        },
+        {
+          "id": "rp_28c96fa5e989c76846b95f0f9d1159c7911d6fa361104e9d",
+          "name": "Portes FRLG 4 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_28c96fa5e989c76846b95f0f9d1159c7911d6fa361104e9d.png"
+        },
+        {
+          "id": "rp_30233a5fe2984bd36d5eca7e14f009e44729ae35185d1fd4",
+          "name": "Portes FRLG 4 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_30233a5fe2984bd36d5eca7e14f009e44729ae35185d1fd4.png"
+        },
+        {
+          "id": "rp_68dab4a769cf3204855ee59f5a57dae0fdb582a937a76d77",
+          "name": "Porte de maison d’Azuria — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_68dab4a769cf3204855ee59f5a57dae0fdb582a937a76d77.png"
+        },
+        {
+          "id": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+          "name": "Portes FRLG 1 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf.png"
+        },
+        {
+          "id": "rp_a85e26d0c16685d82eaa744607fea623711605d5d8519bb0",
+          "name": "Porte de maison d’Azuria — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a85e26d0c16685d82eaa744607fea623711605d5d8519bb0.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_dc88372d1de6f25b8b90becefeb8c1365d7a89267da14f51",
+          "name": "Portes FRLG 4 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_dc88372d1de6f25b8b90becefeb8c1365d7a89267da14f51.png"
+        },
+        {
+          "id": "rp_efd542483e6a351785c144444b620babba2d52aaa444cc0c",
+          "name": "Portes FRLG 4 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_efd542483e6a351785c144444b620babba2d52aaa444cc0c.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_4a62c03348ea29bc53f22ff571b83dc765643b933a364347",
+      "primaryName": "Porte du laboratoire de Cramois’Île — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0d4ebc880a7f357066b70f6677b4ac63fe445858c5cce735",
+          "name": "Portes FRLG 4 — variante 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0d4ebc880a7f357066b70f6677b4ac63fe445858c5cce735.png"
+        },
+        {
+          "id": "rp_16dddf822a742c65251d73c9ae3fddcc5af6287ec7c4d91a",
+          "name": "Portes FRLG 4 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_16dddf822a742c65251d73c9ae3fddcc5af6287ec7c4d91a.png"
+        },
+        {
+          "id": "rp_307fea95d3ae059d2fcf76da94f6fb1c3706e4d207062f2a",
+          "name": "Porte du laboratoire de Cramois’Île — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_307fea95d3ae059d2fcf76da94f6fb1c3706e4d207062f2a.png"
+        },
+        {
+          "id": "rp_3994fb811ceae1d54112f4856e388f938aead4a90e3d2ebe",
+          "name": "Portes FRLG 4 — variante 4 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_3994fb811ceae1d54112f4856e388f938aead4a90e3d2ebe.png"
+        },
+        {
+          "id": "rp_61d6bb39cb408651fa1c7a4b34aae02b9861606bf45266d1",
+          "name": "Portes FRLG 4 — variante 4 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_61d6bb39cb408651fa1c7a4b34aae02b9861606bf45266d1.png"
+        },
+        {
+          "id": "rp_7358c5a8bee39c0d20093c58555e4331bf1e3768d69b6e45",
+          "name": "Portes FRLG 4 — variante 4 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7358c5a8bee39c0d20093c58555e4331bf1e3768d69b6e45.png"
+        },
+        {
+          "id": "rp_856c4657c8a162a29af725e8f6961d0f042ca167a5b30f82",
+          "name": "Portes FRLG 4 — variante 4 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_856c4657c8a162a29af725e8f6961d0f042ca167a5b30f82.png"
+        },
+        {
+          "id": "rp_87d5336e8291e6691c3fa1632a7a0f3a2ad19886de5d3afb",
+          "name": "Porte du laboratoire de Cramois’Île — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_87d5336e8291e6691c3fa1632a7a0f3a2ad19886de5d3afb.png"
+        },
+        {
+          "id": "rp_a6a40aa068137afe614fae18bbb39d40969439920842756e",
+          "name": "Porte du laboratoire de Cramois’Île — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a6a40aa068137afe614fae18bbb39d40969439920842756e.png"
+        },
+        {
+          "id": "rp_e096ec95beb85a82e6eb3daf89867ebe0ef13b9627ed2049",
+          "name": "Portes FRLG 4 — variante 4 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e096ec95beb85a82e6eb3daf89867ebe0ef13b9627ed2049.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_c015704ffb71a7f6dc0fc1f7428d4a227bbeb8e6dc0b271d",
+      "primaryName": "Porte de l’ascenseur du Grand Magasin — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_277f0423a74c02f7d6c9d01dc1f7e5e00b23d25c937da0ee",
+          "name": "Porte de l’ascenseur du Grand Magasin — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_277f0423a74c02f7d6c9d01dc1f7e5e00b23d25c937da0ee.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_2ca88b08b093eaefe1db36e970825c84e39240cd0c8654bf",
+      "primaryName": "Porte de maison de Parmanie — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0677be1fd98f0ec43363a993616096edc746d4835ba409c4",
+          "name": "Porte de maison de Parmanie — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0677be1fd98f0ec43363a993616096edc746d4835ba409c4.png"
+        },
+        {
+          "id": "rp_1c8ec88a6a997275e0ed010fd7af3423a3e64cb6841a6600",
+          "name": "Portes FRLG 2 — variante 2 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_1c8ec88a6a997275e0ed010fd7af3423a3e64cb6841a6600.png"
+        },
+        {
+          "id": "rp_279a9292e5bb323454e8215cda6f6849a7566ab633cdc9ec",
+          "name": "Portes FRLG 2 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_279a9292e5bb323454e8215cda6f6849a7566ab633cdc9ec.png"
+        },
+        {
+          "id": "rp_53152840f8ca5c5c109bdc790e93b46ad6938d98bf86ab6f",
+          "name": "Portes FRLG 2 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_53152840f8ca5c5c109bdc790e93b46ad6938d98bf86ab6f.png"
+        },
+        {
+          "id": "rp_6d5a6a40ff53b2f6b25f9d76b8beff2c598570a91f9df1de",
+          "name": "Portes FRLG 2 — variante 2 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_6d5a6a40ff53b2f6b25f9d76b8beff2c598570a91f9df1de.png"
+        },
+        {
+          "id": "rp_85748c9d05d2881bf0aa85a655e76415bcf7528f5d9e1a9f",
+          "name": "Portes FRLG 2 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_85748c9d05d2881bf0aa85a655e76415bcf7528f5d9e1a9f.png"
+        },
+        {
+          "id": "rp_8d1f25107394ea7b2a5283f69d9f60e47caf6ee95a797f63",
+          "name": "Portes FRLG 2 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_8d1f25107394ea7b2a5283f69d9f60e47caf6ee95a797f63.png"
+        },
+        {
+          "id": "rp_b3da0e3d1c00c42d97e36e321d9825da757d7c725156df19",
+          "name": "Porte de maison de Parmanie — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b3da0e3d1c00c42d97e36e321d9825da757d7c725156df19.png"
+        },
+        {
+          "id": "rp_e127aa27383d1b2ed3342855e64e37a7a7102ec896efde21",
+          "name": "Porte de maison de Parmanie — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e127aa27383d1b2ed3342855e64e37a7a7102ec896efde21.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_0fc5738e96480bef12986a5ef6234a2144cf08847dda6659",
+      "primaryName": "Porte du Parc Safari — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0197b9750cb66c85eeb2097c50bc6451872cb4372b820157",
+          "name": "Portes FRLG 7 — variante 2 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0197b9750cb66c85eeb2097c50bc6451872cb4372b820157.png"
+        },
+        {
+          "id": "rp_5c2ecae1de6d42f818043e1d115da85c9d3c94e4663f2144",
+          "name": "Portes FRLG 7 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_5c2ecae1de6d42f818043e1d115da85c9d3c94e4663f2144.png"
+        },
+        {
+          "id": "rp_70ec5f127f5170302802d6b632969a0fc6f4c39512f35ae4",
+          "name": "Portes FRLG 7 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_70ec5f127f5170302802d6b632969a0fc6f4c39512f35ae4.png"
+        },
+        {
+          "id": "rp_8dcb3705d42f959ba8a0881b426576c9e817717e5381b0e9",
+          "name": "Portes FRLG 7 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_8dcb3705d42f959ba8a0881b426576c9e817717e5381b0e9.png"
+        },
+        {
+          "id": "rp_a9b383793972914813bfbea9ca7c65ac7d6e1eea1a41262d",
+          "name": "Portes FRLG 7 — variante 2 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a9b383793972914813bfbea9ca7c65ac7d6e1eea1a41262d.png"
+        },
+        {
+          "id": "rp_ac4aba7df3712522011aacf4d631a9cfd2f2979b26d6109d",
+          "name": "Porte du Parc Safari — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_ac4aba7df3712522011aacf4d631a9cfd2f2979b26d6109d.png"
+        },
+        {
+          "id": "rp_b7dc9abb5b94e75c27abd63fd034a34d58d48c9f64764861",
+          "name": "Porte du Parc Safari — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b7dc9abb5b94e75c27abd63fd034a34d58d48c9f64764861.png"
+        },
+        {
+          "id": "rp_c4fb89380a947de19f9ef73f850c6236468c0d09e302ecf4",
+          "name": "Porte du Parc Safari — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_c4fb89380a947de19f9ef73f850c6236468c0d09e302ecf4.png"
+        },
+        {
+          "id": "rp_fcb6843260ede079f2427cf90531c54ba9e0d7c67208bf0b",
+          "name": "Portes FRLG 7 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_fcb6843260ede079f2427cf90531c54ba9e0d7c67208bf0b.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_7f6f884d2e389d444ca1b4b42519df9b0ccfb8b97ab6432b",
+      "primaryName": "Porte générale de Kanto — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_2e828f6a7592509c92d6415d3d96791ea0c472f88332be92",
+          "name": "Porte générale de Kanto — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_2e828f6a7592509c92d6415d3d96791ea0c472f88332be92.png"
+        },
+        {
+          "id": "rp_6097fdc73466b43acbe96a73b76097eea56fe8ac9293cae4",
+          "name": "Porte générale de Kanto — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6097fdc73466b43acbe96a73b76097eea56fe8ac9293cae4.png"
+        },
+        {
+          "id": "rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30",
+          "name": "Porte de maison du Bourg Palette — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_570d72fc977eb45654968f8db85bf57feb89bc6c8aa4798a",
+      "primaryName": "Porte coulissante double de Kanto — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_08160e22c7160a01da95389980a9fa46299bc4cac0b907ae",
+          "name": "Portes FRLG 6 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_08160e22c7160a01da95389980a9fa46299bc4cac0b907ae.png"
+        },
+        {
+          "id": "rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7",
+          "name": "Portes FRLG 6 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7.png"
+        },
+        {
+          "id": "rp_631b5c092606c62cae0cf76ef36d83dfeb17525220d5eabc",
+          "name": "Portes FRLG 6 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_631b5c092606c62cae0cf76ef36d83dfeb17525220d5eabc.png"
+        },
+        {
+          "id": "rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1",
+          "name": "Portes FRLG 3 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1.png"
+        },
+        {
+          "id": "rp_953229ea07b6ea594baad5d604e27177faab5fa3929674ee",
+          "name": "Portes FRLG 6 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_953229ea07b6ea594baad5d604e27177faab5fa3929674ee.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_b68b15bbc23bc45e28d775a49aae265aa9d1785211d57acd",
+          "name": "Porte coulissante double de Kanto — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b68b15bbc23bc45e28d775a49aae265aa9d1785211d57acd.png"
+        },
+        {
+          "id": "rp_be2e88303b0d33f570885dc160da5bd285f2f6ad7e8725bc",
+          "name": "Porte coulissante double de Kanto — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_be2e88303b0d33f570885dc160da5bd285f2f6ad7e8725bc.png"
+        },
+        {
+          "id": "rp_c4bfe5f1b31940cc37847a834aef1e52b0ec4f669e3feef6",
+          "name": "Portes FRLG 6 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_c4bfe5f1b31940cc37847a834aef1e52b0ec4f669e3feef6.png"
+        },
+        {
+          "id": "rp_e21d711cf8dae1e048f59e96128366f32196d920851a4e40",
+          "name": "Portes FRLG 6 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e21d711cf8dae1e048f59e96128366f32196d920851a4e40.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_e06cfe4bd8f7cef02f10aa9aa4505f2bd9c597bc97a931b2",
+      "primaryName": "Porte coulissante simple de Kanto — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_24ecd8e888cb6e20482da0f1e7e09fb9385edd1d83ac8c88",
+          "name": "Portes FRLG 3 — variante 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_24ecd8e888cb6e20482da0f1e7e09fb9385edd1d83ac8c88.png"
+        },
+        {
+          "id": "rp_5339c22aa27a333a145de4839d84cff522ea5332805bdfb4",
+          "name": "Portes FRLG 3 — variante 4 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_5339c22aa27a333a145de4839d84cff522ea5332805bdfb4.png"
+        },
+        {
+          "id": "rp_5ae7a0a006ea269d9b7b8ff5b70a45a19a3fa09038ef00b1",
+          "name": "Porte coulissante simple de Kanto — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_5ae7a0a006ea269d9b7b8ff5b70a45a19a3fa09038ef00b1.png"
+        },
+        {
+          "id": "rp_6f00353906ff29c0e9ab44ab73a5ba9d6884e4307efb320e",
+          "name": "Porte coulissante simple de Kanto — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6f00353906ff29c0e9ab44ab73a5ba9d6884e4307efb320e.png"
+        },
+        {
+          "id": "rp_7008100899b447f78fcfae33f17ef84d7e9f22d93b1d7013",
+          "name": "Portes FRLG 3 — variante 4 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7008100899b447f78fcfae33f17ef84d7e9f22d93b1d7013.png"
+        },
+        {
+          "id": "rp_78fbed7280bec0e24e07cd4482010c98fe9d10c2bcf2437e",
+          "name": "Portes FRLG 3 — variante 4 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_78fbed7280bec0e24e07cd4482010c98fe9d10c2bcf2437e.png"
+        },
+        {
+          "id": "rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1",
+          "name": "Portes FRLG 3 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1.png"
+        },
+        {
+          "id": "rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7",
+          "name": "Portes FRLG 6 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_cedb36f12d5d4b57973330d273dd073151cd17b4151e5352",
+          "name": "Portes FRLG 3 — variante 4 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_cedb36f12d5d4b57973330d273dd073151cd17b4151e5352.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_e396ab2a804df0a9d3e0181c89540bc7cbe475a350d37d79",
+      "primaryName": "Porte de maison de Lavanville — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+          "name": "Portes FRLG 1 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf.png"
+        },
+        {
+          "id": "rp_0fabb4bb96bc9dec1f7184c23ab88d757cc035996c196918",
+          "name": "Portes FRLG 1 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0fabb4bb96bc9dec1f7184c23ab88d757cc035996c196918.png"
+        },
+        {
+          "id": "rp_1d079b0d1b9915bb6a102eb9447f8cc03cf1a92e1c934c3c",
+          "name": "Porte de maison de Lavanville — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_1d079b0d1b9915bb6a102eb9447f8cc03cf1a92e1c934c3c.png"
+        },
+        {
+          "id": "rp_38dbb3663775501076cf2611cb00e64d8fe235d032b47f06",
+          "name": "Portes FRLG 1 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_38dbb3663775501076cf2611cb00e64d8fe235d032b47f06.png"
+        },
+        {
+          "id": "rp_4595c75428fa5a00bab3f840477c031596eef2f28c1a1ef6",
+          "name": "Porte de maison de Lavanville — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_4595c75428fa5a00bab3f840477c031596eef2f28c1a1ef6.png"
+        },
+        {
+          "id": "rp_462513dc2f9f8e42d44d5a3085df4766925c9fb0497cc4f4",
+          "name": "Portes FRLG 1 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_462513dc2f9f8e42d44d5a3085df4766925c9fb0497cc4f4.png"
+        },
+        {
+          "id": "rp_9f9dcafc4259b6436a2162d268f3074bbc8a0b042a4019ab",
+          "name": "Portes FRLG 1 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_9f9dcafc4259b6436a2162d268f3074bbc8a0b042a4019ab.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_e4e9fc76efcf60dc45d6af6faa976b5cd2ddcfea61e4bed0",
+          "name": "Portes FRLG 1 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e4e9fc76efcf60dc45d6af6faa976b5cd2ddcfea61e4bed0.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_2e21d28094d495a9563a700fc9b4c6565cb0e5c28fbb8a1f",
+      "primaryName": "Porte de maison du Bourg Palette — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_20a447f558835b341a8512f10ffcf9a1e628743da2eb3887",
+          "name": "Portes FRLG 5 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_20a447f558835b341a8512f10ffcf9a1e628743da2eb3887.png"
+        },
+        {
+          "id": "rp_77c44c72801686056e3e4fc990b485be4dbeecb7fad5852a",
+          "name": "Porte de maison du Bourg Palette — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_77c44c72801686056e3e4fc990b485be4dbeecb7fad5852a.png"
+        },
+        {
+          "id": "rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30",
+          "name": "Porte de maison du Bourg Palette — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30.png"
+        },
+        {
+          "id": "rp_8b0ab15fab4b402269594b8baf22b47732e1b9bd8feab761",
+          "name": "Portes FRLG 5 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_8b0ab15fab4b402269594b8baf22b47732e1b9bd8feab761.png"
+        },
+        {
+          "id": "rp_c2c3dac938e7597245c9476169cee5a8b92fb4da61487abf",
+          "name": "Porte de maison du Bourg Palette — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_c2c3dac938e7597245c9476169cee5a8b92fb4da61487abf.png"
+        },
+        {
+          "id": "rp_cfdd608aabc032decda3b86770df38dd4a304069163de0d3",
+          "name": "Portes FRLG 5 — variante 2 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_cfdd608aabc032decda3b86770df38dd4a304069163de0d3.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_da0b2652bf72fc89233940df3bbbaba0a9c71fbe488806ae",
+          "name": "Portes FRLG 5 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_da0b2652bf72fc89233940df3bbbaba0a9c71fbe488806ae.png"
+        },
+        {
+          "id": "rp_f433ad4496eaaf1f13857136f23a54be6723da8ba6d92ab9",
+          "name": "Portes FRLG 5 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f433ad4496eaaf1f13857136f23a54be6723da8ba6d92ab9.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_012ad95b32c9bd0b6894f9282dd20f931561b35e36c8357a",
+      "primaryName": "Porte du laboratoire du Professeur Chen — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_3302d7658572840dc413b4ad4b70fbc0424e91698a321cfa",
+          "name": "Porte du laboratoire du Professeur Chen — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_3302d7658572840dc413b4ad4b70fbc0424e91698a321cfa.png"
+        },
+        {
+          "id": "rp_747fcb2fc1d5ba253f249196e307f98b5d4de5fcef2ad9f3",
+          "name": "Porte du laboratoire du Professeur Chen — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_747fcb2fc1d5ba253f249196e307f98b5d4de5fcef2ad9f3.png"
+        },
+        {
+          "id": "rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30",
+          "name": "Porte de maison du Bourg Palette — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_8471e72b3308a9a653fe359d1742a3e2c7dec47307fd3cb5",
+      "primaryName": "Porte de maison d’Argenta — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0cff1c16e6e6f61b2d6921010ebdf775d35c2a9ee91d2a6d",
+          "name": "Portes FRLG 5 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0cff1c16e6e6f61b2d6921010ebdf775d35c2a9ee91d2a6d.png"
+        },
+        {
+          "id": "rp_2375684a875d4ff06c070beab2a1e31511d44386b4a8dda8",
+          "name": "Portes FRLG 5 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_2375684a875d4ff06c070beab2a1e31511d44386b4a8dda8.png"
+        },
+        {
+          "id": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+          "name": "Portes FRLG 1 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf.png"
+        },
+        {
+          "id": "rp_5a69f315f3be2dfcc63b0b6f7b358b94bbb9d72b9a70f21f",
+          "name": "Portes FRLG 5 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_5a69f315f3be2dfcc63b0b6f7b358b94bbb9d72b9a70f21f.png"
+        },
+        {
+          "id": "rp_6e81297b7786f4d31d808b064f878b49c80d73aefec7fcef",
+          "name": "Porte de maison d’Argenta — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6e81297b7786f4d31d808b064f878b49c80d73aefec7fcef.png"
+        },
+        {
+          "id": "rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30",
+          "name": "Porte de maison du Bourg Palette — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7efdbe51f148b382c17319786727c405c82bb56f863cde30.png"
+        },
+        {
+          "id": "rp_b38bc6333e62dd61634f046a9ec14a5346d9090ab1984a45",
+          "name": "Porte de maison d’Argenta — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_b38bc6333e62dd61634f046a9ec14a5346d9090ab1984a45.png"
+        },
+        {
+          "id": "rp_c34902472c7a267b20d5b1c6ed19aa983f1be2909633d323",
+          "name": "Portes FRLG 5 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_c34902472c7a267b20d5b1c6ed19aa983f1be2909633d323.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_f76b31772c055c1abd9eefbfbd0e3a6ddae6280435f918b1",
+          "name": "Portes FRLG 5 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_f76b31772c055c1abd9eefbfbd0e3a6ddae6280435f918b1.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_aa4141d27a520b2f4df433c346d85e829adc456d2d4d8285",
+      "primaryName": "Porte du Club Link du Centre Pokémon — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_729aa63e0fef36daebe0e5718220bbd21097ca49422f2485",
+          "name": "Porte du Club Link du Centre Pokémon — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_729aa63e0fef36daebe0e5718220bbd21097ca49422f2485.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_f2c9a945cd4ae2cd994e328a4dfa98b2e8b7c87e01dee5d6",
+      "primaryName": "Porte de maison de Safrania — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_2c3f0fc9baaa50795d688411c9b8dc26ce9d5126649375bf",
+          "name": "Portes FRLG 3 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_2c3f0fc9baaa50795d688411c9b8dc26ce9d5126649375bf.png"
+        },
+        {
+          "id": "rp_5b804bd6d3623fca83812e3656b98b1828a866e4d41c6716",
+          "name": "Porte de maison de Safrania — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_5b804bd6d3623fca83812e3656b98b1828a866e4d41c6716.png"
+        },
+        {
+          "id": "rp_67aee50d6bd881e18c1b7cd9c5244fe52374b908f446ba8c",
+          "name": "Portes FRLG 3 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_67aee50d6bd881e18c1b7cd9c5244fe52374b908f446ba8c.png"
+        },
+        {
+          "id": "rp_748dabc08d93dd09afa52937bff1c9e2418b2b3ec670ae0d",
+          "name": "Portes FRLG 3 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_748dabc08d93dd09afa52937bff1c9e2418b2b3ec670ae0d.png"
+        },
+        {
+          "id": "rp_75157a3b08892a18f445e3c6068af02e0a60fdae03fbcb7f",
+          "name": "Portes FRLG 3 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_75157a3b08892a18f445e3c6068af02e0a60fdae03fbcb7f.png"
+        },
+        {
+          "id": "rp_98fcb5f09be2cc68ac2c54124b71835bdb9ddd2a4f2fe1a9",
+          "name": "Portes FRLG 3 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_98fcb5f09be2cc68ac2c54124b71835bdb9ddd2a4f2fe1a9.png"
+        },
+        {
+          "id": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+          "name": "Portes FRLG 1 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_70dc015dabb064ba51f4c5bd435904124573a0ddb592f7b2",
+      "primaryName": "Porte de la Sylphe SARL — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0846ffa9b4e3111391d6be1c89b1e1de30ad91ce4ecfc1ce",
+          "name": "Portes FRLG 7 — variante 3 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0846ffa9b4e3111391d6be1c89b1e1de30ad91ce4ecfc1ce.png"
+        },
+        {
+          "id": "rp_0b99728e5c91d9e6edce9333325fa7be39c510d1ecfe1c97",
+          "name": "Porte de la Sylphe SARL — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0b99728e5c91d9e6edce9333325fa7be39c510d1ecfe1c97.png"
+        },
+        {
+          "id": "rp_0d0464de7b7a88aed5e5e90a63523fba3e711d27738a1334",
+          "name": "Portes FRLG 7 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0d0464de7b7a88aed5e5e90a63523fba3e711d27738a1334.png"
+        },
+        {
+          "id": "rp_2bda915c0f5be5ba47079309041f838bee544b59b66a1eda",
+          "name": "Portes FRLG 7 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_2bda915c0f5be5ba47079309041f838bee544b59b66a1eda.png"
+        },
+        {
+          "id": "rp_543fd52bfbea949d819a21ad49eee2be94cb245649592dbd",
+          "name": "Portes FRLG 7 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_543fd52bfbea949d819a21ad49eee2be94cb245649592dbd.png"
+        },
+        {
+          "id": "rp_6c3997e12102f86c7a4c3960591ebf863fa485b467ddae46",
+          "name": "Portes FRLG 7 — variante 3 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6c3997e12102f86c7a4c3960591ebf863fa485b467ddae46.png"
+        },
+        {
+          "id": "rp_7231b089f82558c8792c3ea13a32f8f48a8a8b6b579004d8",
+          "name": "Portes FRLG 7 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7231b089f82558c8792c3ea13a32f8f48a8a8b6b579004d8.png"
+        },
+        {
+          "id": "rp_9ef66fc7180f45cf836a7c9ea159361cee105be1fe3240b0",
+          "name": "Porte de la Sylphe SARL — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_9ef66fc7180f45cf836a7c9ea159361cee105be1fe3240b0.png"
+        },
+        {
+          "id": "rp_cc1df3fc4307fc77808be0e5cbba8f31c2349247e2a6c201",
+          "name": "Porte de la Sylphe SARL — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_cc1df3fc4307fc77808be0e5cbba8f31c2349247e2a6c201.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_d4d9f0c5dbff06be4f3c27202c0104f143b5c9273323f2e1",
+      "primaryName": "Porte du téléporteur du Chalet de Léo — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_a28d0c8275bca8af38be1563b508eaf11e79c7a7144d388f",
+          "name": "Porte du téléporteur du Chalet de Léo — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_a28d0c8275bca8af38be1563b508eaf11e79c7a7144d388f.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_db7d606412984830ceab466727792c33c217fcecc65acdcb",
+      "primaryName": "Porte de maison des îles Sevii — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_65081e8ef4e9ff46fe2578d5ebb24490f8c4b139cd9c86e8",
+          "name": "Portes FRLG 1 — variante 4 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_65081e8ef4e9ff46fe2578d5ebb24490f8c4b139cd9c86e8.png"
+        },
+        {
+          "id": "rp_906e54790f4852e8fd1d9911f275638ecb70fc8de6abbbc7",
+          "name": "Porte de maison des îles Sevii — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_906e54790f4852e8fd1d9911f275638ecb70fc8de6abbbc7.png"
+        },
+        {
+          "id": "rp_aa1024d7567fc923d437d977638c98e815a628c7c7ffe743",
+          "name": "Portes FRLG 1 — variante 4 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_aa1024d7567fc923d437d977638c98e815a628c7c7ffe743.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_b6df9c9297ad399c0178b47f95f5667223c0556caa46f9f9",
+          "name": "Porte de maison des îles Sevii — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b6df9c9297ad399c0178b47f95f5667223c0556caa46f9f9.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_e46099435b860c1378a2ca8d5b3f7932ba51ac2a4362ef68",
+          "name": "Portes FRLG 1 — variante 4 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e46099435b860c1378a2ca8d5b3f7932ba51ac2a4362ef68.png"
+        },
+        {
+          "id": "rp_f29724ce5f12d7a0cf53199c35cd8e9388825992718eb50a",
+          "name": "Portes FRLG 1 — variante 4 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f29724ce5f12d7a0cf53199c35cd8e9388825992718eb50a.png"
+        },
+        {
+          "id": "rp_ff6d91f09a838e701048e7ebf24438e35e4941c9bc45dc11",
+          "name": "Portes FRLG 1 — variante 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_ff6d91f09a838e701048e7ebf24438e35e4941c9bc45dc11.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_62478886ddfb5d14f3a56714c3862752a79cd6bb97613c88",
+      "primaryName": "Porte de la Salle de Jeu de l’Île 2 — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0998084d784b6e12cb965db7951694705a2dbb3c23d3c6e9",
+          "name": "Portes FRLG 6 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0998084d784b6e12cb965db7951694705a2dbb3c23d3c6e9.png"
+        },
+        {
+          "id": "rp_0d850f5f5b8f8a0ca924f9bbc53a22f964f741458c2ba98e",
+          "name": "Porte de la Salle de Jeu de l’Île 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0d850f5f5b8f8a0ca924f9bbc53a22f964f741458c2ba98e.png"
+        },
+        {
+          "id": "rp_47823e704fdd7ea86060f598a2cb91ad6f6529dc9c6491c4",
+          "name": "Portes FRLG 6 — variante 3 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_47823e704fdd7ea86060f598a2cb91ad6f6529dc9c6491c4.png"
+        },
+        {
+          "id": "rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1",
+          "name": "Portes FRLG 3 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1.png"
+        },
+        {
+          "id": "rp_837b3068a1489e1205f17cf5d1090b87199bc06d11e77e28",
+          "name": "Porte du Centre Pokémon de l’Île 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_837b3068a1489e1205f17cf5d1090b87199bc06d11e77e28.png"
+        },
+        {
+          "id": "rp_8380306eb1649f6ea5d88f6e1e26756b87d9af6d784dfb47",
+          "name": "Portes FRLG 6 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_8380306eb1649f6ea5d88f6e1e26756b87d9af6d784dfb47.png"
+        },
+        {
+          "id": "rp_d1ab33721299cf603bfa070057af5b0045acf4f69cc0dba3",
+          "name": "Portes FRLG 6 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d1ab33721299cf603bfa070057af5b0045acf4f69cc0dba3.png"
+        },
+        {
+          "id": "rp_f411a8c08196cfa2129a705a4084cd595abc36f732201b83",
+          "name": "Portes FRLG 6 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_f411a8c08196cfa2129a705a4084cd595abc36f732201b83.png"
+        },
+        {
+          "id": "rp_f55de674698409d1beb92fe73e34a97f28b7b783f1a642c5",
+          "name": "Porte de la Salle de Jeu de l’Île 2 — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f55de674698409d1beb92fe73e34a97f28b7b783f1a642c5.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_50b0a59774eea739fbea209918b9840171ba838db7af73e1",
+      "primaryName": "Porte du Centre Pokémon de l’Île 1 — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_c275b5f3f84f3f9d009e6db0c57d1c58b5b3b4837a47e6e2",
+          "name": "Porte du Centre Pokémon de l’Île 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_c275b5f3f84f3f9d009e6db0c57d1c58b5b3b4837a47e6e2.png"
+        },
+        {
+          "id": "rp_b0df9729a08a0569b790826d767eca7326764163fb180b47",
+          "name": "Porte du Centre Pokémon de l’Île 1 — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b0df9729a08a0569b790826d767eca7326764163fb180b47.png"
+        },
+        {
+          "id": "rp_837b3068a1489e1205f17cf5d1090b87199bc06d11e77e28",
+          "name": "Porte du Centre Pokémon de l’Île 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_837b3068a1489e1205f17cf5d1090b87199bc06d11e77e28.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_8d1c960b43c86dea8463aba33314ec7080b4d2cd7584e79b",
+      "primaryName": "Porte de la Pension de l’Île 4 — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_02a80e05e16c3d9e38122711fccb17bf665901b4279c471a",
+          "name": "Portes FRLG 4 — variante 3 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_02a80e05e16c3d9e38122711fccb17bf665901b4279c471a.png"
+        },
+        {
+          "id": "rp_04a51ef63ddbf8ed99bbf2bf5b7e590214ac858533bb2377",
+          "name": "Portes FRLG 4 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_04a51ef63ddbf8ed99bbf2bf5b7e590214ac858533bb2377.png"
+        },
+        {
+          "id": "rp_576910347af9e6854788f851ba092ce6b65d1d933c336b1e",
+          "name": "Portes FRLG 4 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_576910347af9e6854788f851ba092ce6b65d1d933c336b1e.png"
+        },
+        {
+          "id": "rp_6194d20e117a4f8a0ee4b318ae20aea40e039598088eb0e4",
+          "name": "Porte de la Pension de l’Île 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6194d20e117a4f8a0ee4b318ae20aea40e039598088eb0e4.png"
+        },
+        {
+          "id": "rp_6ac1f84181a560bd83b86f8c35bc046b47dede454e63b1cf",
+          "name": "Portes FRLG 4 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_6ac1f84181a560bd83b86f8c35bc046b47dede454e63b1cf.png"
+        },
+        {
+          "id": "rp_8f4efcb7ed0a767031fb3498a7320289d7b3ff25bc29676a",
+          "name": "Portes FRLG 4 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_8f4efcb7ed0a767031fb3498a7320289d7b3ff25bc29676a.png"
+        },
+        {
+          "id": "rp_97ab312639505678c86fdeae02738ed2876a91df6e39697e",
+          "name": "Porte de la Pension de l’Île 4 — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_97ab312639505678c86fdeae02738ed2876a91df6e39697e.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_e1d96366fd8dd430af430cc0353a01179ab475f7e734355d",
+          "name": "Porte de la Pension de l’Île 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_e1d96366fd8dd430af430cc0353a01179ab475f7e734355d.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_b1439a4fd73b005833b4bf62c65a1898bc1105ef5aac7206",
+      "primaryName": "Porte déverrouillée de l’Entrepôt Rocket — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0729b37cd12115b1e25d970126dd3c7ab2b2b0d44c173feb",
+          "name": "Porte déverrouillée de l’Entrepôt Rocket — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_0729b37cd12115b1e25d970126dd3c7ab2b2b0d44c173feb.png"
+        },
+        {
+          "id": "rp_282359170040a360d55b16920852396e78d7b5429af19903",
+          "name": "Portes FRLG 7 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_282359170040a360d55b16920852396e78d7b5429af19903.png"
+        },
+        {
+          "id": "rp_366b2acb0ac8fdd0c462a36fad224787b0337298889cb4c3",
+          "name": "Portes FRLG 7 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_366b2acb0ac8fdd0c462a36fad224787b0337298889cb4c3.png"
+        },
+        {
+          "id": "rp_3c439b5c9dca7bdaa09d177ce4cefc4e9bf8de9852f50678",
+          "name": "Porte déverrouillée de l’Entrepôt Rocket — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_3c439b5c9dca7bdaa09d177ce4cefc4e9bf8de9852f50678.png"
+        },
+        {
+          "id": "rp_538a0c5f7a41add40793e088bfb42a74f603195edc46b7bc",
+          "name": "Portes FRLG 7 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_538a0c5f7a41add40793e088bfb42a74f603195edc46b7bc.png"
+        },
+        {
+          "id": "rp_7092554dba8ccc4511448682b879689aa9a255f3fba070e5",
+          "name": "Portes FRLG 7 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_7092554dba8ccc4511448682b879689aa9a255f3fba070e5.png"
+        },
+        {
+          "id": "rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7",
+          "name": "Portes FRLG 6 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_30a43ae108068ce2fec7628e7794ed5aea11e45b619527f7.png"
+        },
+        {
+          "id": "rp_ea254f9e6520b7523cb748ad5006235133d2413727796cd2",
+          "name": "Porte déverrouillée de l’Entrepôt Rocket — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_ea254f9e6520b7523cb748ad5006235133d2413727796cd2.png"
+        },
+        {
+          "id": "rp_f10d090974a804d1c8aea759febb35a22fd2c6dfc0c06d87",
+          "name": "Portes FRLG 7 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_f10d090974a804d1c8aea759febb35a22fd2c6dfc0c06d87.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_a4e00c5e5b1e0905cdffbc6b22ff5baf35b5836bf38412a4",
+      "primaryName": "Porte de l’ascenseur de la Sylphe SARL — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_4d130a7c4194cea4b76940ae1eab336b49a77130669e0dc7",
+          "name": "Porte de l’ascenseur de la Sylphe SARL — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_4d130a7c4194cea4b76940ae1eab336b49a77130669e0dc7.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_530237bef495e39a586fe36a67c33f5e82b4f3d4b55f3b90",
+      "primaryName": "Porte de l’ascenseur du Repaire Rocket — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_00d748bd26a6e0a14e08b8205d4042df3601bb5e708d6655",
+          "name": "Porte de l’ascenseur du Repaire Rocket — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_00d748bd26a6e0a14e08b8205d4042df3601bb5e708d6655.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_dd53b81679a51975364c4e559e156891f7140be7c7cde6e7",
+      "primaryName": "Porte de cabine de l’Océane — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_3520e69b74719768fc89ea59455c52171c730336e8717fc4",
+          "name": "Porte de cabine de l’Océane — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_3520e69b74719768fc89ea59455c52171c730336e8717fc4.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_af3ac500889a20af256874a82f719aac37329eff4426a925",
+      "primaryName": "Porte de l’ascenseur du hall de la Tour des Dresseurs — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_ec815b414807b1265d1903e5ca20bd41af44ace7447697a2",
+          "name": "Porte de l’ascenseur du hall de la Tour des Dresseurs — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_ec815b414807b1265d1903e5ca20bd41af44ace7447697a2.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_9dae2ed65ef7f6f2a9b037a269af9681282e2dfe54ff9c96",
+      "primaryName": "Porte de l’ascenseur du toit de la Tour des Dresseurs — ouverture",
+      "kind": "native-style-with-states-and-source-palette-variants",
+      "companions": [
+        {
+          "id": "rp_b0435ea32baafcc543c21c341680c9a22c4c3ce82670bb0b",
+          "name": "Porte de l’ascenseur du toit de la Tour des Dresseurs — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_b0435ea32baafcc543c21c341680c9a22c4c3ce82670bb0b.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_bd50ebf9b1833bdec98f21da41e2b4ce6d444be61834ffe6",
+      "primaryName": "Porte de maison de Carmin sur Mer — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0db76d0a6a6e9c8d28447e6c73d63e46237a468f3ade9519",
+          "name": "Portes FRLG 4 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0db76d0a6a6e9c8d28447e6c73d63e46237a468f3ade9519.png"
+        },
+        {
+          "id": "rp_953d5eccc707c43b88c6d6212ab6071ad141680538e1f0fb",
+          "name": "Porte de maison de Carmin sur Mer — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_953d5eccc707c43b88c6d6212ab6071ad141680538e1f0fb.png"
+        },
+        {
+          "id": "rp_a4c95470eface1ecf4ed90ca49bb01197f4103b1532b8b69",
+          "name": "Portes FRLG 4 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a4c95470eface1ecf4ed90ca49bb01197f4103b1532b8b69.png"
+        },
+        {
+          "id": "rp_ad434afdefa8062afe58371dda82244d0ec1ea4a7ff27d95",
+          "name": "Portes FRLG 4 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_ad434afdefa8062afe58371dda82244d0ec1ea4a7ff27d95.png"
+        },
+        {
+          "id": "rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1",
+          "name": "Porte coulissante simple de Kanto — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b5061ef01271779df7edf0c6d2de93dcc7b716c67a6822a1.png"
+        },
+        {
+          "id": "rp_cb624dd8bb5e74e32ad89975349624d717af757aa1a78679",
+          "name": "Portes FRLG 4 — variante 2 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_cb624dd8bb5e74e32ad89975349624d717af757aa1a78679.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_dd6cdd0ca48f1b42679e34e65fb73f8bf97939523bf26f69",
+          "name": "Portes FRLG 4 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_dd6cdd0ca48f1b42679e34e65fb73f8bf97939523bf26f69.png"
+        },
+        {
+          "id": "rp_f7155cf95a11df9e48a6adb3fd6ab6bf145799e8dc3cb366",
+          "name": "Porte de maison de Carmin sur Mer — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_f7155cf95a11df9e48a6adb3fd6ab6bf145799e8dc3cb366.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_3c97041272cf98e27971eba477ef05e97af7a11140b47134",
+      "primaryName": "Porte de maison de Jadielle — ouverture",
+      "kind": "native-with-rpg-palette",
+      "companions": [
+        {
+          "id": "rp_0f21743e9907541bf99016041e0f772f9bc3fb17432f2d33",
+          "name": "Porte de maison de Jadielle — état fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0f21743e9907541bf99016041e0f772f9bc3fb17432f2d33.png"
+        },
+        {
+          "id": "rp_1bf3c671b5661fba847091f6f05624d6b12f74a8d5a09719",
+          "name": "Portes FRLG 2 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_1bf3c671b5661fba847091f6f05624d6b12f74a8d5a09719.png"
+        },
+        {
+          "id": "rp_2a259963bad4ad80880f9475d8f6620e59830322cfff6db5",
+          "name": "Portes FRLG 2 — variante 1 — ouverture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_2a259963bad4ad80880f9475d8f6620e59830322cfff6db5.png"
+        },
+        {
+          "id": "rp_777827962577b62809441bd08d3759bd3649d6f9ef27e10f",
+          "name": "Portes FRLG 2 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_777827962577b62809441bd08d3759bd3649d6f9ef27e10f.png"
+        },
+        {
+          "id": "rp_8a545a41235ff670bb6a2be4ef4b93850bd6ed036290a366",
+          "name": "Porte de maison de Jadielle — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_8a545a41235ff670bb6a2be4ef4b93850bd6ed036290a366.png"
+        },
+        {
+          "id": "rp_8db0a335f36bc31a4958deb35d20a730aabdb699c57a1eb6",
+          "name": "Porte de maison de Jadielle — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_8db0a335f36bc31a4958deb35d20a730aabdb699c57a1eb6.png"
+        },
+        {
+          "id": "rp_c474c5abb1e16d2d4017b4d751a75cb7faeec53c420ce0de",
+          "name": "Portes FRLG 2 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_c474c5abb1e16d2d4017b4d751a75cb7faeec53c420ce0de.png"
+        },
+        {
+          "id": "rp_cbc1420c35c6fd41bbec52fd8836cb9b7c8e504b8db01470",
+          "name": "Portes FRLG 2 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_cbc1420c35c6fd41bbec52fd8836cb9b7c8e504b8db01470.png"
+        },
+        {
+          "id": "rp_ee8853ece2821bf76d8abbc649b826d4ddb5f4ac1a9415b5",
+          "name": "Portes FRLG 2 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_ee8853ece2821bf76d8abbc649b826d4ddb5f4ac1a9415b5.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_988ecfd57ecf86dc87def42e4841ec50fda10c98026601ba",
+      "primaryName": "Portes FRLG 1 — variante 2 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_1496186c1890bbd25a0930c53adb5ced9d9850ef588f62ab",
+          "name": "Portes FRLG 1 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_1496186c1890bbd25a0930c53adb5ced9d9850ef588f62ab.png"
+        },
+        {
+          "id": "rp_32e9d96225e1d5c97b72fe8476a5d97c37440e35bc5a792e",
+          "name": "Portes FRLG 1 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_32e9d96225e1d5c97b72fe8476a5d97c37440e35bc5a792e.png"
+        },
+        {
+          "id": "rp_3a955c7665d80014356af8631893c0303f08c2370623e705",
+          "name": "Portes FRLG 1 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_3a955c7665d80014356af8631893c0303f08c2370623e705.png"
+        },
+        {
+          "id": "rp_b7d4437e91c05c563f2355540ec46e15941511502f69924c",
+          "name": "Portes FRLG 1 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b7d4437e91c05c563f2355540ec46e15941511502f69924c.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_cdf60b4fec54ed30e29f4535495144b860226bd32a0e1dba",
+      "primaryName": "Portes FRLG 1 — variante 3 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_100158a7f23a12c532b1e41cec5ffd2a04d5fa19e20a51cc",
+          "name": "Portes FRLG 1 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_100158a7f23a12c532b1e41cec5ffd2a04d5fa19e20a51cc.png"
+        },
+        {
+          "id": "rp_12f2261e3ad82943e52243ed725497b8fdde590fd32f499d",
+          "name": "Portes FRLG 1 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_12f2261e3ad82943e52243ed725497b8fdde590fd32f499d.png"
+        },
+        {
+          "id": "rp_b8fec2bec42852af75c4ccbe294371f003287b4870bdbda5",
+          "name": "Portes FRLG 1 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b8fec2bec42852af75c4ccbe294371f003287b4870bdbda5.png"
+        },
+        {
+          "id": "rp_c1148ceeffc609887115e7c6583f92758479285a4c7cbcc0",
+          "name": "Portes FRLG 1 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_c1148ceeffc609887115e7c6583f92758479285a4c7cbcc0.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_b738ab01cefee2e26704685699df64f2bab355ec17c2663c",
+      "primaryName": "Portes FRLG 2 — variante 3 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_1ba4860705bd4d56bfc49772c5403a749c4beedc920506d5",
+          "name": "Portes FRLG 2 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_1ba4860705bd4d56bfc49772c5403a749c4beedc920506d5.png"
+        },
+        {
+          "id": "rp_72c5e2b10807975a5a926f9776e7f76cf9ecd9e6115fcc6d",
+          "name": "Portes FRLG 2 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_72c5e2b10807975a5a926f9776e7f76cf9ecd9e6115fcc6d.png"
+        },
+        {
+          "id": "rp_98c9be0a759f587c08ee623444175ad07e768537ada16dfc",
+          "name": "Portes FRLG 2 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_98c9be0a759f587c08ee623444175ad07e768537ada16dfc.png"
+        },
+        {
+          "id": "rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf",
+          "name": "Portes FRLG 1 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0989e0273adb0845eeb56adf6f9d964892efb5899c160daf.png"
+        },
+        {
+          "id": "rp_ab027d9ee9ecd4fbea3ca0c9e460e5b6f68c605a8a13e921",
+          "name": "Portes FRLG 2 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_ab027d9ee9ecd4fbea3ca0c9e460e5b6f68c605a8a13e921.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_738ddbee5ab2d45525a2e43915971b2c05b82899272c41fa",
+      "primaryName": "Portes FRLG 3 — variante 2 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_30ba70480bea540e251047090138c8b52d02d2fc96c41ce5",
+          "name": "Portes FRLG 3 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_30ba70480bea540e251047090138c8b52d02d2fc96c41ce5.png"
+        },
+        {
+          "id": "rp_33e95db95aa95b8ed20ca2fe721096ab2fddd57cd11cfc70",
+          "name": "Portes FRLG 3 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_33e95db95aa95b8ed20ca2fe721096ab2fddd57cd11cfc70.png"
+        },
+        {
+          "id": "rp_931821b1cf59e7741ae4c11cb57c60eda0be8acb0035c277",
+          "name": "Portes FRLG 3 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_931821b1cf59e7741ae4c11cb57c60eda0be8acb0035c277.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_f14c025448e400f908ced9757a565cacee69d3e213ce0b34",
+          "name": "Portes FRLG 3 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f14c025448e400f908ced9757a565cacee69d3e213ce0b34.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_cf6aa4284530e5ed7a0ce604a321b6be0df41677ae8c5c2a",
+      "primaryName": "Portes FRLG 3 — variante 3 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_732f8bbf3a7619b38880fc0abcaa8a34fbf9867ff05f1c65",
+          "name": "Portes FRLG 3 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_732f8bbf3a7619b38880fc0abcaa8a34fbf9867ff05f1c65.png"
+        },
+        {
+          "id": "rp_a1a1919a43f44d9eaf4a70ee6764688a2e7e17ff4514d27a",
+          "name": "Portes FRLG 3 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_a1a1919a43f44d9eaf4a70ee6764688a2e7e17ff4514d27a.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_d50272400c152fe6205120e536cdf7bad2dfadaa44dcba40",
+          "name": "Portes FRLG 3 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_d50272400c152fe6205120e536cdf7bad2dfadaa44dcba40.png"
+        },
+        {
+          "id": "rp_eabbad42f1f478ff34bff97a8e2d3ac6f2a3cf12fae4957c",
+          "name": "Portes FRLG 3 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_eabbad42f1f478ff34bff97a8e2d3ac6f2a3cf12fae4957c.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_915b831825a2b423a190050e69c3f710f202cd476cb309f8",
+      "primaryName": "Portes FRLG 5 — variante 3 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_4be9bbe12c3ef78d43a699a75f8356c14021779ef7b3f775",
+          "name": "Portes FRLG 5 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_4be9bbe12c3ef78d43a699a75f8356c14021779ef7b3f775.png"
+        },
+        {
+          "id": "rp_5d2758f195bd0147b31c8c519f5da5370211543ac690278e",
+          "name": "Portes FRLG 5 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_5d2758f195bd0147b31c8c519f5da5370211543ac690278e.png"
+        },
+        {
+          "id": "rp_7d8d5543a23d15e658027b998013de86503a20d2711f70ac",
+          "name": "Portes FRLG 5 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7d8d5543a23d15e658027b998013de86503a20d2711f70ac.png"
+        },
+        {
+          "id": "rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b",
+          "name": "Portes FRLG 4 — variante 1 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d3fbd0e89f16777e90758c01f92921ef74aae287ab020a9b.png"
+        },
+        {
+          "id": "rp_fab3dc688647dd8769d4c0f582d5000050fed604ee4ab735",
+          "name": "Portes FRLG 5 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_fab3dc688647dd8769d4c0f582d5000050fed604ee4ab735.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_7f9d68e3d6af7f9ed81718a26f09e9afda9af9f6cc51762c",
+      "primaryName": "Portes FRLG 6 — variante 4 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_2ae3a3e8ea59b05bddcd6c0989a9825504087b3d23e1c23c",
+          "name": "Portes FRLG 6 — variante 4 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_2ae3a3e8ea59b05bddcd6c0989a9825504087b3d23e1c23c.png"
+        },
+        {
+          "id": "rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1",
+          "name": "Portes FRLG 3 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1.png"
+        },
+        {
+          "id": "rp_b2becdb4109c3e21507e02de61a591d88f1c06b638d4eb49",
+          "name": "Portes FRLG 6 — variante 4 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b2becdb4109c3e21507e02de61a591d88f1c06b638d4eb49.png"
+        },
+        {
+          "id": "rp_d8fdab08cdfcb254ca4b9b84e339916791b8a21dcfecc28f",
+          "name": "Portes FRLG 6 — variante 4 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_d8fdab08cdfcb254ca4b9b84e339916791b8a21dcfecc28f.png"
+        },
+        {
+          "id": "rp_e301443f5f27ef8519023b1e0ee1ebe764c06b06420b58ee",
+          "name": "Portes FRLG 6 — variante 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_e301443f5f27ef8519023b1e0ee1ebe764c06b06420b58ee.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_ce5d639f8a98ef380ecaa3539d77b54a7713784bb00d18b7",
+      "primaryName": "Portes FRLG 7 — variante 4 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1",
+          "name": "Portes FRLG 3 — variante 4 — état ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_7c2f3e68b295fad50bf88593d387857f07c8b797c45f15b1.png"
+        },
+        {
+          "id": "rp_967a93b0fd8d96dea43f03630dc7d47cfb82ddd50c1cbbcc",
+          "name": "Portes FRLG 7 — variante 4 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_967a93b0fd8d96dea43f03630dc7d47cfb82ddd50c1cbbcc.png"
+        },
+        {
+          "id": "rp_b3d00ba1a33b511fbeecbdf4d34e021a9e9b1aaec4f621c4",
+          "name": "Portes FRLG 7 — variante 4 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b3d00ba1a33b511fbeecbdf4d34e021a9e9b1aaec4f621c4.png"
+        },
+        {
+          "id": "rp_cbd7cbbd926b1fbd9f9bb8f36606471e3d57de3e8bb90003",
+          "name": "Portes FRLG 7 — variante 4 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_cbd7cbbd926b1fbd9f9bb8f36606471e3d57de3e8bb90003.png"
+        },
+        {
+          "id": "rp_fa03640d1e71d5afc6cf93b780856fc7280a90f6683483a3",
+          "name": "Portes FRLG 7 — variante 4 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_fa03640d1e71d5afc6cf93b780856fc7280a90f6683483a3.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_db34a98f644117aca59f709a774c25df2db64a52700f6adb",
+      "primaryName": "Portes FRLG 8 — variante 1 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_67dedafccc409076a597b5ac33335c618e5c40dd05f08587",
+          "name": "Portes FRLG 8 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_67dedafccc409076a597b5ac33335c618e5c40dd05f08587.png"
+        },
+        {
+          "id": "rp_734d70af7486683c7fcec88201c47b2cd99d10303f0c04be",
+          "name": "Portes FRLG 8 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_734d70af7486683c7fcec88201c47b2cd99d10303f0c04be.png"
+        },
+        {
+          "id": "rp_b3d29a22e1f5c03df7cb2c778e0e3fc4b16968e815f44b1d",
+          "name": "Portes FRLG 8 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_b3d29a22e1f5c03df7cb2c778e0e3fc4b16968e815f44b1d.png"
+        },
+        {
+          "id": "rp_cd1a0816966f50e4a933cf0b284e0d70efd32c6d4eaa6855",
+          "name": "Portes FRLG 8 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_cd1a0816966f50e4a933cf0b284e0d70efd32c6d4eaa6855.png"
+        },
+        {
+          "id": "rp_e90e62c88a34d142d170396d1ddaa38db96695180af7a47e",
+          "name": "Portes FRLG 8 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_e90e62c88a34d142d170396d1ddaa38db96695180af7a47e.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_1010f4b5cc33fdd2c0dbb7614c3562765d036d5f76c5ca5f",
+      "primaryName": "Portes FRLG 8 — variante 2 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_628298eda818f481b6d07e462044c1de5c2596d959f7162c",
+          "name": "Portes FRLG 8 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_628298eda818f481b6d07e462044c1de5c2596d959f7162c.png"
+        },
+        {
+          "id": "rp_67a8b169bd930d066aab0fe9802575a1490bdfd9c4763b5b",
+          "name": "Portes FRLG 8 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_67a8b169bd930d066aab0fe9802575a1490bdfd9c4763b5b.png"
+        },
+        {
+          "id": "rp_980e52589dbcffc356f5d1de7d91e4c5e4c1e897fdeddddb",
+          "name": "Portes FRLG 8 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_980e52589dbcffc356f5d1de7d91e4c5e4c1e897fdeddddb.png"
+        },
+        {
+          "id": "rp_aa38551c90ca35c65c0352599d9c56817d05abfc13afe317",
+          "name": "Portes FRLG 8 — variante 2 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_aa38551c90ca35c65c0352599d9c56817d05abfc13afe317.png"
+        },
+        {
+          "id": "rp_fd8386d42315c0fa22010471ae2401d256ec336aef493ff7",
+          "name": "Portes FRLG 8 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_fd8386d42315c0fa22010471ae2401d256ec336aef493ff7.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_0f0334e5e69f19710e1a404334d3af67ccda2942f92b9431",
+      "primaryName": "Portes FRLG 8 — variante 3 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_0fe7912f4b4572ac9c6bf81dd21dc468cdb4edfc48fab97e",
+          "name": "Portes FRLG 8 — variante 3 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_0fe7912f4b4572ac9c6bf81dd21dc468cdb4edfc48fab97e.png"
+        },
+        {
+          "id": "rp_191e500559c802a3c1fb18f95b04cfb844ae57815cfae28b",
+          "name": "Portes FRLG 8 — variante 3 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_191e500559c802a3c1fb18f95b04cfb844ae57815cfae28b.png"
+        },
+        {
+          "id": "rp_54fb2fa9e65338c564c34034ddf01d1b870651e88ba642c2",
+          "name": "Portes FRLG 8 — variante 3 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_54fb2fa9e65338c564c34034ddf01d1b870651e88ba642c2.png"
+        },
+        {
+          "id": "rp_5e08fbed96c623b69685c9a10f66e460895c53a24197718c",
+          "name": "Portes FRLG 8 — variante 3 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_5e08fbed96c623b69685c9a10f66e460895c53a24197718c.png"
+        },
+        {
+          "id": "rp_861dc2ff188f5291b7dcdb890d8f386cd6722914a3372b05",
+          "name": "Portes FRLG 8 — variante 3 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_861dc2ff188f5291b7dcdb890d8f386cd6722914a3372b05.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_f0830831c4530ce1b0f4bbf6770f9d27eb6a2822ee48b778",
+      "primaryName": "Mécanisme à panneau circulaire — modèle statique",
+      "kind": "mechanism",
+      "companions": []
+    },
+    {
+      "primaryId": "rp_5fa9639f1630fd9047025ae06b6accbcb8f9024a7efd80ed",
+      "primaryName": "Portes FRLG 9 — variante 1 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_32a6f11845f28be5a79c4f41575ecc08182adb297890d2e4",
+          "name": "Portes FRLG 9 — variante 1 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_32a6f11845f28be5a79c4f41575ecc08182adb297890d2e4.png"
+        },
+        {
+          "id": "rp_4c90651f730e915b09ab442cad4205cfc9af9f98ef4749b8",
+          "name": "Portes FRLG 9 — variante 1 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_4c90651f730e915b09ab442cad4205cfc9af9f98ef4749b8.png"
+        },
+        {
+          "id": "rp_8045b99b619a8b23f4c9e203fd10b07d054476784375943e",
+          "name": "Portes FRLG 9 — variante 1 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_8045b99b619a8b23f4c9e203fd10b07d054476784375943e.png"
+        },
+        {
+          "id": "rp_aa9f19c0e986c507b7286438677a6b273c24a660260a78d1",
+          "name": "Portes FRLG 9 — variante 1 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_aa9f19c0e986c507b7286438677a6b273c24a660260a78d1.png"
+        },
+        {
+          "id": "rp_c5f29f03101967bebe0190b7d41e547c2fa7c7f47b0be159",
+          "name": "Portes FRLG 9 — variante 1 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_c5f29f03101967bebe0190b7d41e547c2fa7c7f47b0be159.png"
+        }
+      ]
+    },
+    {
+      "primaryId": "rp_6a1e02fcdfa080efb693da89c82e94fb5b0ff872410724e9",
+      "primaryName": "Portes FRLG 9 — variante 2 — ouverture",
+      "kind": "rpg-door-animation",
+      "companions": [
+        {
+          "id": "rp_505d1a01bcfb9accfd4211916afbd1b4427adc29f9363184",
+          "name": "Portes FRLG 9 — variante 2 — entrebâillé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_505d1a01bcfb9accfd4211916afbd1b4427adc29f9363184.png"
+        },
+        {
+          "id": "rp_942f17e763814021ec7ad4049dbdb5ba3ea5e69d048be1d2",
+          "name": "Portes FRLG 9 — variante 2 — ouverture avancée",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_942f17e763814021ec7ad4049dbdb5ba3ea5e69d048be1d2.png"
+        },
+        {
+          "id": "rp_c88459a78543dd433794dd3f086f6f4d0aa32b8c7860bdc0",
+          "name": "Portes FRLG 9 — variante 2 — fermé",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_c88459a78543dd433794dd3f086f6f4d0aa32b8c7860bdc0.png"
+        },
+        {
+          "id": "rp_e1046b5fcc4c0caf873303198d2369bbb20aeb7100baa835",
+          "name": "Portes FRLG 9 — variante 2 — fermeture",
+          "role": "component",
+          "frameCount": 4,
+          "preview": "apercus-associes/rp_e1046b5fcc4c0caf873303198d2369bbb20aeb7100baa835.png"
+        },
+        {
+          "id": "rp_f7cd62e49ab6d235d00e00b00beaa82e9a04d4a4d477db62",
+          "name": "Portes FRLG 9 — variante 2 — ouvert",
+          "role": "component",
+          "frameCount": 1,
+          "preview": "apercus-associes/rp_f7cd62e49ab6d235d00e00b00beaa82e9a04d4a4d477db62.png"
+        }
+      ]
+    }
+  ],
+  "buildingAssemblies": [
+    {
+      "elementId": "rp_33ab6d0debfca3878cd962536ddafecdddba69456ab344b1",
+      "name": "Maison verte — toit vert — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_33ab6d0debfca3878cd962536ddafecdddba69456ab344b1-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-002.png",
+      "doors": [
+        {
+          "closedElementId": "rp_efd542483e6a351785c144444b620babba2d52aaa444cc0c",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_245d3ee6924a24fe704751df2b7c915ff89d7a82246fea70",
+      "name": "Commerce vert — Fan Club — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_245d3ee6924a24fe704751df2b7c915ff89d7a82246fea70-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-004.png",
+      "doors": [
+        {
+          "closedElementId": "rp_e46099435b860c1378a2ca8d5b3f7932ba51ac2a4362ef68",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_2928e6fb94eafe42cef9972fe96c664a61d4b3c00264ef6e",
+      "name": "Maison claire — toit foncé — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_2928e6fb94eafe42cef9972fe96c664a61d4b3c00264ef6e-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-005.png",
+      "doors": [
+        {
+          "closedElementId": "rp_2375684a875d4ff06c070beab2a1e31511d44386b4a8dda8",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_374dc1376d5cc9a1d3951844ac18b67d4e4fbd034a1b7786",
+      "name": "Maison violette — toit plat — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_374dc1376d5cc9a1d3951844ac18b67d4e4fbd034a1b7786-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-006.png",
+      "doors": [
+        {
+          "closedElementId": "rp_e4e9fc76efcf60dc45d6af6faa976b5cd2ddcfea61e4bed0",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_6c063336f22d3d0931842909e028c87366851aa24504e79d",
+      "name": "Maison ocre — façade avec écusson — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_6c063336f22d3d0931842909e028c87366851aa24504e79d-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-008.png",
+      "doors": [
+        {
+          "closedElementId": "rp_efd542483e6a351785c144444b620babba2d52aaa444cc0c",
+          "offsetPx": [
+            64,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_43af8bd0a38f675bcdf844ffd9785355184be1b285fccba2",
+      "name": "Maison rouge — façade à deux niveaux — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_43af8bd0a38f675bcdf844ffd9785355184be1b285fccba2-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-009.png",
+      "doors": [
+        {
+          "closedElementId": "rp_da0b2652bf72fc89233940df3bbbaba0a9c71fbe488806ae",
+          "offsetPx": [
+            32,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_53e92e68782fc17b6c7e42f67bff0bbd60a56111a14b0a91",
+      "name": "Maison à tuiles orange — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_53e92e68782fc17b6c7e42f67bff0bbd60a56111a14b0a91-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-014.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6ac1f84181a560bd83b86f8c35bc046b47dede454e63b1cf",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_f20c9c93cc1c1836794df7befc3ebf8ce8165ae6027cb5f1",
+      "name": "Bâtiment arrondi corail — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_f20c9c93cc1c1836794df7befc3ebf8ce8165ae6027cb5f1-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-031.png",
+      "doors": [
+        {
+          "closedElementId": "rp_856c4657c8a162a29af725e8f6961d0f042ca167a5b30f82",
+          "offsetPx": [
+            96,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_fdc69daef72268f5b02bf59ca8963eea113e7f8d3ea3e96a",
+      "name": "Centre P.C. rouge — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_fdc69daef72268f5b02bf59ca8963eea113e7f8d3ea3e96a-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-032.png",
+      "doors": [
+        {
+          "closedElementId": "rp_cedb36f12d5d4b57973330d273dd073151cd17b4151e5352",
+          "offsetPx": [
+            64,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_ecd575bbfa9dd0c86499e9de25acdb9e343f8b5913b4fcbf",
+      "name": "Arène claire — toiture ocre — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_ecd575bbfa9dd0c86499e9de25acdb9e343f8b5913b4fcbf-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-034.png",
+      "doors": [
+        {
+          "closedElementId": "rp_953229ea07b6ea594baad5d604e27177faab5fa3929674ee",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_65bf20d01cb7d9ef772ffbff87e7da5cb3c8a11be6cf3a61",
+      "name": "Boutique jaune — toiture bleue — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_65bf20d01cb7d9ef772ffbff87e7da5cb3c8a11be6cf3a61-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-039.png",
+      "doors": [
+        {
+          "closedElementId": "rp_d1ab33721299cf603bfa070057af5b0045acf4f69cc0dba3",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_52f5db32ebc0df1f94a43b410f06772cece859571d2893bb",
+      "name": "Boutique MART bleue — variante gauche — bâtiment complet — façade, porte séparée",
+      "preview": "apercus-associes/rp_52f5db32ebc0df1f94a43b410f06772cece859571d2893bb-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-completion-building-pair-042.png",
+      "doors": [
+        {
+          "closedElementId": "rp_cedb36f12d5d4b57973330d273dd073151cd17b4151e5352",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_2d20dabf6acbfd07b2dcd028acdbfea1ea89abe836aa97b5",
+      "name": "Centre Pokémon standard rouge — toit, façade et sas — façade, porte séparée",
+      "preview": "apercus-associes/rp_2d20dabf6acbfd07b2dcd028acdbfea1ea89abe836aa97b5-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-center-2ee07462a9ed.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6f00353906ff29c0e9ab44ab73a5ba9d6884e4307efb320e",
+          "offsetPx": [
+            64,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_3489ee0fc43d9360fc9712d0b109ece819da547e84dc6e94",
+      "name": "Boutique MART bleue — modèle standard entier — façade, porte séparée",
+      "preview": "apercus-associes/rp_3489ee0fc43d9360fc9712d0b109ece819da547e84dc6e94-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-mart-b4d1611cead6.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6f00353906ff29c0e9ab44ab73a5ba9d6884e4307efb320e",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_52db161af187a8fddd6e2e61c52136bc708c35ddc20cf4d3",
+      "name": "Arène standard — toiture ocre et porche — façade, porte séparée",
+      "preview": "apercus-associes/rp_52db161af187a8fddd6e2e61c52136bc708c35ddc20cf4d3-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-gym-ochre-9ddee8439262.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b68b15bbc23bc45e28d775a49aae265aa9d1785211d57acd",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_1dcdc92a1883ec7890c85556135af818fd7f4b4d5b9beba8",
+      "name": "Maison du Bourg Palette — toit rouge et façade bleue entière — façade, porte séparée",
+      "preview": "apercus-associes/rp_1dcdc92a1883ec7890c85556135af818fd7f4b4d5b9beba8-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-pallet-house-39e027223701.png",
+      "doors": [
+        {
+          "closedElementId": "rp_c2c3dac938e7597245c9476169cee5a8b92fb4da61487abf",
+          "offsetPx": [
+            32,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_1acf1549bd831b1db753132b4b9ab5e86d7ba6bf4bca574d",
+      "name": "Laboratoire du Professeur Chen — bâtiment entier — façade, porte séparée",
+      "preview": "apercus-associes/rp_1acf1549bd831b1db753132b4b9ab5e86d7ba6bf4bca574d-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-oak-lab-ca1e72da95ad.png",
+      "doors": [
+        {
+          "closedElementId": "rp_747fcb2fc1d5ba253f249196e307f98b5d4de5fcef2ad9f3",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_a2d17934c9fdd3b7c23cb6d65fb938ec17f5b18cb9d18ca0",
+      "name": "Maison de Jadielle — façade avec porte et jardinières",
+      "preview": "apercus-associes/rp_a2d17934c9fdd3b7c23cb6d65fb938ec17f5b18cb9d18ca0-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-viridian-house-7f354d5958e2.png",
+      "doors": [
+        {
+          "closedElementId": "rp_0f21743e9907541bf99016041e0f772f9bc3fb17432f2d33",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_3887c5e363048102e5678a0130f2e0683935fb7345d6ade0",
+      "name": "Maison de Jadielle — façade sans porte et sans jardinière",
+      "preview": "apercus-associes/rp_3887c5e363048102e5678a0130f2e0683935fb7345d6ade0-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-viridian-house-c0e5ffd7dbbd.png",
+      "doors": [
+        {
+          "closedElementId": "rp_0f21743e9907541bf99016041e0f772f9bc3fb17432f2d33",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_e87de2e4e3bff727871eaf7e38f023b44a7d40fbf8dc8e23",
+      "name": "Musée d’Argenta — corps principal, aile latérale et entrée — façade, porte séparée",
+      "preview": "apercus-associes/rp_e87de2e4e3bff727871eaf7e38f023b44a7d40fbf8dc8e23-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-pewter-museum-651bce8e7298.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6e81297b7786f4d31d808b064f878b49c80d73aefec7fcef",
+          "offsetPx": [
+            416,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_aaf42d9013f3597615d9b259225301c0e47bb55cf5ca04e8",
+      "name": "Maison d’Argenta — toiture foncée et façade claire — façade, porte séparée",
+      "preview": "apercus-associes/rp_aaf42d9013f3597615d9b259225301c0e47bb55cf5ca04e8-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-pewter-house-e579415778c4.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6e81297b7786f4d31d808b064f878b49c80d73aefec7fcef",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_5fa605e2dba2eaa3aa772c4795d8430249984165dc8e1d15",
+      "name": "Maison d’Azuria — toiture bleue, pignons et façades de rangée — façade, porte séparée",
+      "preview": "apercus-associes/rp_5fa605e2dba2eaa3aa772c4795d8430249984165dc8e1d15-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-cerulean-house-7fcdf9c7a5b7.png",
+      "doors": [
+        {
+          "closedElementId": "rp_a85e26d0c16685d82eaa744607fea623711605d5d8519bb0",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_64004d941d97bf45c067a93bbc8aaf4483e4d610a877b73b",
+      "name": "Pension Route5 — toiture orange arrondie et porte — façade, porte séparée",
+      "preview": "apercus-associes/rp_64004d941d97bf45c067a93bbc8aaf4483e4d610a877b73b-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-daycare-c9c2ec9fbd16.png",
+      "doors": [
+        {
+          "closedElementId": "rp_a85e26d0c16685d82eaa744607fea623711605d5d8519bb0",
+          "offsetPx": [
+            64,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_f2113bfb209e570dae3f63e07f23a963f84ae14f47955cfb",
+      "name": "Maison de Léo — toit vert à pignon central — façade, porte séparée",
+      "preview": "apercus-associes/rp_f2113bfb209e570dae3f63e07f23a963f84ae14f47955cfb-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-bill-house-6ee916c22472.png",
+      "doors": [
+        {
+          "closedElementId": "rp_a85e26d0c16685d82eaa744607fea623711605d5d8519bb0",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_bbafb3fc9bb744c821d333b45f19d49857d419c7a2c7c06a",
+      "name": "Édicule d’entrée du Souterrain — toit gris et petite porte — façade, porte séparée",
+      "preview": "apercus-associes/rp_bbafb3fc9bb744c821d333b45f19d49857d419c7a2c7c06a-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-underground-entrance-38494edc3d2d.png",
+      "doors": [
+        {
+          "closedElementId": "rp_6097fdc73466b43acbe96a73b76097eea56fe8ac9293cae4",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_19c749fca21de7e3bf5144029b042bb036bf6a2a992241c5",
+      "name": "Maison de Lavanville — toit plat violet et façade sombre — façade, porte séparée",
+      "preview": "apercus-associes/rp_19c749fca21de7e3bf5144029b042bb036bf6a2a992241c5-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-lavender-house-2fe9ebbc0f9d.png",
+      "doors": [
+        {
+          "closedElementId": "rp_4595c75428fa5a00bab3f840477c031596eef2f28c1a1ef6",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_25f1cdf0de8fe0d44024324137cee6e42251aaaf76837ce6",
+      "name": "Maison de Carmin — entrée et jardinières, agencement A",
+      "preview": "apercus-associes/rp_25f1cdf0de8fe0d44024324137cee6e42251aaaf76837ce6-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-vermilion-house-7da60c24b34f.png",
+      "doors": [
+        {
+          "closedElementId": "rp_953d5eccc707c43b88c6d6212ab6071ad141680538e1f0fb",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_a7e511c3a865e8c01b8ee902bf6ca018bfb51913b20d055f",
+      "name": "Maison de Carmin — entrée et jardinière unique",
+      "preview": "apercus-associes/rp_a7e511c3a865e8c01b8ee902bf6ca018bfb51913b20d055f-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-vermilion-house-4df0e562c9d8.png",
+      "doors": [
+        {
+          "closedElementId": "rp_953d5eccc707c43b88c6d6212ab6071ad141680538e1f0fb",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_0ee1a82a570f680d7233992e014dc77d313c802402a751f7",
+      "name": "Fan Club Pokémon — toit vert et enseigne emblématique — façade, porte séparée",
+      "preview": "apercus-associes/rp_0ee1a82a570f680d7233992e014dc77d313c802402a751f7-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-fan-club-4db002a75915.png",
+      "doors": [
+        {
+          "closedElementId": "rp_953d5eccc707c43b88c6d6212ab6071ad141680538e1f0fb",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_fb26a43a8eba0b70a5612345442ed4e36ec41d66c27d8d3b",
+      "name": "Grand Magasin de Céladopole — façade monumentale et entrée multicolore — façade, porte séparée",
+      "preview": "apercus-associes/rp_fb26a43a8eba0b70a5612345442ed4e36ec41d66c27d8d3b-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-department-store-e24be31a9495.png",
+      "doors": [
+        {
+          "closedElementId": "rp_f74aff17e3922a183175e5ff62e77ca32a072691547b8532",
+          "offsetPx": [
+            64,
+            288
+          ]
+        },
+        {
+          "closedElementId": "rp_f74aff17e3922a183175e5ff62e77ca32a072691547b8532",
+          "offsetPx": [
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_68bdc9a8b1c1b0e5fee20c83084d2f84c10f52d82997c808",
+      "name": "Maison de Parmanie — toit gris et façade corail — façade, porte séparée",
+      "preview": "apercus-associes/rp_68bdc9a8b1c1b0e5fee20c83084d2f84c10f52d82997c808-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-fuchsia-house-baf744b0035e.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b3da0e3d1c00c42d97e36e321d9825da757d7c725156df19",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_bef6ec5aba4f543a8e270306e0bd81b1e8491455d3eac16d",
+      "name": "Maison de repos du Safari — façade avec entrée",
+      "preview": "apercus-associes/rp_bef6ec5aba4f543a8e270306e0bd81b1e8491455d3eac16d-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-safari-resthouse-c6035ac77fb2.png",
+      "doors": [
+        {
+          "closedElementId": "rp_ac4aba7df3712522011aacf4d631a9cfd2f2979b26d6109d",
+          "offsetPx": [
+            64,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_2325ed2203808b8558223b82e6099b7dbf29574c68dc01f0",
+      "name": "Maison de repos du Safari — façade sans porte",
+      "preview": "apercus-associes/rp_2325ed2203808b8558223b82e6099b7dbf29574c68dc01f0-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-safari-resthouse-e3a17800fad4.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b3da0e3d1c00c42d97e36e321d9825da757d7c725156df19",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_33461f2600ef35f4ba157b13becf06a6489bf948e41a0803",
+      "name": "Laboratoire de Cramois’Île — ailes arrondies et bande tricolore — façade, porte séparée",
+      "preview": "apercus-associes/rp_33461f2600ef35f4ba157b13becf06a6489bf948e41a0803-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-cinnabar-lab-f99ff205b0e2.png",
+      "doors": [
+        {
+          "closedElementId": "rp_87d5336e8291e6691c3fa1632a7a0f3a2ad19886de5d3afb",
+          "offsetPx": [
+            96,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_1e9ad694bd6f4cbf6afa7ceb28129d16ac7d466b8387f4f6",
+      "name": "Sylphe SARL — immeuble complet, verrière et entrée — façade, porte séparée",
+      "preview": "apercus-associes/rp_1e9ad694bd6f4cbf6afa7ceb28129d16ac7d466b8387f4f6-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-silph-8969fa06602f.png",
+      "doors": [
+        {
+          "closedElementId": "rp_cc1df3fc4307fc77808be0e5cbba8f31c2349247e2a6c201",
+          "offsetPx": [
+            128,
+            448
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_5987454bf41d6a4d25ca77ef669a462023babbb49ee2d2ee",
+      "name": "Maison des îles Sévii — toiture violette, ossature bois et variantes de façade — façade, porte séparée",
+      "preview": "apercus-associes/rp_5987454bf41d6a4d25ca77ef669a462023babbb49ee2d2ee-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-sevii-house-696e8cacc81a.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b6df9c9297ad399c0178b47f95f5667223c0556caa46f9f9",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_759eb43ab02e9d4caae0853de49093b0e1d079d008dd95ef",
+      "name": "Centre Réseau Île1 — toiture orange, emblème et entrée arrondie — façade, porte séparée",
+      "preview": "apercus-associes/rp_759eb43ab02e9d4caae0853de49093b0e1d079d008dd95ef-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-island-one-center-99118f342b6e.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b0df9729a08a0569b790826d767eca7326764163fb180b47",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_bb8c1a2bbfa3a3590fff7391012ad2a65482f45ae4f30fd5",
+      "name": "Salle de jeux Île2 — toit bleu et façade jaune à enseigne — façade, porte séparée",
+      "preview": "apercus-associes/rp_bb8c1a2bbfa3a3590fff7391012ad2a65482f45ae4f30fd5-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-island-game-corner-9f16f301f549.png",
+      "doors": [
+        {
+          "closedElementId": "rp_f55de674698409d1beb92fe73e34a97f28b7b783f1a642c5",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_17820766a82e891ab7f158b6e61417e7211e8da6a1cbb173",
+      "name": "Maison des motards Île3 — variante à toit rouge — façade, porte séparée",
+      "preview": "apercus-associes/rp_17820766a82e891ab7f158b6e61417e7211e8da6a1cbb173-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-red-house-a03adfec45f5.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b6df9c9297ad399c0178b47f95f5667223c0556caa46f9f9",
+          "offsetPx": [
+            32,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_258d6f3b5c37613c20e41f2ac115f3a509688bd8efcae675",
+      "name": "Maison Île4 — toiture orange et façade de bois brune — façade, porte séparée",
+      "preview": "apercus-associes/rp_258d6f3b5c37613c20e41f2ac115f3a509688bd8efcae675-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-four-house-orange-f3668b167c39.png",
+      "doors": [
+        {
+          "closedElementId": "rp_97ab312639505678c86fdeae02738ed2876a91df6e39697e",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_5d61dfa94a6fb69f4b1da772c05f8c33bc4ce7862f826d3a",
+      "name": "Villa du Lagon des Naufragés — toiture orange et façade claire — façade, porte séparée",
+      "preview": "apercus-associes/rp_5d61dfa94a6fb69f4b1da772c05f8c33bc4ce7862f826d3a-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-resort-house-98d32a31ee9b.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b6df9c9297ad399c0178b47f95f5667223c0556caa46f9f9",
+          "offsetPx": [
+            64,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_5da368bf66a4dd824c89bd82b88d9e9cab7b4e7b30357745",
+      "name": "Entrepôt Rocket Île 5 — bâtiment entier, porte fermée — façade, porte séparée",
+      "preview": "apercus-associes/rp_5da368bf66a4dd824c89bd82b88d9e9cab7b4e7b30357745-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-rocket-warehouse-8ae98c259120.png",
+      "doors": [
+        {
+          "closedElementId": "rp_ea254f9e6520b7523cb748ad5006235133d2413727796cd2",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d",
+      "name": "Casino de Céladopole — bâtiment principal, porte séparée",
+      "preview": "apercus-associes/rp_ecabf7a1c83d93edceebafb28d66697e66fd249131ce263d-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-celadon-casino-main-separate.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b68b15bbc23bc45e28d775a49aae265aa9d1785211d57acd",
+          "offsetPx": [
+            96,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "elementId": "rp_242015a58867ff8a91b7546ccaeaf1f323c0d50bcd94870f",
+      "name": "Guichet des lots de Céladopole — bâtiment autonome, porte séparée",
+      "preview": "apercus-associes/rp_242015a58867ff8a91b7546ccaeaf1f323c0d50bcd94870f-assemblage-ferme.png",
+      "scope": "explicit-facade-plus-closed-door-preview-only",
+      "rawFacadePreview": "apercus/frlg-complete-building-celadon-prize-exchange-separate.png",
+      "doors": [
+        {
+          "closedElementId": "rp_b68b15bbc23bc45e28d775a49aae265aa9d1785211d57acd",
+          "offsetPx": [
+            32,
+            96
+          ]
+        }
+      ]
+    }
+  ],
+  "automaticEvents": false
+}

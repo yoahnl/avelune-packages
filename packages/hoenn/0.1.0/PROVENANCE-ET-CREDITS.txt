@@ -1,0 +1,14 @@
+Hoenn · Ressources de création de cartes et personnages
+
+Source : The PMon World Project, dossier PKW Region 003 - Hoenn, fourni par l’utilisateur.
+Projet communautaire : https://discord.gg/Uk4Ar7kDye
+Les planches RSE et les dépendances communes disponibles sont adaptées au format natif Avelune sans redessiner les graphismes.
+Graphismes Pokémon : Nintendo / Creatures / GAME FREAK. Ressources et adaptations communautaires : leurs auteurs respectifs et les contributeurs du projet The PMon World Project.
+Préparation du package Avelune : Avelune.
+
+Ce document décrit la provenance ; il ne réattribue pas les graphismes et ne leur applique aucune licence libre nouvelle.
+Conserver les crédits des auteurs d’origine. Aucun fichier ROM, audio, dialogue, scénario, catalogue Pokémon, objet d’inventaire ou effet de combat n’est inclus.
+Le contenu couvre la bibliothèque importée du projet fourni. L’exhaustivité par rapport au jeu officiel Pokémon Émeraude n’est pas certifiée.
+Le PNG RSE_Water With Shore est référencé par le projet source mais absent du dossier fourni.
+Les bâtiments modulaires et les composants restent éditables ; les événements, collisions et transitions de portes se configurent dans le projet utilisateur.
+Deux personnages contiennent des poses spéciales : les cases vides ont été écartées des animations déclarées sans modifier les pixels des planches originales.
